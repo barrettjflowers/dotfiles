@@ -1,0 +1,4 @@
+{
+  "keyMappings": "# vimium config starts here\n\n# unmap all, use hammerspoon for os-wide vim.\nunmapAll\n\nmap j scrollDown\nmap k scrollUp\nmap h scrollLeft\nmap l scrollRight\n\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewForegroundTab\n\nmap gi focusInput\n\nmap ? showHelp",
+  "settingsVersion": "2.0.5"
+}
