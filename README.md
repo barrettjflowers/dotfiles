@@ -3,7 +3,7 @@
 This file is for all things related to barrettjflowers's
 MacOS config.
 
-Could be useful when migrating to a new mac, finding where
+Useful when migrating to a new mac, finding where
 config files are, or just recalling what programs
 and scripts I commonly used.
 
@@ -11,33 +11,45 @@ and scripts I commonly used.
 
 I use Hammerspoon with a program called vimspoon to give
 vim-like operations to my whole mac client.
+Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
+See `.hammerspoon` file for special configurations.
 
-[See Here](https://github.com/dbalatero/VimMode.spoon)
-See my .hammerspoon file for special configurations.
-
-Logi Options Plus is also needed to switch between computers
-and use special functions like: double tap function to toggle
-between function keys and control.
+Logi Options Plus is also necessary to switch between computers
+and use special functions like: double tap function/media row toggle.
 
 ### Utilties
 
-Magnet: A window manager.
-Modifier: option
-Snap Left: option + h
-Snap Right: option + l
-Snap Left 2/3: option + j
-Snap Right 2/3: option + k
+**Homebew** \
+Ofcourse! Would this be a dotfiles repo without it? \
+A package manager for MacOS. \
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-BetterDisplay: Used to control functions of external displays.
+**Magnet** \
+A window manager.
 
-Clippy: A clipboard manager.
-History bind: c-v
+Modifier key: option \
+Snap Left: option + h \
+Snap Right: option + l \
+Snap Left 2/3: option + j \
+Snap Right 2/3: option + k \
+[https://magnet.crowdcafe.com/](https://magnet.crowdcafe.com/)
 
-Hammerspoon: Lightweight key remapping program, uses lua!
+**BetterDisplay** \
+Used to control functions of external displays. \
+`brew install --cask betterdisplay`
+
+**Clippy** \
+A clipboard manager. \
+History bind: c-v \
+`brew install --cask clipy`
+
+**Hammerspoon** \
+A lightweight key remapping program, uses lua! \
+`brew install --cask hammerspoon`
 
 ### CLI
 
-mcli: A general purposed cli for controlling mac os functions.
+mcli: A general purposed cli for controlling MacOS functions.
 `brew install m-cli`
 
 fzf: Fuzzy finder!
@@ -65,8 +77,8 @@ Screenshot recording options: Option + Command + S
 
 ### The Dock
 
-Hiding apps shows greyed out in dock.
+Hiding apps shows greyed out in dock. \
 `defaults write com.apple.Dock showhidden -boolean yes; killall Dock`
 
-Small space separator between open apps and pinned apps.
+Small space separator between open apps and pinned apps. \
 `''defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock''`
