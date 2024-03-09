@@ -11,4 +11,4 @@ alias ntfy='curl ntfy.barrettjflowers.net/homelab -d '\''Default Notification.'\
 alias vfzf='vim $(fzf)'
 
 #vi mode
-bindkey -v
+bindkey -v '^?' backward-delete-char
