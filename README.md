@@ -14,12 +14,9 @@ vim-like operations to my whole mac client.
 Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
 See `.hammerspoon` file for special configurations.
 
-Logi Options Plus is also necessary to switch between computers
-and use special functions like: double tap function/media row toggle.
-
 ### Utilties
 
-**Homebew** \
+**Homebrew** \
 Ofcourse! Would this be a dotfiles repo without it? \
 A package manager for MacOS. \
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -42,6 +39,10 @@ Used to control functions of external displays. \
 A clipboard manager. \
 History bind: c-v \
 `brew install --cask clipy`
+
+**Scroll Reverser**
+Maintains natural scrolling on trackpad without affecting mouse. \
+`brew install --cask scroll-reverser`
 
 **Hammerspoon** \
 A lightweight key remapping program, uses lua! \

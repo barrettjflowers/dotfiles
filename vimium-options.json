@@ -1,4 +1,19 @@
 {
-  "keyMappings": "# vimium config starts here\n\n# unmap all, use hammerspoon for os-wide vim.\nunmapAll\n\nmap j scrollDown\nmap k scrollUp\nmap h scrollLeft\nmap l scrollRight\n\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewForegroundTab\n\nmap gi focusInput\n\nmap ? showHelp",
-  "settingsVersion": "2.0.5"
+  "keyMappings": "# Vimium config starts here\nunmapAll\n\nmap j scrollDown\nmap k scrollUp\nmap h scrollLeft\nmap l scrollRight\n\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewForegroundTab\n\nmap gi focusInput\n\nmap ? showHelp",
+  "scrollStepSize": 100,
+  "settingsVersion": "2.1.2",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://trello.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://support.indyhost.net/*"
+    }
+  ]
 }
