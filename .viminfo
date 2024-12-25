@@ -18,13 +18,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735149535,,"wq"
+|2,0,1735149659,,"wq"
 :q!
-|2,0,1735149507,,"q!"
+|2,0,1735149642,,"q!"
+:q
+|2,0,1735149640,,"q"
 :q!~
 |2,0,1735149503,,"q!~"
-:q
-|2,0,1735149501,,"q"
 :w\
 |2,0,1735148669,,"w\\"
 :w
@@ -209,38 +209,84 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  16  9  ~/.gitignore
-|4,48,16,9,1735149535,"~/.gitignore"
-'1  7  0  ~/.gitignore
-|4,49,7,0,1735149507,"~/.gitignore"
-'2  7  0  ~/.gitignore
-|4,50,7,0,1735149507,"~/.gitignore"
-'3  14  7  ~/.gitignore
-|4,51,14,7,1735148963,"~/.gitignore"
-'4  14  7  ~/.gitignore
-|4,52,14,7,1735148963,"~/.gitignore"
-'5  14  7  ~/.gitignore
-|4,53,14,7,1735148963,"~/.gitignore"
-'6  14  7  ~/.gitignore
-|4,54,14,7,1735148963,"~/.gitignore"
-'7  1  0  ~/.gitignore
-|4,55,1,0,1735148846,"~/.gitignore"
-'8  1  0  ~/.gitignore
-|4,56,1,0,1735148846,"~/.gitignore"
-'9  1  0  ~/.gitignore
-|4,57,1,0,1735148846,"~/.gitignore"
+'0  4  0  ~/.gitignore
+|4,48,4,0,1735149659,"~/.gitignore"
+'1  23  0  ~/.gitignore
+|4,49,23,0,1735149642,"~/.gitignore"
+'2  23  0  ~/.gitignore
+|4,50,23,0,1735149642,"~/.gitignore"
+'3  1  0  ~/.gitignore.swp
+|4,51,1,0,1735149611,"~/.gitignore.swp"
+'4  16  9  ~/.gitignore
+|4,52,16,9,1735149535,"~/.gitignore"
+'5  16  9  ~/.gitignore
+|4,53,16,9,1735149535,"~/.gitignore"
+'6  16  9  ~/.gitignore
+|4,54,16,9,1735149535,"~/.gitignore"
+'7  16  9  ~/.gitignore
+|4,55,16,9,1735149535,"~/.gitignore"
+'8  7  0  ~/.gitignore
+|4,56,7,0,1735149507,"~/.gitignore"
+'9  7  0  ~/.gitignore
+|4,57,7,0,1735149507,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  4  0  ~/.gitignore
+|4,39,4,0,1735149659,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149654,"~/.gitignore"
+-'  23  0  ~/.gitignore
+|4,39,23,0,1735149642,"~/.gitignore"
+-'  23  0  ~/.gitignore
+|4,39,23,0,1735149642,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149624,"~/.gitignore"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
 -'  16  9  ~/.gitignore
 |4,39,16,9,1735149535,"~/.gitignore"
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735149535,"~/.gitignore"
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735149535,"~/.gitignore"
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735149535,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149512,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735149512,"~/.gitignore"
 -'  7  0  ~/.gitignore
 |4,39,7,0,1735149507,"~/.gitignore"
 -'  7  0  ~/.gitignore
 |4,39,7,0,1735149507,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735149496,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149496,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
 -'  14  7  ~/.gitignore
 |4,39,14,7,1735148963,"~/.gitignore"
 -'  14  7  ~/.gitignore
@@ -250,7 +296,31 @@ $
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148853,"~/.gitignore"
 -'  1  0  ~/.gitignore
+|4,39,1,0,1735148853,"~/.gitignore"
+-'  1  0  ~/.gitignore
 |4,39,1,0,1735148846,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735148846,"~/.gitignore"
+-'  31  9  ~/.gitignore
+|4,39,31,9,1735148714,"~/.gitignore"
+-'  27  9  ~/.gitignore
+|4,39,27,9,1735148714,"~/.gitignore"
+-'  30  9  ~/.gitignore
+|4,39,30,9,1735148714,"~/.gitignore"
+-'  26  9  ~/.gitignore
+|4,39,26,9,1735148714,"~/.gitignore"
+-'  29  9  ~/.gitignore
+|4,39,29,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
+-'  31  9  ~/.gitignore
+|4,39,31,9,1735148714,"~/.gitignore"
+-'  27  9  ~/.gitignore
+|4,39,27,9,1735148714,"~/.gitignore"
+-'  30  9  ~/.gitignore
+|4,39,30,9,1735148714,"~/.gitignore"
+-'  26  9  ~/.gitignore
+|4,39,26,9,1735148714,"~/.gitignore"
 -'  30  9  ~/.gitignore
 |4,39,30,9,1735148714,"~/.gitignore"
 -'  26  9  ~/.gitignore
@@ -265,6 +335,22 @@ $
 |4,39,25,9,1735148714,"~/.gitignore"
 -'  25  9  ~/.gitignore
 |4,39,25,9,1735148714,"~/.gitignore"
+-'  30  9  ~/.gitignore
+|4,39,30,9,1735148714,"~/.gitignore"
+-'  26  9  ~/.gitignore
+|4,39,26,9,1735148714,"~/.gitignore"
+-'  29  9  ~/.gitignore
+|4,39,29,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
+-'  29  9  ~/.gitignore
+|4,39,29,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735148159,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148159,"~/.gitignore"
 -'  1  0  ~/.profile
@@ -331,117 +417,31 @@ $
 |4,39,1,0,1735147808,"~/.profile"
 -'  1  0  ~/.profile
 |4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
--'  1  0  ~/.profiel
-|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735149534	0
-	"	16	9
-	^	16	10
-	.	16	9
+	*	1735149658	0
+	"	4	0
+	^	23	0
+	.	22	12
 	+	17	0
 	+	13	5
-	+	39	7
+	+	40	7
 	+	13	5
 	+	5	0
 	+	6	0
@@ -452,18 +452,23 @@ $
 	+	3	0
 	+	2	0
 	+	15	0
-	+	40	8
-	+	41	4
+	+	41	8
 	+	42	4
-	+	44	8
+	+	43	4
 	+	45	8
+	+	46	8
 	+	17	13
-	+	31	0
+	+	32	0
 	+	17	11
-	+	31	0
+	+	32	0
 	+	17	0
 	+	22	0
 	+	16	9
+	+	22	12
+
+> ~/.gitignore.swp
+	*	1735149611	0
+	"	1	0
 
 > ~/.profile
 	*	1735147808	0
@@ -1501,7 +1506,3 @@ $
 	+	11	0
 	+	9	26
 	+	10	17
-
-> ~/.tmux.config
-	*	1709948247	0
-	"	1	0
