@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# Except...
+!*.vimrc
+!*.vim
+!*.bashrc
+!.gitignore
+!.gitignore_global
+!.bashrc
+!.codeium
+!.fzf
+!.hammerspoon
+!.parsec
+!.putty
+!/.ssh/config
+!.tmux.conf
+!.vim
+!.viminfo
+!.vscode
+!.wol.sh
+!.zprofile
+!.zshenv
+!.zshrc
+!/Markdown
+
