@@ -18,11 +18,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735148963,,"wq"
+|2,0,1735149535,,"wq"
+:q!
+|2,0,1735149507,,"q!"
+:q!~
+|2,0,1735149503,,"q!~"
+:q
+|2,0,1735149501,,"q"
 :w\
 |2,0,1735148669,,"w\\"
-:q
-|2,0,1735147808,,"q"
 :w
 |2,0,1735072007,,"w"
 :set paste
@@ -31,8 +35,6 @@ $
 |2,0,1735061970,,"Lq"
 :.,.+999999998AAFtm_-y3OirkVuE667GT41bm4lNGRAo-UU
 |2,0,1735057011,,".,.+999999998AAFtm_-y3OirkVuE667GT41bm4lNGRAo-UU"
-:q!
-|2,0,1734728720,,"q!"
 :line
 |2,0,1733424088,,"line"
 :943
@@ -207,34 +209,56 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  14  7  ~/.gitignore
-|4,48,14,7,1735148963,"~/.gitignore"
-'1  1  0  ~/.gitignore
-|4,49,1,0,1735148846,"~/.gitignore"
-'2  1  0  ~/.gitignore
-|4,50,1,0,1735148846,"~/.gitignore"
-'3  29  9  ~/.gitignore
-|4,51,29,9,1735148714,"~/.gitignore"
-'4  29  9  ~/.gitignore
-|4,52,29,9,1735148714,"~/.gitignore"
-'5  25  9  ~/.gitignore
-|4,53,25,9,1735148714,"~/.gitignore"
-'6  25  9  ~/.gitignore
-|4,54,25,9,1735148714,"~/.gitignore"
-'7  1  0  ~/.profile
-|4,55,1,0,1735147808,"~/.profile"
-'8  1  0  ~/.profiel
-|4,56,1,0,1735147802,"~/.profiel"
-'9  8  0  ~/.hidpi-disable
-|4,57,8,0,1735147748,"~/.hidpi-disable"
+'0  16  9  ~/.gitignore
+|4,48,16,9,1735149535,"~/.gitignore"
+'1  7  0  ~/.gitignore
+|4,49,7,0,1735149507,"~/.gitignore"
+'2  7  0  ~/.gitignore
+|4,50,7,0,1735149507,"~/.gitignore"
+'3  14  7  ~/.gitignore
+|4,51,14,7,1735148963,"~/.gitignore"
+'4  14  7  ~/.gitignore
+|4,52,14,7,1735148963,"~/.gitignore"
+'5  14  7  ~/.gitignore
+|4,53,14,7,1735148963,"~/.gitignore"
+'6  14  7  ~/.gitignore
+|4,54,14,7,1735148963,"~/.gitignore"
+'7  1  0  ~/.gitignore
+|4,55,1,0,1735148846,"~/.gitignore"
+'8  1  0  ~/.gitignore
+|4,56,1,0,1735148846,"~/.gitignore"
+'9  1  0  ~/.gitignore
+|4,57,1,0,1735148846,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735149535,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149512,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149496,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
 -'  14  7  ~/.gitignore
 |4,39,14,7,1735148963,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148853,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148846,"~/.gitignore"
+-'  30  9  ~/.gitignore
+|4,39,30,9,1735148714,"~/.gitignore"
+-'  26  9  ~/.gitignore
+|4,39,26,9,1735148714,"~/.gitignore"
+-'  29  9  ~/.gitignore
+|4,39,29,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
 -'  29  9  ~/.gitignore
 |4,39,29,9,1735148714,"~/.gitignore"
 -'  25  9  ~/.gitignore
@@ -259,6 +283,54 @@ $
 |4,39,1,0,1735147808,"~/.profile"
 -'  1  0  ~/.profile
 |4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
 -'  1  0  ~/.profiel
 |4,39,1,0,1735147802,"~/.profiel"
 -'  1  0  ~/.profiel
@@ -291,155 +363,85 @@ $
 |4,39,1,0,1735147802,"~/.profiel"
 -'  1  0  ~/.profiel
 |4,39,1,0,1735147802,"~/.profiel"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  8  0  ~/.hidpi-disable
-|4,39,8,0,1735147748,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.hidpi-disable
-|4,39,1,0,1735147744,"~/.hidpi-disable"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735148962	0
-	"	14	7
-	^	21	12
-	.	21	0
-	+	16	0
+	*	1735149534	0
+	"	16	9
+	^	16	10
+	.	16	9
+	+	17	0
 	+	13	5
-	+	38	7
+	+	39	7
 	+	13	5
 	+	5	0
 	+	6	0
@@ -450,17 +452,18 @@ $
 	+	3	0
 	+	2	0
 	+	15	0
-	+	39	8
-	+	40	4
+	+	40	8
 	+	41	4
-	+	43	8
+	+	42	4
 	+	44	8
-	+	16	13
-	+	30	0
-	+	16	11
-	+	30	0
-	+	16	0
-	+	21	0
+	+	45	8
+	+	17	13
+	+	31	0
+	+	17	11
+	+	31	0
+	+	17	0
+	+	22	0
+	+	16	9
 
 > ~/.profile
 	*	1735147808	0
