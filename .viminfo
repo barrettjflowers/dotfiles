@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1735149828,,"wq"
 :q
 |2,0,1735149779,,"q"
-:wq
-|2,0,1735149659,,"wq"
 :q!
 |2,0,1735149642,,"q!"
 :q!~
@@ -162,33 +162,33 @@ $
 	
 |3,0,0,1,8,0,1731610234,"Host igw-rabers","    Hostname 69.50.95.238","    User root","    IdentityFile ~/.ssh/keys/barrett_private.key","    Port 22","","",""
 ""1	LINE	0
-	!/.ssh/config
-|3,1,1,1,1,0,1735148951,"!/.ssh/config"
+	!/Markdown
+|3,1,1,1,1,0,1735149824,"!/Markdown"
 "2	LINE	0
-	# Note: requires bashcompinit to enable this bash style autocomplete function
-|3,0,2,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
+	!/.ssh/config
+|3,0,2,1,1,0,1735148951,"!/.ssh/config"
 "3	LINE	0
-	# in ~/.ssh/config and ~/.ssh/known_hosts
-|3,0,3,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
+	# Note: requires bashcompinit to enable this bash style autocomplete function
+|3,0,3,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
 "4	LINE	0
-	# with this _complete_ssh_hosts function which looks for hosts
-|3,0,4,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
+	# in ~/.ssh/config and ~/.ssh/known_hosts
+|3,0,4,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
 "5	LINE	0
-	# replace the default ssh autocomplete that comes from compinit 
-|3,0,5,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
+	# with this _complete_ssh_hosts function which looks for hosts
+|3,0,5,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
 "6	LINE	0
-	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
-|3,0,6,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+	# replace the default ssh autocomplete that comes from compinit 
+|3,0,6,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
 "7	LINE	0
+	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
+|3,0,7,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+"8	LINE	0
 	complete -F _complete_ssh_hosts ssh
 	
-|3,0,7,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
-"8	LINE	0
-	
-|3,0,8,1,1,0,1735072380,""
+|3,0,8,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1735072086,""
+|3,0,9,1,1,0,1735072380,""
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -209,28 +209,34 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  8  0  ~/.gitignore
-|4,48,8,0,1735149779,"~/.gitignore"
-'1  4  0  ~/.gitignore
-|4,49,4,0,1735149659,"~/.gitignore"
-'2  4  0  ~/.gitignore
-|4,50,4,0,1735149659,"~/.gitignore"
-'3  23  0  ~/.gitignore
-|4,51,23,0,1735149642,"~/.gitignore"
-'4  23  0  ~/.gitignore
-|4,52,23,0,1735149642,"~/.gitignore"
-'5  23  0  ~/.gitignore
-|4,53,23,0,1735149642,"~/.gitignore"
-'6  23  0  ~/.gitignore
-|4,54,23,0,1735149642,"~/.gitignore"
-'7  1  0  ~/.gitignore.swp
-|4,55,1,0,1735149611,"~/.gitignore.swp"
-'8  16  9  ~/.gitignore
-|4,56,16,9,1735149535,"~/.gitignore"
-'9  16  9  ~/.gitignore
-|4,57,16,9,1735149535,"~/.gitignore"
+'0  18  0  ~/.gitignore
+|4,48,18,0,1735149828,"~/.gitignore"
+'1  8  0  ~/.gitignore
+|4,49,8,0,1735149779,"~/.gitignore"
+'2  8  0  ~/.gitignore
+|4,50,8,0,1735149779,"~/.gitignore"
+'3  4  0  ~/.gitignore
+|4,51,4,0,1735149659,"~/.gitignore"
+'4  4  0  ~/.gitignore
+|4,52,4,0,1735149659,"~/.gitignore"
+'5  4  0  ~/.gitignore
+|4,53,4,0,1735149659,"~/.gitignore"
+'6  4  0  ~/.gitignore
+|4,54,4,0,1735149659,"~/.gitignore"
+'7  24  0  ~/.gitignore
+|4,55,24,0,1735149642,"~/.gitignore"
+'8  24  0  ~/.gitignore
+|4,56,24,0,1735149642,"~/.gitignore"
+'9  24  0  ~/.gitignore
+|4,57,24,0,1735149642,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  18  0  ~/.gitignore
+|4,39,18,0,1735149828,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735149820,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1735149779,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1735149779,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -239,8 +245,12 @@ $
 |4,39,4,0,1735149659,"~/.gitignore"
 -'  4  0  ~/.gitignore
 |4,39,4,0,1735149659,"~/.gitignore"
+-'  4  0  ~/.gitignore
+|4,39,4,0,1735149659,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735149654,"~/.gitignore"
+-'  24  0  ~/.gitignore
+|4,39,24,0,1735149642,"~/.gitignore"
 -'  23  0  ~/.gitignore
 |4,39,23,0,1735149642,"~/.gitignore"
 -'  23  0  ~/.gitignore
@@ -265,6 +275,24 @@ $
 |4,39,1,0,1735149611,"~/.gitignore.swp"
 -'  1  0  ~/.gitignore.swp
 |4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  1  0  ~/.gitignore.swp
+|4,39,1,0,1735149611,"~/.gitignore.swp"
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735149535,"~/.gitignore"
 -'  16  9  ~/.gitignore
 |4,39,16,9,1735149535,"~/.gitignore"
 -'  16  9  ~/.gitignore
@@ -279,6 +307,8 @@ $
 |4,39,1,0,1735149512,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735149512,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1735149507,"~/.gitignore"
 -'  7  0  ~/.gitignore
 |4,39,7,0,1735149507,"~/.gitignore"
 -'  7  0  ~/.gitignore
@@ -315,6 +345,8 @@ $
 |4,39,14,7,1735148963,"~/.gitignore"
 -'  14  7  ~/.gitignore
 |4,39,14,7,1735148963,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148853,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -323,6 +355,18 @@ $
 |4,39,1,0,1735148846,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148846,"~/.gitignore"
+-'  32  9  ~/.gitignore
+|4,39,32,9,1735148714,"~/.gitignore"
+-'  28  9  ~/.gitignore
+|4,39,28,9,1735148714,"~/.gitignore"
+-'  31  9  ~/.gitignore
+|4,39,31,9,1735148714,"~/.gitignore"
+-'  27  9  ~/.gitignore
+|4,39,27,9,1735148714,"~/.gitignore"
+-'  30  9  ~/.gitignore
+|4,39,30,9,1735148714,"~/.gitignore"
+-'  26  9  ~/.gitignore
+|4,39,26,9,1735148714,"~/.gitignore"
 -'  31  9  ~/.gitignore
 |4,39,31,9,1735148714,"~/.gitignore"
 -'  27  9  ~/.gitignore
@@ -387,61 +431,17 @@ $
 |4,39,1,0,1735148159,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735148159,"~/.gitignore"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
--'  1  0  ~/.profile
-|4,39,1,0,1735147808,"~/.profile"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735149779	0
-	"	8	0
-	^	23	0
-	.	22	12
-	+	17	0
+	*	1735149827	0
+	"	18	0
+	^	18	0
+	.	17	12
+	+	16	0
 	+	13	5
-	+	40	7
+	+	41	7
 	+	13	5
 	+	5	0
 	+	6	0
@@ -452,19 +452,21 @@ $
 	+	3	0
 	+	2	0
 	+	15	0
-	+	41	8
-	+	42	4
+	+	42	8
 	+	43	4
-	+	45	8
+	+	44	4
 	+	46	8
-	+	17	13
-	+	32	0
-	+	17	11
-	+	32	0
-	+	17	0
-	+	22	0
+	+	47	8
+	+	16	13
+	+	33	0
+	+	16	11
+	+	33	0
+	+	16	0
+	+	23	0
 	+	16	9
-	+	22	12
+	+	23	12
+	+	16	11
+	+	17	12
 
 > ~/.gitignore.swp
 	*	1735149611	0

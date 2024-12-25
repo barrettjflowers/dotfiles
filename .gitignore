@@ -13,7 +13,8 @@
 !.hammerspoon
 !.parsec
 !.putty
-!/Markdown
+!/Markdown/
+!/Markdown/*
 
 # Ignore the entire .ssh directory
 .ssh/
