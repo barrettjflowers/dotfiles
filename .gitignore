@@ -13,14 +13,9 @@
 !.hammerspoon
 !.parsec
 !.putty
-!/.ssh/config
-!.tmux.conf
-!.vim
-!.viminfo
-!.vscode
-!.wol.sh
-!.zprofile
-!.zshenv
-!.zshrc
-!/Markdown
 
+# Ignore the entire .ssh directory
+.ssh/
+
+# Unignore only the config file in .ssh
+!.ssh/config

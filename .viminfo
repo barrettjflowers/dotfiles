@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735148714,,"wq"
+|2,0,1735148963,,"wq"
 :w\
 |2,0,1735148669,,"w\\"
 :q
@@ -160,33 +160,33 @@ $
 	
 |3,0,0,1,8,0,1731610234,"Host igw-rabers","    Hostname 69.50.95.238","    User root","    IdentityFile ~/.ssh/keys/barrett_private.key","    Port 22","","",""
 ""1	LINE	0
-	# Note: requires bashcompinit to enable this bash style autocomplete function
-|3,1,1,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
+	!/.ssh/config
+|3,1,1,1,1,0,1735148951,"!/.ssh/config"
 "2	LINE	0
-	# in ~/.ssh/config and ~/.ssh/known_hosts
-|3,0,2,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
+	# Note: requires bashcompinit to enable this bash style autocomplete function
+|3,0,2,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
 "3	LINE	0
-	# with this _complete_ssh_hosts function which looks for hosts
-|3,0,3,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
+	# in ~/.ssh/config and ~/.ssh/known_hosts
+|3,0,3,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
 "4	LINE	0
-	# replace the default ssh autocomplete that comes from compinit 
-|3,0,4,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
+	# with this _complete_ssh_hosts function which looks for hosts
+|3,0,4,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
 "5	LINE	0
-	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
-|3,0,5,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+	# replace the default ssh autocomplete that comes from compinit 
+|3,0,5,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
 "6	LINE	0
+	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
+|3,0,6,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+"7	LINE	0
 	complete -F _complete_ssh_hosts ssh
 	
-|3,0,6,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
-"7	LINE	0
-	
-|3,0,7,1,1,0,1735072380,""
+|3,0,7,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1735072086,""
+|3,0,8,1,1,0,1735072380,""
 "9	LINE	0
-	aws s3 ls s3://igw-backups/igw-poscouchdb/ | grep $(date -d "yesterday" +"%Y-%m-%d") | awk '/igw-couchdb-rabers|igw-couchdb-qa|igw-couchdb-production/ {print $0}' | sort -k 2,2 | head -n 3 | curl -d @- ntfy.barrettjflowers.net/igwbackups
-|3,0,9,1,1,0,1735072001,"aws s3 ls s3://igw-backups/igw-poscouchdb/ | grep $(date -d \"yesterday\" +\"%Y-%m-%d\") | awk '/igw-couchdb-rabers|igw-couchdb-qa|igw-couchdb-production/ {print $0}' | sort -k 2,2 | head -n 3 | curl -d @- ntfy.barrettjflowers.net/igwbackups"
+	
+|3,0,9,1,1,0,1735072086,""
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -207,28 +207,38 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  25  9  ~/.gitignore
-|4,48,25,9,1735148714,"~/.gitignore"
-'1  1  0  ~/.profile
-|4,49,1,0,1735147808,"~/.profile"
-'2  1  0  ~/.profiel
-|4,50,1,0,1735147802,"~/.profiel"
-'3  8  0  ~/.hidpi-disable
-|4,51,8,0,1735147748,"~/.hidpi-disable"
-'4  1  0  ~/.gitignore
-|4,52,1,0,1735147168,"~/.gitignore"
-'5  1  0  ~/.gitignore
-|4,53,1,0,1735147168,"~/.gitignore"
-'6  1  0  ~/.gitignore_global
-|4,54,1,0,1735147162,"~/.gitignore_global"
-'7  40  0  ~/.gitignore
-|4,55,40,0,1735146868,"~/.gitignore"
-'8  40  0  ~/.gitignore
-|4,56,40,0,1735146868,"~/.gitignore"
-'9  31  0  ~/.gitignore
-|4,57,31,0,1735146868,"~/.gitignore"
+'0  14  7  ~/.gitignore
+|4,48,14,7,1735148963,"~/.gitignore"
+'1  1  0  ~/.gitignore
+|4,49,1,0,1735148846,"~/.gitignore"
+'2  1  0  ~/.gitignore
+|4,50,1,0,1735148846,"~/.gitignore"
+'3  29  9  ~/.gitignore
+|4,51,29,9,1735148714,"~/.gitignore"
+'4  29  9  ~/.gitignore
+|4,52,29,9,1735148714,"~/.gitignore"
+'5  25  9  ~/.gitignore
+|4,53,25,9,1735148714,"~/.gitignore"
+'6  25  9  ~/.gitignore
+|4,54,25,9,1735148714,"~/.gitignore"
+'7  1  0  ~/.profile
+|4,55,1,0,1735147808,"~/.profile"
+'8  1  0  ~/.profiel
+|4,56,1,0,1735147802,"~/.profiel"
+'9  8  0  ~/.hidpi-disable
+|4,57,8,0,1735147748,"~/.hidpi-disable"
 
 # Jumplist (newest first):
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735148963,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735148853,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735148846,"~/.gitignore"
+-'  29  9  ~/.gitignore
+|4,39,29,9,1735148714,"~/.gitignore"
+-'  25  9  ~/.gitignore
+|4,39,25,9,1735148714,"~/.gitignore"
 -'  25  9  ~/.gitignore
 |4,39,25,9,1735148714,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -237,6 +247,42 @@ $
 |4,39,1,0,1735147808,"~/.profile"
 -'  1  0  ~/.profile
 |4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1735147808,"~/.profile"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
+-'  1  0  ~/.profiel
+|4,39,1,0,1735147802,"~/.profiel"
 -'  1  0  ~/.profiel
 |4,39,1,0,1735147802,"~/.profiel"
 -'  1  0  ~/.profiel
@@ -261,6 +307,102 @@ $
 |4,39,8,0,1735147748,"~/.hidpi-disable"
 -'  8  0  ~/.hidpi-disable
 |4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  8  0  ~/.hidpi-disable
+|4,39,8,0,1735147748,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
+-'  1  0  ~/.hidpi-disable
+|4,39,1,0,1735147744,"~/.hidpi-disable"
 -'  1  0  ~/.hidpi-disable
 |4,39,1,0,1735147744,"~/.hidpi-disable"
 -'  1  0  ~/.hidpi-disable
@@ -287,159 +429,17 @@ $
 |4,39,1,0,1735147168,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735147168,"~/.gitignore"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  1  0  ~/.gitignore_global
-|4,39,1,0,1735147162,"~/.gitignore_global"
--'  40  0  ~/.gitignore
-|4,39,40,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735146868,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735105118,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735148712	0
-	"	25	9
-	^	25	10
-	.	26	0
+	*	1735148962	0
+	"	14	7
+	^	21	12
+	.	21	0
 	+	16	0
 	+	13	5
-	+	34	7
+	+	38	7
 	+	13	5
 	+	5	0
 	+	6	0
@@ -450,15 +450,17 @@ $
 	+	3	0
 	+	2	0
 	+	15	0
-	+	35	8
-	+	36	4
-	+	37	4
 	+	39	8
-	+	40	8
+	+	40	4
+	+	41	4
+	+	43	8
+	+	44	8
 	+	16	13
-	+	26	0
-	+	17	11
-	+	26	0
+	+	30	0
+	+	16	11
+	+	30	0
+	+	16	0
+	+	21	0
 
 > ~/.profile
 	*	1735147808	0
