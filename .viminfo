@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735240795,,"wq"
+|2,0,1735240844,,"wq"
 :q
 |2,0,1735239979,,"q"
 :q!
@@ -159,32 +159,32 @@ $
 	./config/htop/*
 |3,0,0,1,1,0,1735240537,"./config/htop/*"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1735240794,""
-"2	LINE	0
 	/.config/htop/
-|3,0,2,1,1,0,1735240778,"/.config/htop/"
-"3	LINE	0
+|3,1,1,1,1,0,1735240841,"/.config/htop/"
+"2	LINE	0
 	
-|3,0,3,1,1,0,1735240540,""
+|3,0,2,1,1,0,1735240794,""
+"3	LINE	0
+	/.config/htop/
+|3,0,3,1,1,0,1735240778,"/.config/htop/"
 "4	LINE	0
-	!/Markdown
-|3,0,4,1,1,0,1735149824,"!/Markdown"
+	
+|3,0,4,1,1,0,1735240540,""
 "5	LINE	0
-	!/.ssh/config
-|3,0,5,1,1,0,1735148951,"!/.ssh/config"
+	!/Markdown
+|3,0,5,1,1,0,1735149824,"!/Markdown"
 "6	LINE	0
-	# Note: requires bashcompinit to enable this bash style autocomplete function
-|3,0,6,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
+	!/.ssh/config
+|3,0,6,1,1,0,1735148951,"!/.ssh/config"
 "7	LINE	0
-	# in ~/.ssh/config and ~/.ssh/known_hosts
-|3,0,7,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
+	# Note: requires bashcompinit to enable this bash style autocomplete function
+|3,0,7,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
 "8	LINE	0
-	# with this _complete_ssh_hosts function which looks for hosts
-|3,0,8,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
+	# in ~/.ssh/config and ~/.ssh/known_hosts
+|3,0,8,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
 "9	LINE	0
-	# replace the default ssh autocomplete that comes from compinit 
-|3,0,9,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
+	# with this _complete_ssh_hosts function which looks for hosts
+|3,0,9,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -205,32 +205,40 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  23  0  ~/.gitignore
-|4,48,23,0,1735240795,"~/.gitignore"
-'1  22  0  ~/.gitignore
-|4,49,22,0,1735240780,"~/.gitignore"
-'2  22  0  ~/.gitignore
-|4,50,22,0,1735240780,"~/.gitignore"
-'3  23  1  ~/.gitignore
-|4,51,23,1,1735240567,"~/.gitignore"
-'4  23  1  ~/.gitignore
-|4,52,23,1,1735240567,"~/.gitignore"
-'5  23  1  ~/.gitignore
-|4,53,23,1,1735240567,"~/.gitignore"
-'6  23  14  ~/.gitignore
-|4,54,23,14,1735240526,"~/.gitignore"
-'7  23  14  ~/.gitignore
-|4,55,23,14,1735240526,"~/.gitignore"
-'8  24  14  ~/.gitignore
-|4,56,24,14,1735240526,"~/.gitignore"
-'9  23  14  ~/.gitignore
-|4,57,23,14,1735240526,"~/.gitignore"
+'0  24  0  ~/.gitignore
+|4,48,24,0,1735240844,"~/.gitignore"
+'1  23  0  ~/.gitignore
+|4,49,23,0,1735240795,"~/.gitignore"
+'2  23  0  ~/.gitignore
+|4,50,23,0,1735240795,"~/.gitignore"
+'3  22  0  ~/.gitignore
+|4,51,22,0,1735240780,"~/.gitignore"
+'4  22  0  ~/.gitignore
+|4,52,22,0,1735240780,"~/.gitignore"
+'5  22  0  ~/.gitignore
+|4,53,22,0,1735240780,"~/.gitignore"
+'6  22  0  ~/.gitignore
+|4,54,22,0,1735240780,"~/.gitignore"
+'7  23  1  ~/.gitignore
+|4,55,23,1,1735240567,"~/.gitignore"
+'8  23  1  ~/.gitignore
+|4,56,23,1,1735240567,"~/.gitignore"
+'9  23  1  ~/.gitignore
+|4,57,23,1,1735240567,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  24  0  ~/.gitignore
+|4,39,24,0,1735240844,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240838,"~/.gitignore"
+-'  23  0  ~/.gitignore
+|4,39,23,0,1735240795,"~/.gitignore"
 -'  23  0  ~/.gitignore
 |4,39,23,0,1735240795,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735240785,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1735240780,"~/.gitignore"
 -'  22  0  ~/.gitignore
 |4,39,22,0,1735240780,"~/.gitignore"
 -'  22  0  ~/.gitignore
@@ -267,8 +275,12 @@ $
 |4,39,16,0,1735240446,"~/.gitignore"
 -'  16  0  ~/.gitignore
 |4,39,16,0,1735240446,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1735240446,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735240425,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
 -'  17  10  ~/.gitignore
 |4,39,17,10,1735240408,"~/.gitignore"
 -'  17  10  ~/.gitignore
@@ -415,43 +427,31 @@ $
 |4,39,8,0,1735239979,"~/.git"
 -'  8  0  ~/.git
 |4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735240795	0
-	"	23	0
-	.	24	0
-	+	35	0
-	+	32	5
-	+	44	7
-	+	32	5
+	*	1735240843	0
+	"	24	0
+	.	23	0
+	+	34	0
+	+	31	5
+	+	43	7
+	+	31	5
+	+	23	0
 	+	24	0
 	+	25	0
 	+	26	0
 	+	27	0
-	+	28	0
-	+	30	0
+	+	29	0
 	+	21	0
 	+	20	0
-	+	34	0
-	+	45	8
+	+	33	0
+	+	44	8
+	+	45	4
 	+	46	4
-	+	47	4
+	+	48	8
 	+	49	8
-	+	50	8
 	+	1	19
 	+	20	0
 	+	4	10
@@ -465,7 +465,7 @@ $
 	+	22	5
 	+	23	1
 	+	23	14
-	+	24	0
+	+	23	0
 
 > ~/.config/.gi
 	*	1735239953	0

@@ -20,7 +20,6 @@
 
 # Ignore the entire .ssh directory
 .ssh/
-/.config/htop/
 
 # Unignore only the config file in .ssh
 !.ssh/config
