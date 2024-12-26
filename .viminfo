@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735241345,,"wq"
+|2,0,1735241417,,"wq"
 :q
 |2,0,1735239979,,"q"
 :q!
@@ -205,32 +205,40 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  14  7  ~/.gitignore
-|4,48,14,7,1735241345,"~/.gitignore"
-'1  16  11  ~/.gitignore
-|4,49,16,11,1735241203,"~/.gitignore"
-'2  17  1  ~/.gitignore
-|4,50,17,1,1735241203,"~/.gitignore"
-'3  16  19  ~/.gitignore
-|4,51,16,19,1735241167,"~/.gitignore"
-'4  17  9  ~/.gitignore
-|4,52,17,9,1735241167,"~/.gitignore"
-'5  17  8  ~/.gitignore
-|4,53,17,8,1735241081,"~/.gitignore"
-'6  16  18  ~/.gitignore
-|4,54,16,18,1735241081,"~/.gitignore"
-'7  17  8  ~/.gitignore
-|4,55,17,8,1735241081,"~/.gitignore"
-'8  16  18  ~/.gitignore
-|4,56,16,18,1735241081,"~/.gitignore"
-'9  18  8  ~/.gitignore
-|4,57,18,8,1735241081,"~/.gitignore"
+'0  16  9  ~/.gitignore
+|4,48,16,9,1735241417,"~/.gitignore"
+'1  14  7  ~/.gitignore
+|4,49,14,7,1735241345,"~/.gitignore"
+'2  14  7  ~/.gitignore
+|4,50,14,7,1735241345,"~/.gitignore"
+'3  17  1  ~/.gitignore
+|4,51,17,1,1735241203,"~/.gitignore"
+'4  16  11  ~/.gitignore
+|4,52,16,11,1735241203,"~/.gitignore"
+'5  17  1  ~/.gitignore
+|4,53,17,1,1735241203,"~/.gitignore"
+'6  16  19  ~/.gitignore
+|4,54,16,19,1735241167,"~/.gitignore"
+'7  17  9  ~/.gitignore
+|4,55,17,9,1735241167,"~/.gitignore"
+'8  16  19  ~/.gitignore
+|4,56,16,19,1735241167,"~/.gitignore"
+'9  17  9  ~/.gitignore
+|4,57,17,9,1735241167,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735241417,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735241389,"~/.gitignore"
+-'  14  7  ~/.gitignore
+|4,39,14,7,1735241345,"~/.gitignore"
 -'  14  7  ~/.gitignore
 |4,39,14,7,1735241345,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735241303,"~/.gitignore"
+-'  17  1  ~/.gitignore
+|4,39,17,1,1735241203,"~/.gitignore"
 -'  16  11  ~/.gitignore
 |4,39,16,11,1735241203,"~/.gitignore"
 -'  17  1  ~/.gitignore
@@ -241,6 +249,8 @@ $
 |4,39,17,9,1735241167,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735241144,"~/.gitignore"
+-'  18  8  ~/.gitignore
+|4,39,18,8,1735241081,"~/.gitignore"
 -'  17  8  ~/.gitignore
 |4,39,17,8,1735241081,"~/.gitignore"
 -'  18  8  ~/.gitignore
@@ -259,6 +269,12 @@ $
 |4,39,26,12,1735241017,"~/.gitignore"
 -'  25  12  ~/.gitignore
 |4,39,25,12,1735241017,"~/.gitignore"
+-'  24  12  ~/.gitignore
+|4,39,24,12,1735241017,"~/.gitignore"
+-'  26  12  ~/.gitignore
+|4,39,26,12,1735241017,"~/.gitignore"
+-'  25  12  ~/.gitignore
+|4,39,25,12,1735241017,"~/.gitignore"
 -'  26  12  ~/.gitignore
 |4,39,26,12,1735241017,"~/.gitignore"
 -'  25  12  ~/.gitignore
@@ -267,6 +283,8 @@ $
 |4,39,25,12,1735241017,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735240964,"~/.gitignore"
+-'  23  4  ~/.gitignore
+|4,39,23,4,1735240922,"~/.gitignore"
 -'  23  4  ~/.gitignore
 |4,39,23,4,1735240922,"~/.gitignore"
 -'  24  4  ~/.gitignore
@@ -281,6 +299,8 @@ $
 |4,39,25,4,1735240922,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735240874,"~/.gitignore"
+-'  22  0  ~/.gitignore
+|4,39,22,0,1735240844,"~/.gitignore"
 -'  22  0  ~/.gitignore
 |4,39,22,0,1735240844,"~/.gitignore"
 -'  23  0  ~/.gitignore
@@ -299,6 +319,8 @@ $
 |4,39,1,0,1735240838,"~/.gitignore"
 -'  21  0  ~/.gitignore
 |4,39,21,0,1735240795,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1735240795,"~/.gitignore"
 -'  22  0  ~/.gitignore
 |4,39,22,0,1735240795,"~/.gitignore"
 -'  23  0  ~/.gitignore
@@ -315,6 +337,10 @@ $
 |4,39,23,0,1735240795,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1735240785,"~/.gitignore"
+-'  20  0  ~/.gitignore
+|4,39,20,0,1735240780,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735240780,"~/.gitignore"
 -'  20  0  ~/.gitignore
 |4,39,20,0,1735240780,"~/.gitignore"
 -'  19  0  ~/.gitignore
@@ -401,40 +427,14 @@ $
 |4,39,17,10,1735240408,"~/.gitignore"
 -'  17  10  ~/.gitignore
 |4,39,17,10,1735240408,"~/.gitignore"
--'  17  10  ~/.gitignore
-|4,39,17,10,1735240408,"~/.gitignore"
--'  17  10  ~/.gitignore
-|4,39,17,10,1735240408,"~/.gitignore"
--'  17  10  ~/.gitignore
-|4,39,17,10,1735240408,"~/.gitignore"
--'  17  10  ~/.gitignore
-|4,39,17,10,1735240408,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735240348,"~/.gitignore"
--'  16  9  ~/.gitignore
-|4,39,16,9,1735240202,"~/.gitignore"
--'  16  9  ~/.gitignore
-|4,39,16,9,1735240202,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735240105,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1735239998,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735239982,"~/.gitignore"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
--'  8  0  ~/.git
-|4,39,8,0,1735239979,"~/.git"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735241345	0
-	"	14	7
-	^	14	8
-	.	16	10
+	*	1735241410	0
+	"	16	9
+	^	16	10
+	.	16	9
 	+	33	0
 	+	30	5
 	+	42	7
@@ -479,7 +479,7 @@ $
 	+	16	1
 	+	16	11
 	+	16	1
-	+	16	10
+	+	16	9
 
 > ~/.config/.gi
 	*	1735239953	0
