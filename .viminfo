@@ -11,20 +11,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
+~Msle0~/\/
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735242527,,"wq"
+|2,0,1735242925,,"wq"
+:q
+|2,0,1735242821,,"q"
+:q!
+|2,0,1735242705,,"q!"
 :.,.+1!
 |2,0,1735241711,,".,.+1!"
-:q
-|2,0,1735241540,,"q"
-:q!
-|2,0,1735239955,,"q!"
 :Q
 |2,0,1735239952,,"Q"
 :!
@@ -85,6 +85,8 @@ $
 |2,0,1701567819,,"help"
 
 # Search String History (newest to oldest):
+? \/
+|2,1,1735242914,,"\\/"
 ? @$
 |2,1,1735239978,,"@$"
 ?/git
@@ -161,33 +163,33 @@ $
 	.config/
 |3,0,0,1,1,0,1735241655,".config/"
 ""1	LINE	0
-	alacritty       copyq           legendary       skhd            yabai
-|3,1,1,1,1,0,1735241957,"alacritty       copyq           legendary       skhd            yabai"
+	.github/
+|3,1,1,1,1,0,1735242583,".github/"
 "2	LINE	0
+	alacritty       copyq           legendary       skhd            yabai
+|3,0,2,1,1,0,1735241957,"alacritty       copyq           legendary       skhd            yabai"
+"3	LINE	0
 	# Unignore only the config file in .ssh
 	!.ssh/config
-|3,0,2,1,2,0,1735241651,"# Unignore only the config file in .ssh","!.ssh/config"
-"3	LINE	0
-	
-|3,0,3,1,1,0,1735241651,""
+|3,0,3,1,2,0,1735241651,"# Unignore only the config file in .ssh","!.ssh/config"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1735241650,""
+|3,0,4,1,1,0,1735241651,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1735241649,""
+|3,0,5,1,1,0,1735241650,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1735241646,""
+|3,0,6,1,1,0,1735241649,""
 "7	LINE	0
-	alacritty       copyq           legendary       skhd            yabai
-|3,0,7,1,1,0,1735241630,"alacritty       copyq           legendary       skhd            yabai"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1735241585,""
+|3,0,7,1,1,0,1735241646,""
+"8	LINE	0
+	alacritty       copyq           legendary       skhd            yabai
+|3,0,8,1,1,0,1735241630,"alacritty       copyq           legendary       skhd            yabai"
 "9	LINE	0
-	!.config/*
-|3,0,9,1,1,0,1735241580,"!.config/*"
+	
+|3,0,9,1,1,0,1735241585,""
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -211,236 +213,236 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  18  17  ~/.gitignore
-|4,48,18,17,1735242527,"~/.gitignore"
-'1  25  0  ~/.gitignore
-|4,49,25,0,1735242033,"~/.gitignore"
-'2  24  0  ~/.gitignore
-|4,50,24,0,1735242033,"~/.gitignore"
-'3  24  0  ~/.gitignore
-|4,51,24,0,1735241961,"~/.gitignore"
-'4  24  0  ~/.gitignore
-|4,52,24,0,1735241961,"~/.gitignore"
-'5  23  0  ~/.gitignore
-|4,53,23,0,1735241961,"~/.gitignore"
-'6  23  0  ~/.gitignore
-|4,54,23,0,1735241961,"~/.gitignore"
-'7  16  0  ~/.gitignore
-|4,55,16,0,1735241540,"~/.gitignore"
-'8  16  0  ~/.gitignore
-|4,56,16,0,1735241540,"~/.gitignore"
-'9  16  0  ~/.gitignore
-|4,57,16,0,1735241540,"~/.gitignore"
+'0  30  15  ~/.gitignore
+|4,48,30,15,1735242925,"~/.gitignore"
+'1  1  0  ~/.gitconfig
+|4,49,1,0,1735242821,"~/.gitconfig"
+'2  2  0  ~/.gitignore_global
+|4,50,2,0,1735242817,"~/.gitignore_global"
+'3  1  0  ~/.gitignore
+|4,51,1,0,1735242804,"~/.gitignore"
+'4  1  0  ~/.gitignore
+|4,52,1,0,1735242804,"~/.gitignore"
+'5  1  0  ~/.gitconfig
+|4,53,1,0,1735242797,"~/.gitconfig"
+'6  7  0  ~/.gitconfig
+|4,54,7,0,1735242727,"~/.gitconfig"
+'7  7  0  ~/.gitconfig
+|4,55,7,0,1735242727,"~/.gitconfig"
+'8  7  0  ~/.gitconfig
+|4,56,7,0,1735242727,"~/.gitconfig"
+'9  7  0  ~/.gitconfig
+|4,57,7,0,1735242727,"~/.gitconfig"
 
 # Jumplist (newest first):
+-'  30  15  ~/.gitignore
+|4,39,30,15,1735242925,"~/.gitignore"
+-'  28  18  ~/.gitignore
+|4,39,28,18,1735242914,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242824,"~/.gitignore"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242821,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242821,"~/.gitconfig"
+-'  2  0  ~/.gitignore_global
+|4,39,2,0,1735242817,"~/.gitignore_global"
+-'  2  0  ~/.gitignore_global
+|4,39,2,0,1735242817,"~/.gitignore_global"
+-'  2  0  ~/.gitignore_global
+|4,39,2,0,1735242817,"~/.gitignore_global"
+-'  2  0  ~/.gitignore_global
+|4,39,2,0,1735242817,"~/.gitignore_global"
+-'  1  0  ~/.gitignore_global
+|4,39,1,0,1735242812,"~/.gitignore_global"
+-'  1  0  ~/.gitignore_global
+|4,39,1,0,1735242812,"~/.gitignore_global"
+-'  1  0  ~/.gitignore_global
+|4,39,1,0,1735242812,"~/.gitignore_global"
+-'  1  0  ~/.gitignore_global
+|4,39,1,0,1735242812,"~/.gitignore_global"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242804,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242804,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242804,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242804,"~/.gitignore"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242797,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  7  0  ~/.gitconfig
+|4,39,7,0,1735242727,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1735242717,"~/.gitconfig"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  19  0  ~/.gitignore
+|4,39,19,0,1735242705,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735242545,"~/.gitignore"
 -'  18  17  ~/.gitignore
 |4,39,18,17,1735242527,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735242482,"~/.gitignore"
--'  25  0  ~/.gitignore
-|4,39,25,0,1735242033,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1735242033,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735242014,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1735241961,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735241961,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735241961,"~/.gitignore"
--'  24  11  ~/.gitignore
-|4,39,24,11,1735241920,"~/.gitignore"
--'  27  0  ~/.gitignore
-|4,39,27,0,1735241884,"~/.gitignore"
--'  26  0  ~/.gitignore
-|4,39,26,0,1735241884,"~/.gitignore"
--'  26  0  ~/.gitignore
-|4,39,26,0,1735241884,"~/.gitignore"
--'  28  0  ~/.gitignore
-|4,39,28,0,1735241883,"~/.gitignore"
--'  29  0  ~/.gitignore
-|4,39,29,0,1735241883,"~/.gitignore"
--'  27  0  ~/.gitignore
-|4,39,27,0,1735241883,"~/.gitignore"
--'  28  0  ~/.gitignore
-|4,39,28,0,1735241883,"~/.gitignore"
--'  27  0  ~/.gitignore
-|4,39,27,0,1735241883,"~/.gitignore"
--'  28  0  ~/.gitignore
-|4,39,28,0,1735241883,"~/.gitignore"
--'  21  0  ~/.gitignore
-|4,39,21,0,1735241652,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1735241652,"~/.gitignore"
--'  20  0  ~/.gitignore
-|4,39,20,0,1735241652,"~/.gitignore"
--'  31  0  ~/.gitignore
-|4,39,31,0,1735241643,"~/.gitignore"
--'  30  0  ~/.gitignore
-|4,39,30,0,1735241643,"~/.gitignore"
--'  30  0  ~/.gitignore
-|4,39,30,0,1735241643,"~/.gitignore"
--'  16  68  ~/.gitignore
-|4,39,16,68,1735241570,"~/.gitignore"
--'  16  68  ~/.gitignore
-|4,39,16,68,1735241570,"~/.gitignore"
--'  16  68  ~/.gitignore
-|4,39,16,68,1735241570,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241565,"~/.gitignore"
--'  16  0  ~/.gitignore
-|4,39,16,0,1735241540,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241534,"~/.gitignore"
--'  16  9  ~/.gitignore
-|4,39,16,9,1735241417,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241389,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  14  7  ~/.gitignore
-|4,39,14,7,1735241345,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241303,"~/.gitignore"
--'  17  1  ~/.gitignore
-|4,39,17,1,1735241203,"~/.gitignore"
--'  17  1  ~/.gitignore
-|4,39,17,1,1735241203,"~/.gitignore"
--'  17  1  ~/.gitignore
-|4,39,17,1,1735241203,"~/.gitignore"
--'  17  1  ~/.gitignore
-|4,39,17,1,1735241203,"~/.gitignore"
--'  16  11  ~/.gitignore
-|4,39,16,11,1735241203,"~/.gitignore"
--'  17  1  ~/.gitignore
-|4,39,17,1,1735241203,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241198,"~/.gitignore"
--'  17  9  ~/.gitignore
-|4,39,17,9,1735241167,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241144,"~/.gitignore"
--'  19  8  ~/.gitignore
-|4,39,19,8,1735241081,"~/.gitignore"
--'  18  8  ~/.gitignore
-|4,39,18,8,1735241081,"~/.gitignore"
--'  17  8  ~/.gitignore
-|4,39,17,8,1735241081,"~/.gitignore"
--'  18  8  ~/.gitignore
-|4,39,18,8,1735241081,"~/.gitignore"
--'  18  8  ~/.gitignore
-|4,39,18,8,1735241081,"~/.gitignore"
--'  17  8  ~/.gitignore
-|4,39,17,8,1735241081,"~/.gitignore"
--'  18  8  ~/.gitignore
-|4,39,18,8,1735241081,"~/.gitignore"
--'  18  8  ~/.gitignore
-|4,39,18,8,1735241081,"~/.gitignore"
--'  17  8  ~/.gitignore
-|4,39,17,8,1735241081,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735241061,"~/.gitignore"
--'  32  12  ~/.gitignore
-|4,39,32,12,1735241017,"~/.gitignore"
--'  26  12  ~/.gitignore
-|4,39,26,12,1735241017,"~/.gitignore"
--'  31  12  ~/.gitignore
-|4,39,31,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  31  12  ~/.gitignore
-|4,39,31,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  24  12  ~/.gitignore
-|4,39,24,12,1735241017,"~/.gitignore"
--'  26  12  ~/.gitignore
-|4,39,26,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  24  12  ~/.gitignore
-|4,39,24,12,1735241017,"~/.gitignore"
--'  26  12  ~/.gitignore
-|4,39,26,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  24  12  ~/.gitignore
-|4,39,24,12,1735241017,"~/.gitignore"
--'  26  12  ~/.gitignore
-|4,39,26,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  26  12  ~/.gitignore
-|4,39,26,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  25  12  ~/.gitignore
-|4,39,25,12,1735241017,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735240964,"~/.gitignore"
--'  23  4  ~/.gitignore
-|4,39,23,4,1735240922,"~/.gitignore"
--'  23  4  ~/.gitignore
-|4,39,23,4,1735240922,"~/.gitignore"
--'  23  4  ~/.gitignore
-|4,39,23,4,1735240922,"~/.gitignore"
--'  24  4  ~/.gitignore
-|4,39,24,4,1735240922,"~/.gitignore"
--'  25  4  ~/.gitignore
-|4,39,25,4,1735240922,"~/.gitignore"
--'  24  4  ~/.gitignore
-|4,39,24,4,1735240922,"~/.gitignore"
--'  24  4  ~/.gitignore
-|4,39,24,4,1735240922,"~/.gitignore"
--'  25  4  ~/.gitignore
-|4,39,25,4,1735240922,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735240874,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735240844,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240844,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240844,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240844,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240844,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240844,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735240844,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1735240844,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735240844,"~/.gitignore"
--'  23  0  ~/.gitignore
-|4,39,23,0,1735240844,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1735240844,"~/.gitignore"
--'  24  0  ~/.gitignore
-|4,39,24,0,1735240844,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735240838,"~/.gitignore"
--'  22  0  ~/.gitignore
-|4,39,22,0,1735240795,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
+-'  18  17  ~/.gitignore
+|4,39,18,17,1735242527,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735242527	0
-	"	18	17
-	^	18	18
-	.	18	17
+	*	1735242924	0
+	"	30	15
+	^	30	16
+	.	30	15
 	+	39	0
 	+	36	5
 	+	48	7
@@ -514,6 +516,23 @@ $
 	+	30	8
 	+	31	0
 	+	18	17
+	+	22	0
+	+	26	19
+	+	27	15
+	+	28	19
+	+	29	15
+	+	30	15
+
+> ~/.gitconfig
+	*	1735242820	0
+	"	1	0
+
+> ~/.gitignore_global
+	*	1735242816	0
+	"	2	0
+	^	2	7
+	.	2	6
+	+	2	6
 
 > ~/.config/.gi
 	*	1735239953	0
@@ -546,13 +565,6 @@ $
 > ~/.hidpi-disable
 	*	1735147748	0
 	"	8	0
-
-> ~/.gitignore_global
-	*	1735147160	0
-	"	1	0
-	^	2	7
-	.	2	6
-	+	2	6
 
 > ~/.zshrc
 	*	1735098364	0
@@ -1543,7 +1555,3 @@ $
 	^	8	10
 	.	8	9
 	+	8	9
-
-> ~/.gitconfig
-	*	1711760175	0
-	"	5	16

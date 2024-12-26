@@ -23,8 +23,8 @@
 
 # Unignore only the config file in .ssh
 !.ssh/config
-!.config/alacritty
-!.config/copyq
-!.config/legendary
-!.config/skhd
-!.config/yabai
+!.config/alacritty/*
+!.config/copyq/*
+!.config/legendary/*
+!.config/skhdi/*
+!.config/yabai/*
