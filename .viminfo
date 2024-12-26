@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735239998,,"wq"
+|2,0,1735240202,,"wq"
 :q
 |2,0,1735239979,,"q"
 :q!
@@ -206,28 +206,32 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  16  0  ~/.gitignore
-|4,48,16,0,1735239998,"~/.gitignore"
-'1  8  0  ~/.git
-|4,49,8,0,1735239979,"~/.git"
-'2  1  0  ~/.config/.gi
-|4,50,1,0,1735239955,"~/.config/.gi"
-'3  1  0  ~/Git/gitlab2025_token.txt
-|4,51,1,0,1735239814,"~/Git/gitlab2025_token.txt"
-'4  18  0  ~/.gitignore
-|4,52,18,0,1735232181,"~/.gitignore"
-'5  17  0  ~/.gitignore
-|4,53,17,0,1735232181,"~/.gitignore"
-'6  5  0  ~/Markdown/vault.md
-|4,54,5,0,1735229807,"~/Markdown/vault.md"
-'7  19  0  ~/.gitignore
-|4,55,19,0,1735149828,"~/.gitignore"
-'8  18  0  ~/.gitignore
-|4,56,18,0,1735149828,"~/.gitignore"
-'9  8  0  ~/.gitignore
-|4,57,8,0,1735149779,"~/.gitignore"
+'0  16  9  ~/.gitignore
+|4,48,16,9,1735240202,"~/.gitignore"
+'1  16  0  ~/.gitignore
+|4,49,16,0,1735239998,"~/.gitignore"
+'2  8  0  ~/.git
+|4,50,8,0,1735239979,"~/.git"
+'3  1  0  ~/.config/.gi
+|4,51,1,0,1735239955,"~/.config/.gi"
+'4  1  0  ~/Git/gitlab2025_token.txt
+|4,52,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+'5  18  0  ~/.gitignore
+|4,53,18,0,1735232181,"~/.gitignore"
+'6  17  0  ~/.gitignore
+|4,54,17,0,1735232181,"~/.gitignore"
+'7  18  0  ~/.gitignore
+|4,55,18,0,1735232181,"~/.gitignore"
+'8  17  0  ~/.gitignore
+|4,56,17,0,1735232181,"~/.gitignore"
+'9  5  0  ~/Markdown/vault.md
+|4,57,5,0,1735229807,"~/Markdown/vault.md"
 
 # Jumplist (newest first):
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735240202,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240105,"~/.gitignore"
 -'  16  0  ~/.gitignore
 |4,39,16,0,1735239998,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -236,6 +240,18 @@ $
 |4,39,8,0,1735239979,"~/.git"
 -'  8  0  ~/.git
 |4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  1  0  ~/.config/.gi
+|4,39,1,0,1735239955,"~/.config/.gi"
+-'  1  0  ~/.config/.gi
+|4,39,1,0,1735239955,"~/.config/.gi"
+-'  1  0  ~/.config/.gi
+|4,39,1,0,1735239955,"~/.config/.gi"
+-'  1  0  ~/.config/.gi
+|4,39,1,0,1735239955,"~/.config/.gi"
 -'  1  0  ~/.config/.gi
 |4,39,1,0,1735239955,"~/.config/.gi"
 -'  1  0  ~/.config/.gi
@@ -260,6 +276,26 @@ $
 |4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
 -'  1  0  ~/Git/gitlab2025_token.txt
 |4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  1  0  ~/Git/gitlab2025_token.txt
+|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
+-'  18  0  ~/.gitignore
+|4,39,18,0,1735232181,"~/.gitignore"
+-'  17  0  ~/.gitignore
+|4,39,17,0,1735232181,"~/.gitignore"
 -'  18  0  ~/.gitignore
 |4,39,18,0,1735232181,"~/.gitignore"
 -'  17  0  ~/.gitignore
@@ -310,6 +346,38 @@ $
 |4,39,5,0,1735229807,"~/Markdown/vault.md"
 -'  5  0  ~/Markdown/vault.md
 |4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
+-'  5  0  ~/Markdown/vault.md
+|4,39,5,0,1735229807,"~/Markdown/vault.md"
 -'  1  0  ~/Markdown/vault.md
 |4,39,1,0,1735228709,"~/Markdown/vault.md"
 -'  1  0  ~/Markdown/vault.md
@@ -342,100 +410,32 @@ $
 |4,39,1,0,1735228709,"~/Markdown/vault.md"
 -'  1  0  ~/Markdown/vault.md
 |4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  19  0  ~/.gitignore
-|4,39,19,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735149828,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1735149820,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1735149779,"~/.gitignore"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  1  0  ~/Markdown/vault.md
+|4,39,1,0,1735228709,"~/Markdown/vault.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735239996	0
-	"	16	0
-	^	16	1
-	.	16	1
+	*	1735240201	0
+	"	16	9
+	^	16	10
+	.	16	9
 	+	33	0
 	+	30	5
 	+	42	7
@@ -461,7 +461,7 @@ $
 	+	9	18
 	+	14	8
 	+	17	13
-	+	16	1
+	+	16	9
 
 > ~/.config/.gi
 	*	1735239953	0
