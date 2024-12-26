@@ -13,8 +13,7 @@
 !.hammerspoon
 !.parsec
 !.putty
-!/.config/
-!/.config/*
+!*.config/*
 !/Markdown/
 !/Markdown/*
 
