@@ -14,11 +14,14 @@
 !.parsec
 !.putty
 !/.config/
+!/.config/*
 !/Markdown/
 !/Markdown/*
 
 # Ignore the entire .ssh directory
 .ssh/
+/.config/htop/
+/.config/htop/*
 
 # Unignore only the config file in .ssh
 !.ssh/config

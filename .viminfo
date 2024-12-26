@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1735240202,,"wq"
+|2,0,1735240567,,"wq"
 :q
 |2,0,1735239979,,"q"
 :q!
@@ -155,37 +155,37 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	!/Markdown
-|3,1,0,1,1,0,1735239978,"!/Markdown"
-"1	LINE	0
-	!/Markdown
-|3,0,1,1,1,0,1735149824,"!/Markdown"
+"0	LINE	0
+	./config/htop/*
+|3,0,0,1,1,0,1735240537,"./config/htop/*"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1735240540,""
 "2	LINE	0
-	!/.ssh/config
-|3,0,2,1,1,0,1735148951,"!/.ssh/config"
+	!/Markdown
+|3,0,2,1,1,0,1735149824,"!/Markdown"
 "3	LINE	0
-	# Note: requires bashcompinit to enable this bash style autocomplete function
-|3,0,3,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
+	!/.ssh/config
+|3,0,3,1,1,0,1735148951,"!/.ssh/config"
 "4	LINE	0
-	# in ~/.ssh/config and ~/.ssh/known_hosts
-|3,0,4,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
+	# Note: requires bashcompinit to enable this bash style autocomplete function
+|3,0,4,1,1,0,1735098074,"# Note: requires bashcompinit to enable this bash style autocomplete function"
 "5	LINE	0
-	# with this _complete_ssh_hosts function which looks for hosts
-|3,0,5,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
+	# in ~/.ssh/config and ~/.ssh/known_hosts
+|3,0,5,1,1,0,1735098071,"# in ~/.ssh/config and ~/.ssh/known_hosts"
 "6	LINE	0
-	# replace the default ssh autocomplete that comes from compinit 
-|3,0,6,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
+	# with this _complete_ssh_hosts function which looks for hosts
+|3,0,6,1,1,0,1735098070,"# with this _complete_ssh_hosts function which looks for hosts"
 "7	LINE	0
-	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
-|3,0,7,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+	# replace the default ssh autocomplete that comes from compinit 
+|3,0,7,1,1,0,1735098070,"# replace the default ssh autocomplete that comes from compinit "
 "8	LINE	0
+	            awk '{split($1,aliases,","); if (aliases[1] !~ /^\[/) print aliases[1]}' ~/.ssh/known_hosts ;
+|3,0,8,1,1,0,1735072431,"            awk '{split($1,aliases,\",\"); if (aliases[1] !~ /^\\[/) print aliases[1]}' ~/.ssh/known_hosts ;"
+"9	LINE	0
 	complete -F _complete_ssh_hosts ssh
 	
-|3,0,8,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1735072380,""
+|3,0,9,1,2,0,1735072393,"complete -F _complete_ssh_hosts ssh",""
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -206,28 +206,66 @@ $
 |3,0,36,0,1,0,1735060955,"}"
 
 # File marks:
-'0  16  9  ~/.gitignore
-|4,48,16,9,1735240202,"~/.gitignore"
-'1  16  0  ~/.gitignore
-|4,49,16,0,1735239998,"~/.gitignore"
-'2  8  0  ~/.git
-|4,50,8,0,1735239979,"~/.git"
-'3  1  0  ~/.config/.gi
-|4,51,1,0,1735239955,"~/.config/.gi"
-'4  1  0  ~/Git/gitlab2025_token.txt
-|4,52,1,0,1735239814,"~/Git/gitlab2025_token.txt"
-'5  18  0  ~/.gitignore
-|4,53,18,0,1735232181,"~/.gitignore"
-'6  17  0  ~/.gitignore
-|4,54,17,0,1735232181,"~/.gitignore"
-'7  18  0  ~/.gitignore
-|4,55,18,0,1735232181,"~/.gitignore"
-'8  17  0  ~/.gitignore
-|4,56,17,0,1735232181,"~/.gitignore"
-'9  5  0  ~/Markdown/vault.md
-|4,57,5,0,1735229807,"~/Markdown/vault.md"
+'0  23  1  ~/.gitignore
+|4,48,23,1,1735240567,"~/.gitignore"
+'1  24  14  ~/.gitignore
+|4,49,24,14,1735240526,"~/.gitignore"
+'2  23  14  ~/.gitignore
+|4,50,23,14,1735240526,"~/.gitignore"
+'3  24  13  ~/.gitignore
+|4,51,24,13,1735240516,"~/.gitignore"
+'4  23  13  ~/.gitignore
+|4,52,23,13,1735240516,"~/.gitignore"
+'5  16  0  ~/.gitignore
+|4,53,16,0,1735240446,"~/.gitignore"
+'6  16  0  ~/.gitignore
+|4,54,16,0,1735240446,"~/.gitignore"
+'7  16  0  ~/.gitignore
+|4,55,16,0,1735240446,"~/.gitignore"
+'8  16  0  ~/.gitignore
+|4,56,16,0,1735240446,"~/.gitignore"
+'9  16  0  ~/.gitignore
+|4,57,16,0,1735240446,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  23  1  ~/.gitignore
+|4,39,23,1,1735240567,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240531,"~/.gitignore"
+-'  24  14  ~/.gitignore
+|4,39,24,14,1735240526,"~/.gitignore"
+-'  23  14  ~/.gitignore
+|4,39,23,14,1735240526,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240521,"~/.gitignore"
+-'  23  13  ~/.gitignore
+|4,39,23,13,1735240516,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240486,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1735240446,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1735240446,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1735240446,"~/.gitignore"
+-'  16  0  ~/.gitignore
+|4,39,16,0,1735240446,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240425,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
+-'  17  10  ~/.gitignore
+|4,39,17,10,1735240408,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1735240348,"~/.gitignore"
+-'  16  9  ~/.gitignore
+|4,39,16,9,1735240202,"~/.gitignore"
 -'  16  9  ~/.gitignore
 |4,39,16,9,1735240202,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -244,224 +282,191 @@ $
 |4,39,8,0,1735239979,"~/.git"
 -'  8  0  ~/.git
 |4,39,8,0,1735239979,"~/.git"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/.config/.gi
-|4,39,1,0,1735239955,"~/.config/.gi"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  1  0  ~/Git/gitlab2025_token.txt
-|4,39,1,0,1735239814,"~/Git/gitlab2025_token.txt"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  18  0  ~/.gitignore
-|4,39,18,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  17  0  ~/.gitignore
-|4,39,17,0,1735232181,"~/.gitignore"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  5  0  ~/Markdown/vault.md
-|4,39,5,0,1735229807,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
--'  1  0  ~/Markdown/vault.md
-|4,39,1,0,1735228709,"~/Markdown/vault.md"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1735239979,"~/.git"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1735240201	0
-	"	16	9
-	^	16	10
-	.	16	9
-	+	33	0
-	+	30	5
-	+	42	7
-	+	30	5
-	+	22	0
-	+	23	0
-	+	24	0
+	*	1735240566	0
+	"	23	1
+	^	24	2
+	.	24	1
+	+	36	0
+	+	33	5
+	+	45	7
+	+	33	5
 	+	25	0
 	+	26	0
+	+	27	0
 	+	28	0
+	+	29	0
+	+	31	0
+	+	21	0
 	+	20	0
-	+	19	0
-	+	32	0
-	+	43	8
-	+	44	4
-	+	45	4
-	+	47	8
-	+	48	8
+	+	35	0
+	+	46	8
+	+	47	4
+	+	48	4
+	+	50	8
+	+	51	8
 	+	1	19
-	+	19	0
+	+	20	0
 	+	4	10
-	+	19	0
+	+	20	0
 	+	9	18
 	+	14	8
-	+	17	13
-	+	16	9
+	+	18	13
+	+	16	10
+	+	17	10
+	+	24	14
+	+	22	5
+	+	23	1
+	+	24	1
 
 > ~/.config/.gi
 	*	1735239953	0
