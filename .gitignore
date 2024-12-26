@@ -15,6 +15,7 @@
 !.putty
 !/Markdown/
 !/Markdown/*
+!.github/README.md
 
 # Ignore the entire .ssh directory
 .ssh/
