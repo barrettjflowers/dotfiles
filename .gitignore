@@ -21,5 +21,11 @@
 
 # Unignore only the config file in .ssh
 !.ssh/config
+
+# Unignore .config directory and its contents
+!/.config
 !/.config/**
-!.github/**
+
+# Unignore .github directory and its contents
+!/.github
+!/.github/**
