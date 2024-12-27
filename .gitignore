@@ -15,16 +15,11 @@
 !.putty
 !/Markdown/
 !/Markdown/*
-!.github/README.md
 
 # Ignore the entire .ssh directory
 .ssh/
-.config/
 
 # Unignore only the config file in .ssh
 !.ssh/config
-!.config/alacritty/*
-!.config/copyq/*
-!.config/legendary/*
-!.config/skhdi/*
-!.config/yabai/*
+!/.config/**
+!.github/**
