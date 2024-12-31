@@ -10,7 +10,7 @@ alias fman='bash -c '\''compgen -c | fzf | xargs man'\'
 alias fd='cd $(find . -maxdepth 2 -type d -not -name '.Trash' 2>/dev/null | fzf)'
 
 #ntfy
-alias ntfy='curl ntfy.barrettjflowers.net/homelab -d '\''Default Notification.'\'
+alias ntfy="~/.ntfy.sh"
 
 #vi-mode
 bindkey -v '^?' backward-delete-char
@@ -21,8 +21,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 #AUTOCOMPLETE
 autoload -Uz compinit; compinit
-
-# enable bash style autocomplete
 autoload -Uz bashcompinit; bashcompinit
 
 _complete_ssh_hosts ()
