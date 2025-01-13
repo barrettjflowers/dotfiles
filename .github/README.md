@@ -66,7 +66,11 @@ Hunt down social media accounts by username across social networks. \
 **tmux** \
 Terminal multiplexer. \
 `brew install tmux`\
-_See_ `.tmux.conf`
+_See_ `.tmux.conf` \
+
+**ranger** \
+CLI file browser equiped with vim motions. \
+`brew install ranger`
 
 ### System Preferences
 Appearance > Sidebar icon size: `Medium`

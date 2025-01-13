@@ -2,26 +2,31 @@
 PROMPT=$'%F{172}%B%n %F{253}%~ >\n%F{172}$%b%f '
 
 #ALIAS
-alias finder='open -a Finder ""'
-
 #-------------------#
+alias vim='nvim'
+alias finder='open -a Finder ""'
+alias arc='open -a "Arc" ""'
+alias netrw='vim .'
+
 #fzf
 alias fman='bash -c '\''compgen -c | fzf | xargs man'\'
-alias fd='cd $(find . -maxdepth 2 -type d -not -name '.Trash' 2>/dev/null | fzf)'
+alias fd='cd $(find . -maxdepth 3 -type d -not -name '.Trash' 2>/dev/null | fzf)'
 
 #ntfy
 alias ntfy="~/.ntfy.sh"
 
 #vi-mode
 bindkey -v '^?' backward-delete-char
-
-#paths
-export PATH="$HOME/.cargo/bin:$PATH"
 #-------------------#
+
+#ENV VARIABLES
+export PATH="$HOME/.cargo/bin:$PATH"
+export EDITOR=code;
 
 #AUTOCOMPLETE
 autoload -Uz compinit; compinit
 autoload -Uz bashcompinit; bashcompinit
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 _complete_ssh_hosts ()
 {
