@@ -1,14 +1,14 @@
 #PROMPT
-PROMPT=$'%F{172}%B%n %F{253}%~ >\n%F{172}$%b%f '
+PROMPT=$'%F{172}%B%n %F{253}%~ ↓\n%F{172}$%b%f '
 
 #ALIASES
 #-------------------#
-alias vim='nvim'
+alias vim='code'
 alias finder='open -a Finder ""'
 alias netrw='vim .'
-
 alias win='~/.windows.sh'
 
+#tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
 alias github-token='cat ~/.git-tokens/github | pbcopy'
 
@@ -16,7 +16,7 @@ alias github-token='cat ~/.git-tokens/github | pbcopy'
 alias fman='bash -c '\''compgen -c | fzf | xargs man'\'
 alias fd='cd $(find . -maxdepth 3 -type d -not -name '.Trash' 2>/dev/null | fzf)'
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf | xargs -I{} zsh -ic {}'
-alias fcode='code $(fzf)'
+alias fvim='code $(fzf)'
 
 #ntfy
 alias ntfy="~/.ntfy.sh"
