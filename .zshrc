@@ -1,5 +1,28 @@
+# ~/.zshrc
+
+# Find and set branch name var if in git repository.
+function git_branch_name()
+{
+  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ $branch == "" ]];
+  then
+    :
+  else
+    echo ''$branch''
+  fi
+}
+
+# Enable substitution in the prompt.
+setopt prompt_subst
+
+# Config for prompt. PS1 synonym.
+# prompt='%2/ $(git_branch_name) > '
+
 #PROMPT
-PROMPT=$'%F{172}%B%n %F{253}%~ ↓\n%F{172}$%b%f '
+prompt=$'%F{172}%B%n %F{253}%~ › %F{108}$(git_branch_name)%f ↓\n%F{172}→%b%f '
+
+#SOURCES
+source ~/.fzf-tab/fzf-tab.plugin.zsh
 
 #ALIASES
 #-------------------#
@@ -13,9 +36,9 @@ alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
 alias github-token='cat ~/.git-tokens/github | pbcopy'
 
 #fzf
-alias fman='bash -c '\''compgen -c | fzf | xargs man'\'
-alias fd='cd $(find . -maxdepth 3 -type d -not -name '.Trash' 2>/dev/null | fzf)'
-alias falias='alias | awk -F= '\''{print $1}'\'' | fzf | xargs -I{} zsh -ic {}'
+alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'
+alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf --height 20 --no-preview)"'
+alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
 
 #ntfy
@@ -28,6 +51,8 @@ bindkey -v '^?' backward-delete-char
 #ENV VARIABLES
 export PATH="$HOME/.cargo/bin:$PATH"
 export EDITOR=code;
+export FZF_DEFAULT_OPTS="--preview 'bat --style=numbers --color=always {}' --border --height=100% --preview-window=right:60%"
+export FZF_DEFAULT_COMMAND="find . -type f ! -name '.DS_Store'"
 
 #AUTOCOMPLETE
 autoload -Uz compinit; compinit

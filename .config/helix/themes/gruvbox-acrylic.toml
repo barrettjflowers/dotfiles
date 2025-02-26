@@ -1,0 +1,9 @@
+inherits = "gruvbox"
+
+"ui.background" = {}
+"ui.selection" = { bg = "bg2" }
+"ui.cursor.primary" = { bg = "fg4", fg = "bg1" }
+"ui.cursor.match" = { bg = "bg3" }
+"comment" = {}
+
+# testing!
