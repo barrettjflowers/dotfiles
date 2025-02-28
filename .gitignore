@@ -4,6 +4,7 @@
 # Except...
 !*.vimrc
 !*.vim
+!*.zshrc
 !*.bashrc
 !.gitignore
 !.gitignore_global
