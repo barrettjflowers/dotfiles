@@ -12,6 +12,10 @@ function git_branch_name()
   fi
 }
 
+# history
+HISTSIZE=10000
+SAVEHIST=10000
+
 # ls colors
 export CLICOLOR=1
 export LSCOLORS="GxExCxDxBxagacad"
@@ -32,7 +36,11 @@ source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 alias vim='code'
 alias finder='open -a Finder ""'
 alias netrw='vim .'
-alias win='~/.windows.sh'
+alias win='~/.scripts/.windows.sh'
+alias wol='~/.scripts/.wol.sh'
+
+# ntfy
+alias ntfy="~/.scripts/.ntfy.sh"
 
 # tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
@@ -43,9 +51,6 @@ alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'
 alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf --height 20 --no-preview)"'
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
-
-# ntfy
-alias ntfy="~/.ntfy.sh"
 
 # vi-mode
 bindkey -v '^?' backward-delete-char
