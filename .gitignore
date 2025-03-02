@@ -16,10 +16,11 @@
 !.putty
 !/Markdown/
 !/Markdown/*
+!/.scripts/
+!/.scripts/*
 
 # Ignore the entire .ssh directory
 .ssh/
-
 # Unignore only the config file in .ssh
 !.ssh/config
 
