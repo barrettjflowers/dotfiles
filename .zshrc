@@ -78,3 +78,5 @@ _complete_ssh_hosts ()
         return 0
 }
 complete -F _complete_ssh_hosts ssh
+export PATH="/Users/barrettjflowers/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/Users/barrettjflowers/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
