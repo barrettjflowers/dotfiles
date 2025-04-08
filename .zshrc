@@ -52,6 +52,9 @@ alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
 
+# sed
+#alias sed='gsed'
+
 # vi-mode
 bindkey -v '^?' backward-delete-char
 #-------------------#

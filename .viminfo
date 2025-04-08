@@ -11,14 +11,14 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\/
+~MSle0~/index
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1739754462,,"q!"
+|2,0,1743084356,,"q!"
 :q
 |2,0,1739754459,,"q"
 :w
@@ -89,6 +89,8 @@ $
 |2,0,1701567819,,"help"
 
 # Search String History (newest to oldest):
+?/index
+|2,1,1743084309,47,"index"
 ? \/
 |2,1,1735242914,,"\\/"
 ? @$
@@ -228,28 +230,42 @@ $
 |3,0,36,0,1,0,1735675175,"n"
 
 # File marks:
-'0  1  1  /private/etc/hosts
-|4,48,1,1,1739737717,"/private/etc/hosts"
-'1  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,49,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+'0  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,48,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+'1  1  1  /private/etc/hosts
+|4,49,1,1,1739737717,"/private/etc/hosts"
 '2  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,50,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
-'3  2  0  ~/.config/ranger/rc.conf
-|4,51,2,0,1736792025,"~/.config/ranger/rc.conf"
-'4  1  0  ~/.config/ranger/rc.conf
-|4,52,1,0,1736792012,"~/.config/ranger/rc.conf"
+|4,50,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+'3  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,51,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+'4  2  0  ~/.config/ranger/rc.conf
+|4,52,2,0,1736792025,"~/.config/ranger/rc.conf"
 '5  1  0  ~/.config/ranger/rc.conf
 |4,53,1,0,1736792012,"~/.config/ranger/rc.conf"
-'6  1  11  ~/.config/ranger/rc.conf
-|4,54,1,11,1736792007,"~/.config/ranger/rc.conf"
+'6  1  0  ~/.config/ranger/rc.conf
+|4,54,1,0,1736792012,"~/.config/ranger/rc.conf"
 '7  1  11  ~/.config/ranger/rc.conf
 |4,55,1,11,1736792007,"~/.config/ranger/rc.conf"
-'8  16  0  ~/.config/nvim/lua/lazy-package.lua
-|4,56,16,0,1736127630,"~/.config/nvim/lua/lazy-package.lua"
-'9  2  17  ~/.config/nvim/lua/lazy-package.lua
-|4,57,2,17,1736126215,"~/.config/nvim/lua/lazy-package.lua"
+'8  1  11  ~/.config/ranger/rc.conf
+|4,56,1,11,1736792007,"~/.config/ranger/rc.conf"
+'9  16  0  ~/.config/nvim/lua/lazy-package.lua
+|4,57,16,0,1736127630,"~/.config/nvim/lua/lazy-package.lua"
 
 # Jumplist (newest first):
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  1  /private/etc/hosts
+|4,39,1,1,1739737717,"/private/etc/hosts"
+-'  1  1  /private/etc/hosts
+|4,39,1,1,1739737717,"/private/etc/hosts"
+-'  1  1  /private/etc/hosts
+|4,39,1,1,1739737717,"/private/etc/hosts"
+-'  1  1  /private/etc/hosts
+|4,39,1,1,1739737717,"/private/etc/hosts"
 -'  1  1  /private/etc/hosts
 |4,39,1,1,1739737717,"/private/etc/hosts"
 -'  1  1  /private/etc/hosts
@@ -275,6 +291,34 @@ $
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
 |4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
 |4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
 |4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
@@ -290,6 +334,10 @@ $
 |4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
 |4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
 -'  2  0  ~/.config/ranger/rc.conf
 |4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
 -'  2  0  ~/.config/ranger/rc.conf
@@ -354,102 +402,62 @@ $
 |4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
 -'  2  0  ~/.config/ranger/rc.conf
 |4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792020,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1736792012,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+-'  2  0  ~/.config/ranger/rc.conf
+|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
 
 # History of marks within files (newest to oldest):
+
+> ~/Dev/v3/crates/app-secure/run.sh
+	*	1743084354	0
+	"	13	52
 
 > /private/etc/hosts
 	*	1739737717	0
@@ -1557,7 +1565,3 @@ $
 	^	1	1
 	.	1	0
 	+	1	0
-
-> ~/.dotfiles/.git/objects/24/49108f5097763926d564ebdd63a83f44ac0e83
-	*	1714673178	0
-	"	1	0
