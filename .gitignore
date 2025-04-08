@@ -27,6 +27,7 @@
 # Unignore .config directory and its contents
 !/.config
 !/.config/**
+/.config/herd-lite
 
 # Unignore .github directory and its contents
 !/.github
