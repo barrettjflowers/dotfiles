@@ -17,14 +17,14 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1744491010,,"wq"
 :q!
 |2,0,1743084356,,"q!"
 :q
 |2,0,1739754459,,"q"
 :w
 |2,0,1739737653,,"w"
-:wq
-|2,0,1736127630,,"wq"
 :set paste
 |2,0,1736125117,,"set paste"
 :help 'statuscolumn'
@@ -174,39 +174,40 @@ $
 	    IdentityFile none
 	
 |3,0,0,1,7,0,1735530346,"#Homelab","Host wildflower","    Hostname 192.168.149.165","    User Server","    Port 22","    IdentityFile none",""
-""1	LINE	0
-	one-of-a-kind
-|3,1,1,1,1,0,1739754458,"one-of-a-kind"
+"1	LINE	0
+	192.168.149.165 wildflower
+	192.168.149.136 riverstone
+|3,0,1,1,2,0,1744490948,"192.168.149.165 wildflower","192.168.149.136 riverstone"
 "2	LINE	0
-	adsasd asd 
-|3,0,2,1,1,0,1739754227,"adsasd asd "
+	one-of-a-kind
+|3,0,2,1,1,0,1739754458,"one-of-a-kind"
 "3	LINE	0
+	adsasd asd 
+|3,0,3,1,1,0,1739754227,"adsasd asd "
+"4	LINE	0
 	Host emulation
 	    Hostname 192.168.149.200
 	    User link
 	    Port 22
 	    IdentityFile none
 	
-|3,0,3,1,6,0,1735673889,"Host emulation","    Hostname 192.168.149.200","    User link","    Port 22","    IdentityFile none",""
-"4	LINE	0
-	    Port 22
-	
-|3,0,4,1,2,0,1735673854,"    Port 22",""
+|3,0,4,1,6,0,1735673889,"Host emulation","    Hostname 192.168.149.200","    User link","    Port 22","    IdentityFile none",""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1735673854,""
-"6	LINE	0
 	    Port 22
-|3,0,6,1,1,0,1735673853,"    Port 22"
+	
+|3,0,5,1,2,0,1735673854,"    Port 22",""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1735673854,""
 "7	LINE	0
-	    User root
-|3,0,7,1,1,0,1735673852,"    User root"
+	    Port 22
+|3,0,7,1,1,0,1735673853,"    Port 22"
 "8	LINE	0
-	    Hostname 67.220.73.114
-|3,0,8,1,1,0,1735673852,"    Hostname 67.220.73.114"
+	    User root
+|3,0,8,1,1,0,1735673852,"    User root"
 "9	LINE	0
-	Host igw-archipelago
-|3,0,9,1,1,0,1735673851,"Host igw-archipelago"
+	    Hostname 67.220.73.114
+|3,0,9,1,1,0,1735673852,"    Hostname 67.220.73.114"
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -225,37 +226,97 @@ $
 "w	CHAR	0
 	ww
 |3,0,32,0,1,0,1701567995,"ww"
-"-	CHAR	0
-	n
-|3,0,36,0,1,0,1735675175,"n"
+""-	CHAR	0
+	7
+|3,1,36,0,1,0,1744490976,"7"
 
 # File marks:
-'0  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,48,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
-'1  1  1  /private/etc/hosts
-|4,49,1,1,1739737717,"/private/etc/hosts"
-'2  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,50,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
-'3  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,51,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
-'4  2  0  ~/.config/ranger/rc.conf
-|4,52,2,0,1736792025,"~/.config/ranger/rc.conf"
-'5  1  0  ~/.config/ranger/rc.conf
-|4,53,1,0,1736792012,"~/.config/ranger/rc.conf"
-'6  1  0  ~/.config/ranger/rc.conf
-|4,54,1,0,1736792012,"~/.config/ranger/rc.conf"
-'7  1  11  ~/.config/ranger/rc.conf
-|4,55,1,11,1736792007,"~/.config/ranger/rc.conf"
-'8  1  11  ~/.config/ranger/rc.conf
-|4,56,1,11,1736792007,"~/.config/ranger/rc.conf"
-'9  16  0  ~/.config/nvim/lua/lazy-package.lua
-|4,57,16,0,1736127630,"~/.config/nvim/lua/lazy-package.lua"
+'0  12  14  /private/etc/hosts
+|4,48,12,14,1744491010,"/private/etc/hosts"
+'1  12  14  /private/etc/hosts
+|4,49,12,14,1744490978,"/private/etc/hosts"
+'2  12  14  /private/etc/hosts
+|4,50,12,14,1744490959,"/private/etc/hosts"
+'3  12  14  /private/etc/hosts
+|4,51,12,14,1744490959,"/private/etc/hosts"
+'4  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,52,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+'5  1  1  /private/etc/hosts
+|4,53,1,1,1739737717,"/private/etc/hosts"
+'6  1  1  /private/etc/hosts
+|4,54,1,1,1739737717,"/private/etc/hosts"
+'7  1  1  /private/etc/hosts
+|4,55,1,1,1739737717,"/private/etc/hosts"
+'8  1  1  /private/etc/hosts
+|4,56,1,1,1739737717,"/private/etc/hosts"
+'9  1  1  /private/etc/hosts
+|4,57,1,1,1739737717,"/private/etc/hosts"
 
 # Jumplist (newest first):
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744491005,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490978,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490971,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490959,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490935,"/private/etc/hosts"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  13  52  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
 -'  13  52  ~/Dev/v3/crates/app-secure/run.sh
 |4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
 -'  3  0  ~/Dev/v3/crates/app-secure/run.sh
 |4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  3  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,3,0,1743084309,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  ~/Dev/v3/crates/app-secure/run.sh
+|4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
 -'  1  0  ~/Dev/v3/crates/app-secure/run.sh
 |4,39,1,0,1743084307,"~/Dev/v3/crates/app-secure/run.sh"
 -'  1  1  /private/etc/hosts
@@ -307,163 +368,99 @@ $
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
 |4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 -'  1  0  ~/Dev/igwextension/net/nativehost.js
-|4,39,1,0,1736792103,"~/Dev/igwextension/net/nativehost.js"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
--'  2  0  ~/.config/ranger/rc.conf
-|4,39,2,0,1736792025,"~/.config/ranger/rc.conf"
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
+-'  1  0  ~/Dev/igwextension/net/nativehost.js
+|4,39,1,0,1736792113,"~/Dev/igwextension/net/nativehost.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/Dev/v3/crates/app-secure/run.sh
-	*	1743084354	0
-	"	13	52
-
 > /private/etc/hosts
-	*	1739737717	0
-	"	1	1
-	^	12	0
-	.	12	0
+	*	1744491010	0
+	"	12	14
+	^	12	15
+	.	12	14
 	+	20	0
 	+	20	14
 	+	10	23
@@ -486,20 +483,23 @@ $
 	+	7	0
 	+	9	0
 	+	20	0
-	+	11	26
-	+	12	24
+	+	13	26
+	+	13	24
 	+	19	28
 	+	14	13
 	+	15	0
-	+	12	25
+	+	13	25
 	+	15	29
 	+	16	20
 	+	15	0
 	+	16	0
+	+	13	0
 	+	11	0
-	+	12	0
-	+	11	0
-	+	12	0
+	+	12	14
+
+> ~/Dev/v3/crates/app-secure/run.sh
+	*	1743084354	0
+	"	13	52
 
 > ~/Dev/igwextension/net/nativehost.js
 	*	1736792113	0
