@@ -6,7 +6,7 @@ or just recalling what programs and scripts I commonly use.
 See `.gitignore` to add files. This repo is initialized in my home directory.
 
 ### Keyboard
-I use Hammerspoon with a program called vimspoon to give vim-like operations to my whole mac client.
+I use Hammerspoon with a program called vimspoon to give vim-like operations to my whole unix desktop.
 Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
 See `.hammerspoon` file for special configurations.
 
