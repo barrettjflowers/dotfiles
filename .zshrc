@@ -38,6 +38,7 @@ alias finder='open -a Finder ""'
 alias netrw='vim .'
 alias win='~/.scripts/.windows.sh'
 alias wol='~/.scripts/.wol.sh'
+alias gl='git log --all --oneline --graph'
 
 # ntfy
 alias ntfy="~/.scripts/.ntfy.sh"
@@ -51,9 +52,6 @@ alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'
 alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf --height 20 --no-preview)"'
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
-
-# sed
-#alias sed='gsed'
 
 # vi-mode
 bindkey -v '^?' backward-delete-char
