@@ -16,18 +16,12 @@ Ofcourse! Would this be a dotfiles repo without it? \
 A package manager for MacOS. \
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-**Magnet** \
+**Amythest** \
 A window manager.
-
-Modifier key: option \
-Snap Left: option + h \
-Snap Right: option + l \
-Snap Left 2/3: option + j \
-Snap Right 2/3: option + k \
-[https://magnet.crowdcafe.com/](https://magnet.crowdcafe.com/)
+`brew install --cask amethyst`
 
 **Monitor Control** \
-Used to control brightness of displays. \
+Used to control brightness of external displays. \
 `brew install --cask MonitorControl`
 
 **Proxy Audio Device** \
@@ -35,10 +29,10 @@ Routes all audio through a virtual audio device. \
 Useful for external displays, or audio interfaces. \
 `brew install --cask proxy-audio-device`
 
-**Clipy** \
-A clipboard manager. \
-History bind: c-v \
-`brew install --cask clipy`
+**Raycast** \
+Supercharged spotlight search \
+Clipboard history bind: c-v \
+`brew install --cask raycast`
 
 **Scroll Reverser**
 Maintains natural scrolling on trackpad without affecting mouse. \
