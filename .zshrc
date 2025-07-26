@@ -24,7 +24,7 @@ export LSCOLORS="GxExCxDxBxagacad"
 setopt prompt_subst
 
 # prompt
-prompt=$'%F{172}%B%n %F{253}%~ › %F{108}$(git_branch_name)%f ↓\n%F{172}→%b%f '
+prompt=$'%F{245}%B%n %F{245}%~ › %F{245}$(git_branch_name) ↓\n%F{245}→%b%f '
 
 # sources
 source ~/.fzf-tab/fzf-tab.plugin.zsh
@@ -81,3 +81,6 @@ _complete_ssh_hosts ()
 complete -F _complete_ssh_hosts ssh
 export PATH="/Users/barrettjflowers/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/barrettjflowers/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+# Created by `pipx` on 2025-05-08 23:31:57
+export PATH="$PATH:/Users/barrettjflowers/.local/bin"

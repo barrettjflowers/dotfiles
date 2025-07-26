@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE=$(date "+%a %b %d %I:%M %p")
+DATE=$(date "+%a %b %d %I:%M")
 
-sketchybar --set $NAME label="$DATE"
+sketchybar --set $NAME label="􀧞  $DATE"
