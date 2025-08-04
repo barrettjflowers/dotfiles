@@ -1,5 +1,6 @@
 #!/bin/bash
 
-DATE=$(date "+%a %b %d %I:%M")
+DATE=$(date "+%a %b %d | %I:%M")
 
 sketchybar --set $NAME label="􀧞  $DATE"
+    

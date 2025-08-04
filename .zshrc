@@ -19,12 +19,13 @@ SAVEHIST=10000
 # ls colors
 export CLICOLOR=1
 export LSCOLORS="GxExCxDxBxagacad"
+alias ls='COLUMNS=40 ls -C -G'
 
 # substitution
 setopt prompt_subst
 
 # prompt
-prompt=$'%F{245}%B%n %F{245}%~ › %F{245}$(git_branch_name) ↓\n%F{245}→%b%f '
+prompt=$'%F{145}%B%n %F{145}%~ › %F{145}$(git_branch_name) ↓\n%F{245}→%b%f '
 
 # sources
 source ~/.fzf-tab/fzf-tab.plugin.zsh
