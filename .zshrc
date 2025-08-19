@@ -1,3 +1,5 @@
+#-------------------#
+#-------------------#
 # ~/.zshrc
 
 # find and set branch name var if in git repository
@@ -19,13 +21,13 @@ SAVEHIST=10000
 # ls colors
 export CLICOLOR=1
 export LSCOLORS="GxExCxDxBxagacad"
-alias ls='COLUMNS=40 ls -C -G'
+alias ls='COLUMNS=60 ls -C -G'
 
 # substitution
 setopt prompt_subst
 
 # prompt
-prompt=$'%F{145}%B%n %F{145}%~ › %F{145}$(git_branch_name) ↓\n%F{245}→%b%f '
+prompt=$'%F{254}%B%F{254}%~ › %F{254}$(git_branch_name) \n%F{254}→%b%f '
 
 # sources
 source ~/.fzf-tab/fzf-tab.plugin.zsh
@@ -33,16 +35,17 @@ source ~/.fzf-tab/fzf-tab.plugin.zsh
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # alliases
-#-------------------#
-alias vim='code'
+#==============#
+alias vim='nvim'
 alias finder='open -a Finder ""'
-alias netrw='vim .'
 alias win='~/.scripts/.windows.sh'
 alias wol='~/.scripts/.wol.sh'
 alias gl='git log --all --oneline --graph'
+alias vimconf='nvim $NVIM_CONFIG'
 
 # ntfy
 alias ntfy="~/.scripts/.ntfy.sh"
+#==============#
 
 # tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
@@ -60,7 +63,7 @@ bindkey -v '^?' backward-delete-char
 
 # env vars, maybe move these to .zshenv eventually
 export PATH="$HOME/.cargo/bin:$PATH"
-export EDITOR=code;
+export EDITOR=nvim;
 export FZF_DEFAULT_OPTS="--preview 'bat --style=numbers --color=always {}' --border --height=100% --preview-window=right:60%"
 export FZF_DEFAULT_COMMAND="find . -type f ! -name '.DS_Store'"
 

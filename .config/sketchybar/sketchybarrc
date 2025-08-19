@@ -3,25 +3,42 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=30 \
+  height=32 \
   blur_radius=30 \
-  color=0x29000000 \
+  color=0x29000000\
   corner_radius=12 \
   margin=6 \
+  padding_left=6 \
+  padding_right=6 \
   y_offset=6 \
-  display=main
+  display=1
 
 # default styles
 default=(
   padding_left=4
   padding_right=4
-  icon.font="SF Pro Text:Bold:14.0"
-  label.font="SF Pro Text:Bold:14.0"
+  label.padding_left=6
+  label.padding_right=6
+  icon.padding_left=0
+  icon.padding_right=6
   icon.color=0xFFFFFFFF
   label.color=0xFFFFFFFF
+  background.corner_radius=5
+  background.height=18
+  background.width=20
+  icon.font="SF Pro Text:Bold:14.0"
+  label.font="SF Pro Text:Bold:14.0"
 )
+  #background.color=0x1AFFFFFF
 sketchybar --default "${default[@]}"
 
+# Personal Status
+sketchybar --add item focus left\
+           --set focus script="$PLUGIN_DIR/focus_status.sh" \
+             update_freq=5 \
+             label.drawing=on \
+             label.padding_left=0 \
+             label.padding_right=6
 # Spaces
 SPACE_ICONS=("􀥳" "􀌥" "􀪏" "4" "5" "6" "7" "8" "9")
 for i in "${!SPACE_ICONS[@]}"
@@ -30,19 +47,16 @@ do
   space=(
     space="$sid"
     icon="${SPACE_ICONS[i]}"
-    icon.padding_left=6
-    icon.padding_right=6
+    icon.padding_left=8
+    icon.padding_right=8
+    padding_left=4
+    padding_right=0
     background.corner_radius=5
-    background.height=18
     label.drawing=off
     script="$PLUGIN_DIR/space.sh"
   )
   sketchybar --add space space."$sid" left --set space."$sid" "${space[@]}"
 done
-
-# left items
-# sketchybar --add item chevron left \
-         #   --set chevron label.drawing=off
 
 sketchybar --add item front_app left \
            --set front_app icon.drawing=off script="$PLUGIN_DIR/front_app.sh" \
@@ -54,40 +68,35 @@ sketchybar --add event spotify_change $SPOTIFY_EVENT \
     icon.font="$FONT_FACE:Bold:20.0" \
     label.drawing=on \
     label.padding_left=4 \
+    padding_right=0 \
     script="$PLUGIN_DIR/spotify.sh" \
     update_freq=15 \
 
 # right items
+
 sketchybar --add item clock right \
-           --set clock update_freq=10 script="$PLUGIN_DIR/clock.sh"
+           --set clock update_freq=15 script="$PLUGIN_DIR/clock.sh" \
 
 sketchybar --add item battery right \
            --set battery \
              update_freq=120 \
              script="$PLUGIN_DIR/battery.sh" \
-             icon.padding_right=4 \
-             label.padding_left=4
+			 icon.padding_right=0 \
+			 padding_left=16
 
 sketchybar --add item weather right \
            --set weather script="$PLUGIN_DIR/weather.sh" \
-             update_freq=600 \
+             update_freq=1200 \
              icon.padding_left=6 \
              icon.padding_right=6 \
-             background.corner_radius=5 \
-             background.height=18
 
-sketchybar --add item focus right \
-           --set focus script="$PLUGIN_DIR/focus_status.sh" \
-             update_freq=10 \
-             label.drawing=on \
-             label.padding_left=4 \
-             label.padding_right=4
 
 sketchybar --add item cpu e \
            --set cpu \
              script="$PLUGIN_DIR/cpu.sh" \
              icon.drawing=off \
              label.padding_right=4 \
+             padding_left=0 \
              update_freq=30
 
 ##### Force Initial Update #####

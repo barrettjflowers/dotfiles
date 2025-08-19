@@ -1,0 +1,3 @@
+# Open .rs files with your Rust IDE/Editor
+ext rs, has nvim, terminal = nvim -- "$@"
+

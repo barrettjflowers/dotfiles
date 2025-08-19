@@ -4,11 +4,14 @@ vim.o.relativenumber = true
 vim.o.signcolumn = "yes"
 vim.o.termguicolors = true
 vim.o.wrap = false
-vim.o.tabstop = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
 vim.o.swapfile = false
 vim.g.mapleader = " "
 vim.o.winborder = "rounded"
-vim.o.clipboard = "unnamedplus"
+vim.o.clipboard = ""
+vim.opt.mouse = ""
 
 -- plugin management
 vim.pack.add({
@@ -19,7 +22,7 @@ vim.pack.add({
 	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/github/copilot.vim" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
-	{ src = "https://github.com/kevinhwang91/rnvimr" },
+	{ src = "https://github.com/stevearc/oil.nvim" },
 })
 
 vim.api.nvim_create_autocmd('LspAttach', {
@@ -35,26 +38,32 @@ vim.cmd("set completeopt+=noselect")
 -- init plugins
 require "mini.pick".setup()
 require"mason".setup()
+require "oil".setup()
 require "nvim-treesitter.configs".setup({
 	ensure_installed = { "svelte", "typescript", "javascript" },
 	highlight = { enable = true }
 })
--- repalce netrw with rnvimr (ranger)
-vim.g.rnvimr_enable_ex = 1
-vim.g.loaded_netrw = 1
 
 -- key mappings
 vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>')
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>")
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
-vim.keymap.set('n', '<leader>e', ":RnvimrToggle<CR>")
+vim.keymap.set('n', '<leader>g', ":Pick grep_live<CR>")
+vim.keymap.set('n', '<leader>e', ":Oil<CR>")
+
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
+vim.keymap.set('i', '<C-Space>', vim.lsp.buf.completion, { noremap = true, silent = true })
+
+-- tab sizes
+vim.keymap.set("n", "<leader>2", ":set tabstop=2 shiftwidth=2 softtabstop=2<CR>")
+vim.keymap.set("n", "<leader>4", ":set tabstop=4 shiftwidth=4 softtabstop=4<CR>")
 
 -- LSP configuration
 local lspconfig = require "lspconfig"
-lspconfig.ts_ls.setup({})
 lspconfig.lua_ls.setup({})
 lspconfig.rust_analyzer.setup({})
+lspconfig.eslint.setup({})
+lspconfig.ts_ls.setup({})
 
 -- styling
 require "vague".setup({ transparent = true })
