@@ -18,6 +18,10 @@ function git_branch_name()
 HISTSIZE=10000
 SAVEHIST=10000
 
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+
 # ls colors
 export CLICOLOR=1
 export LSCOLORS="GxExCxDxBxagacad"
@@ -56,6 +60,7 @@ alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'
 alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf --height 20 --no-preview)"'
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
+alias fzfh='history 100 | fzf --height 10 --no-preview'
 
 # vi-mode
 bindkey -v '^?' backward-delete-char

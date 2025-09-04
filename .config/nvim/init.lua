@@ -1,4 +1,4 @@
--- .config/nvim/init.lua
+-- ~/.config/nvim/init.lua
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.signcolumn = "yes"

@@ -3,13 +3,13 @@ PLUGIN_DIR="$CONFIG_DIR/plugins"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=35 \
-  blur_radius=0 \
-  color=0xFF000000 \
+  height=38 \
+  blur_radius=100 \
+  color=0x10000000\
   corner_radius=0 \
   margin=0 \
-  padding_left=0 \
-  padding_right=0 \
+  padding_left=6 \
+  padding_right=6 \
   y_offset=0 \
   topmost=on \
   display=1
@@ -40,9 +40,7 @@ sketchybar --add item focus left\
              update_freq=5 \
              label.drawing=on \
              label.padding_left=0 \
-			 padding.left=0 \
              label.padding_right=6
-
 # Spaces
 SPACE_ICONS=("􀥳" "􀌥" "􀪏" "4" "5" "6" "7" "8" "9")
 for i in "${!SPACE_ICONS[@]}"
@@ -63,31 +61,33 @@ do
 done
 
 sketchybar --add item front_app left \
-		   --animate sin 10 \
            --set front_app icon.drawing=off script="$PLUGIN_DIR/front_app.sh" \
 		   click_script="$PLUGIN_DIR/menu_items.sh" \
-		   label.padding_left=0 \
            --subscribe front_app front_app_switched
 
 sketchybar --add event spotify_change $SPOTIFY_EVENT \
     --add item spotify q \
     --set spotify \
+    icon.font="$FONT_FACE:Bold:20.0" \
     label.drawing=on \
-    label.padding_left=0 \
-	label.padding_right=8 \
-	padding_left=0 \
+    label.padding_left=4 \
     padding_right=0 \
-	background.color=0x1AFFFFFF \
-	background.height=22 \
     script="$PLUGIN_DIR/spotify.sh" \
 	click_script="osascript -e 'tell application \"Spotify\" to playpause'" \
     update_freq=15 \
 
-# Right Items
+# right items
+
 sketchybar --add item clock right \
            --set clock update_freq=15 script="$PLUGIN_DIR/clock.sh" \
 		   padding_left=0 \
 		   click_script="osascript -e 'tell application \"System Events\" to keystroke \"\\\\\" using {command down, shift down}'"
+
+sketchybar --add item control_center right \
+		   --set control_center label="􀜊" icon.font="$FONT_FACE:Bold:20.0" label.drawing=on \
+		   padding_right=0 \
+		   padding_left=0 \
+		   click_script="$PLUGIN_DIR/control_center.sh"
 
 sketchybar --add item battery right \
            --set battery \
@@ -95,76 +95,24 @@ sketchybar --add item battery right \
              script="$PLUGIN_DIR/battery.sh" \
 			 icon.padding_right=0 \
 			 padding_left=4 \
-			 icon.padding_left=4 \
 			 padding_right=0 \
-		     background.color=0x1AFFFFFF \
-		     background.height=22 \
-             update_freq=1200 \
 			 click_script="open -a 'AlDente'"
 
 sketchybar --add item weather right \
            --set weather script="$PLUGIN_DIR/weather.sh" \
-		   background.color=0x1AFFFFFF \
-		   background.height=22 \
              update_freq=1200 \
-             label.padding_left=0 \
-             label.padding_right=7 \
-
-sketchybar --add item appearance right \
-           --set appearance \
-             label="􀡎" \
-             click_script="$PLUGIN_DIR/appearance.sh" \
-             background.color=0x1AFFFFFF \
-             background.height=22 \
-             label.padding_left=0 \
-             label.padding_right=7
-
-# Bootleg control center
-
-sketchybar --add item control_center right \
-		   --set control_center \
-			 label="􀜊" \
-			 click_script="$PLUGIN_DIR/control_center.sh" \
-			 background.color=0x1AFFFFFF \
-			 background.height=22 \
-			 label.padding_left=0 \
-			 label.padding_right=7
-
-# this is really buggy
-#sketchybar --add item background right \
-#		   --set background \
-#		   width=130 \
-#		   clickable=off \
-#		   padding_right=5 \
-#           background.color=0x1AFFFFFF \
-#           background.height=22
-#
-#sketchybar --add item display right \
-#           --set display label="􀢹" \
-#		   padding_right=-125 \
-#		   click_script="open x-apple.systempreferences:com.apple.Displays-Settings.extension"
-#
-#sketchybar --add item wifi right \
-#           --set wifi label="􀙇" \
-#		   click_script="open x-apple.systempreferences:com.apple.wifi-settings-extension"
-#
-#sketchybar --add item bluetooth right \
-#           --set bluetooth label="􀌙" \
-#		   click_script="open x-apple.systempreferences:com.apple.preferences.Bluetooth"
+             icon.padding_left=4 \
+             icon.padding_right=4 \
 
 
-# Notch Items
 sketchybar --add item cpu e \
            --set cpu \
              script="$PLUGIN_DIR/cpu.sh" \
 			 click_script="alacritty -e btop" \
              icon.drawing=off \
-             label.padding_right=6 \
+             label.padding_right=4 \
              padding_left=0 \
-			 padding_right=4 \
-             update_freq=30 \
-		     background.color=0x1AFFFFFF \
-		     background.height=22 \
+             update_freq=30
 
 ##### Force Initial Update #####
 sketchybar --update

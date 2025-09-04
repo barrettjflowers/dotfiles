@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATE=$(date +"%a %-d %b %-l:%M")
+DATE=$(date +"%-m.%-d.%y │ %-l:%M")
 
 sketchybar --set $NAME label="$DATE" \
 icon.color=0xFF000000

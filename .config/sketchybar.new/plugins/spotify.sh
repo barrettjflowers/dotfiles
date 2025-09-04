@@ -4,12 +4,12 @@ if [ -n "$SONG_TEXT" ]; then
   if [ ${#SONG_TEXT} -gt 25 ]; then
     SONG_TEXT="${SONG_TEXT:0:25}..."
   fi
-  SONG="􁟽 $SONG_TEXT"
+  SONG="􀾭 $SONG_TEXT"
 else
-  SONG="􀝏"
+  SONG="􀾭"
 fi
 
 echo "$SONG"
-sketchybar --animate sin 20 --set spotify label="$SONG" \
+sketchybar --set spotify label="$SONG" \
   icon.color=0xFFFFFFFF \
   label.color=0xFFFFFFFF
