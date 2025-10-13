@@ -43,7 +43,6 @@ source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 alias vim='nvim'
 alias finder='open -a Finder ""'
 alias win='~/.scripts/.windows.sh'
-alias wol='~/.scripts/.wol.sh'
 alias gl='git log --all --oneline --graph'
 alias vimconf='nvim $NVIM_CONFIG'
 
@@ -60,7 +59,8 @@ alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'
 alias fd='cd "$(find . -maxdepth 3 -type d -not -name ".Trash" 2>/dev/null | fzf --height 20 --no-preview)"'
 alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview | xargs -I{} zsh -ic {}'
 alias fvim='code $(fzf)'
-alias fzfh='history 100 | fzf --height 10 --no-preview'
+alias fh='history 100 | fzf --height 20 --no-preview'
+alias ff='fzf'
 
 # vi-mode
 bindkey -v '^?' backward-delete-char
@@ -93,3 +93,7 @@ export PHP_INI_SCAN_DIR="/Users/barrettjflowers/.config/herd-lite/bin:$PHP_INI_S
 
 # Created by `pipx` on 2025-05-08 23:31:57
 export PATH="$PATH:/Users/barrettjflowers/.local/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
