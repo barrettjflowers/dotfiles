@@ -4,12 +4,9 @@ if [ -n "$SONG_TEXT" ]; then
   if [ ${#SONG_TEXT} -gt 25 ]; then
     SONG_TEXT="${SONG_TEXT:0:25}..."
   fi
-  SONG="$SONG_TEXT"
+  SONG="􁟽 $SONG_TEXT"
 else
-  SONG="No music playing"
-  sketchybar --set spotify \
-	  label.padding_left=0 \
-	  label.padding_right=8
+  SONG="􂙩 Spotify"
 fi
 
 echo "$SONG"

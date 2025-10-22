@@ -12,17 +12,12 @@ padding.y = 8
 
 decorations = "Buttonless"
 
-opacity = 0.6
+opacity = 0.4
 blur = true
 
 option_as_alt = "Both"
 
-#[colors.primary]
-#background = "0x000000"
-#foreground = "0xffffff"
-
 [font]
 normal.family = "Menlo"
-
 size = 16
 

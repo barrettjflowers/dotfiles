@@ -51,6 +51,7 @@ vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
 vim.keymap.set('n', '<leader>g', ":Pick grep_live<CR>")
 vim.keymap.set('n', '<leader>e', ":Oil<CR>")
 vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>l", ':set nonumber<CR> :set norelativenumber<CR> :lua vim.diagnostic.config({ signs = false })<CR>')
 
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 vim.keymap.set('i', '<C-Space>', vim.lsp.buf.completion, { noremap = true, silent = true })

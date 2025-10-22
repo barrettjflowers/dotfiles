@@ -1,0 +1,173 @@
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+CONFIG_DIR="$HOME/.config/sketchybar"
+
+############## BAR ##############
+sketchybar --bar \
+  height=45 \
+  padding_left=8 \
+  padding_right=2 \
+  y_offset=0 \
+  blur_radius=0 \
+  position=top \
+  margin=0 \
+  corner_radius=0 \
+  color=0x00000000 \
+  shadow=on
+
+############## GLOBAL DEFAULTS ##############
+sketchybar --default updates=when_shown \
+                     icon.font="$([ "$MODE" = "compact" ] && echo "Hack Nerd Font:Bold:14.0" || echo "Hack Nerd Font:Bold:16.0")" \
+                     label.font="Menlo:Bold:13.0" \
+                     icon.color=0xffECEFF4 \
+                     icon.highlight_color=0xffE48FA8 \
+                     label.color=0xffECEFF4 \
+                     background.corner_radius=5 \
+                     background.height=32
+
+# Spaces
+SPACE_ICONS=("1" "2" "3" "4" "5" "6" "F")
+KEYCODES=(18 19 20 21 23 22 26 28 25)
+for i in "${!SPACE_ICONS[@]}"
+do
+  sid="$(($i+1))"
+  space=(
+    space="$sid"
+    icon="${SPACE_ICONS[i]}"
+	icon.font="Menlo:Bold:13.0"
+    icon.padding_left=8
+    icon.padding_right=8
+    padding_left=4
+    padding_right=0
+    background.corner_radius=5
+	background.color=0xff3C3E4F
+	background.height=26
+    label.drawing=off
+    script="$PLUGIN_DIR/space.sh"
+	click_script="osascript -e 'tell application \"System Events\" to key code ${KEYCODES[i]} using control down'"
+  )
+  sketchybar --add space space."$sid" left --set space."$sid" "${space[@]}"
+done
+
+sketchybar --add item front_app left \
+		   --set front_app \
+		   			  icon.color=0xffECEFF4 \
+					  background.color=0xff3C3E4F \
+					  label.padding_left=8 \
+					  label.padding_right=8 \
+					  padding_left=4 \
+					  background.height=26 \
+					  script="$PLUGIN_DIR/front_app.sh" \
+					  --subscribe front_app front_app_switched
+
+############## ITEM DEFAULTS ###############
+sketchybar --default label.padding_left=6 \
+                     label.padding_right="$([ "$MODE" = "compact" ] && echo 8 || echo 6)" \
+                     icon.padding_left=6 \
+                     icon.padding_right=6 \
+                     icon.font="$([ "$MODE" = "compact" ] && echo "Hack Nerd Font:Bold:14.0" || echo "Hack Nerd Font:Bold:20.0")" \
+                     background.height=26 \
+                     background.padding_left="$([ "$MODE" = "compact" ] && echo 0 || echo 4)" \
+                     background.padding_right="$([ "$MODE" = "compact" ] && echo 0 || echo 4)" \
+                     background.corner_radius=5
+
+############## LEFT ITEMS ##############
+sketchybar --add item spotify q \
+		   --set spotify \
+					  script="$PLUGIN_DIR/spotify.sh" \
+					  update_freq=2 \
+					  padding_left=0 \
+					  background.color=0xff3C3E4F 
+
+sketchybar --add item spotify_logo q \
+		   --set spotify_logo icon= \
+					  icon.color=0xff1DB954 \
+					  label.drawing=off \
+					  background.color=0xff3C3E4F
+
+############## RIGHT ITEMS ##############
+sketchybar --add item time right \
+           --set time update_freq=1 \
+                      icon.drawing=off \
+                      script="~/.config/sketchybar/plugins/time.sh" \
+                      background.color=0xff3C3E4F \
+                      background.padding_left=0 \
+                      background.padding_right="$([ "$MODE" = "compact" ] && echo 0 || echo 10)" \
+                      # $([ "$MODE" = "compact" ] && echo "width=80")
+
+sketchybar --add item time_logo right\
+           --set time_logo icon= \
+                           label.drawing=off \
+                           icon.color=0xff121219 \
+                           label.drawing=off \
+                           background.color=0xffF5E3B5
+
+sketchybar --add item date right \
+           --set date update_freq=1000 \
+                      icon.drawing=off \
+                      script="~/.config/sketchybar/plugins/date.sh" \
+                      background.color=0xff3C3E4F \
+                      background.padding_left=0
+
+sketchybar --add item clock_logo right\
+           --set clock_logo icon= \
+                            icon.color=0xff121219\
+                            label.drawing=off \
+                            background.color=0xff92B3F5
+
+sketchybar --add item battery right \
+           --set battery update_freq=3 \
+                         icon.drawing=off \
+                         script="~/.config/sketchybar/plugins/power.sh" \
+                         background.color=0xff3C3E4F \
+                         background.padding_left=0
+
+sketchybar --add item power_logo right \
+           --set power_logo icon= \
+                 icon.color=0xff121219 \
+                 label.drawing=off \
+                 background.color=0xffB3E1A7
+
+#sketchybar --add item net right \
+#            --set net script="~/.config/sketchybar/plugins/net.sh" \
+#                      icon.drawing=off \
+#                      background.color=0xff3C3E4F \
+#                      background.padding_left=0
+
+# sketchybar --add item net_logo right \
+#            --set net_logo icon=\
+#                      icon.color=0xff121219\
+#                      label.drawing=off \
+#                      background.color=0xffE0A3AD
+
+sketchybar --add item temp right \
+           --set temp update_freq=1 \
+                     script="~/.config/sketchybar/plugins/temp.sh" \
+                     icon.drawing=off \
+                     background.color=0xff3C3E4F \
+                     background.padding_left=0
+
+sketchybar --add item temp_logo right \
+           --set temp_logo icon=\
+                     icon.color=0xff121219\
+                     label.drawing=off \
+                     background.color=0xffE0A3AD
+
+#sketchybar --add item pressure right \
+#           --set pressure update_freq=60 \
+#                     script="~/.config/sketchybar/plugins/pressure.sh" \
+#                     icon.drawing=off \
+#                     background.color=0xff3C3E4F \
+#                     background.padding_left=0
+
+#sketchybar --add item pressure_logo right \
+#           --set pressure_logo icon=󰈸\
+#                     icon.color=0xff121219\
+#                     label.drawing=off \
+#                     background.color=0xff94E2D5
+
+sketchybar --subscribe net wifi_change wired_change
+
+############## FINALIZING THE SETUP ##############
+sketchybar --update
+
+echo "sketchybar configuration loaded..."
