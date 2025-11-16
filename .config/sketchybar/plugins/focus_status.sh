@@ -4,8 +4,8 @@ FOCUS_STATUS=$(defaults read com.apple.controlcenter "NSStatusItem Visible Focus
 
 if [ "$FOCUS_STATUS" = "1" ]; then
     echo "Focus mode is enabled."
-    sketchybar --animate sin 10 --set focus icon="$ICON" label="􀆼"
+    sketchybar --animate sin 10 --set focus icon="$ICON" label="􀆼" drawing=on
 else
     echo "Focus mode is disabled."
-    sketchybar  --animate sin 10 --set focus icon="$ICON" label=""
+    sketchybar --animate sin 10 --set focus drawing=off
 fi

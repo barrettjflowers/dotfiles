@@ -7,9 +7,11 @@ sketchybar --bar \
   y_offset=12 \
   margin=12 \
   corner_radius=10 \
-  blur_radius=30 \
+  blur_radius=80 \
+  background=off \
   shadow=on \
-  color=0x30AAAAAA
+  color=0x00222726 \
+  display=1
 
 # default styles
 default=(
@@ -21,9 +23,9 @@ default=(
   icon.padding_right=6
   icon.color=0xFFFFFFFF
   label.color=0xFFFFFFFF
-  background.color=0x40AAAAAA
+  background.color=0x90222726
   background.corner_radius=5
-  background.height=20
+  background.height=22
   background.width=20
   icon.font="Menlo:Bold:14.0"
   label.font="Menlo:Bold:14.0"
@@ -31,14 +33,13 @@ default=(
 sketchybar --default "${default[@]}"
 
 # Personal Status
-#sketchybar --add item focus left\
-#           --set focus script="$PLUGIN_DIR/focus_status.sh" \
-#		   click_script="open -a 'Focus'" \
-#             update_freq=5 \
-#             label.drawing=on \
-#             label.padding_left=0 \
-#			 padding.left=0 \
-#             label.padding_right=6
+sketchybar --add item focus left\
+           --set focus script="$PLUGIN_DIR/focus_status.sh" \
+             update_freq=5 \
+             label.drawing=on \
+             label.padding_left=0 \
+			 padding.left=0 \
+             label.padding_right=6
 
 # Spaces
 SPACE_ICONS=("1" "2" "3" "4" "5" "6" "F")

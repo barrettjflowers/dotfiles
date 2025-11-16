@@ -8,8 +8,7 @@ sketchybar --add slider spotify_vol_slider q 100 \
   --set spotify_vol_slider script='~/.config/sketchybar/plugins/spotify_vol_update.sh' \
                            slider.highlight_color=0xff1DB954 \
                            slider.knob="●" \
-                           background.color=0x1AFFFFFF \
-                           background.height=22 \
+                           background.color=0x90222726 \
                            drawing=on \
                            updates=on
 

@@ -7,5 +7,5 @@ if [[ "$SELECTED" == "true" ]]; then
 else
   sketchybar --set "$NAME" \
     icon.color=0xAAFFFFFF \
-    background.color=0x40AAAAAA
+    background.color=0x90222726
 fi
