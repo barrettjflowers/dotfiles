@@ -1,7 +1,7 @@
 # From: https://github.com/yorickpeterse/Autumn.vim/blob/master/colors/autumn.vim
 
 [colors.primary]
-foreground = "#F3F2CC"
+foreground = "#FFFFFF"
 background = "#232323"
 
 [colors.cursor]
