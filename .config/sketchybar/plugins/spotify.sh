@@ -1,9 +1,8 @@
 #!/bin/bash
+source "$HOME/.config/colors/colors.sh"
+
 SONG_TEXT=$(osascript -e 'tell application "Spotify" to if it is running and player state is playing then name of current track & " — " & artist of current track')
 if [ -n "$SONG_TEXT" ]; then
-  if [ ${#SONG_TEXT} -gt 20 ]; then
-    SONG_TEXT="${SONG_TEXT:0:20}..."
-  fi
   SONG="􂙩 $SONG_TEXT"
 else
   MEM_USAGE=$(vm_stat | awk -v ps=$(vm_stat | grep "page size" | awk '{print $8}' | tr -d '.') '
@@ -17,7 +16,9 @@ echo "Used RAM: ${MEM_USAGE} GB"
 fi
 
 echo "$SONG"
-sketchybar --animate sin 20 --set spotify label="$SONG" \
-  icon.color=0xFFFFFFFF \
-  label.color=0xFFFFFFFF
+sketchybar --animate sin 20 --set notch_left label="$SONG" \
+	scroll_texts=on \
+  label.max_chars=20 \
+  icon.color=$TEXT \
+  label.color=$TEXT 
 

@@ -1,11 +1,9 @@
-#-------------------#
-#-------------------#
 # ~/.zshrc
 
 # find and set branch name var if in git repository
 function git_branch_name()
 {
-  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  branch=$(git symbolic-ref --short HEAD 2>/dev/null)
   if [[ $branch == "" ]];
   then
     :
@@ -38,17 +36,16 @@ source ~/.fzf-tab/fzf-tab.plugin.zsh
 # syntax highlighting
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# alliases
-#==============#
+###### aliases #######
 alias vim='nvim'
 alias finder='open -a Finder ""'
 alias win='~/.scripts/.windows.sh'
 alias gl='git log --all --oneline --graph'
 alias vimconf='nvim $NVIM_CONFIG'
 
-# ntfy
+# dotfile scripts
+alias dewm='~/.scripts/dewm.sh'
 alias ntfy="~/.scripts/.ntfy.sh"
-#==============#
 
 # tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
@@ -62,9 +59,19 @@ alias fvim='code $(fzf)'
 alias fh='history 100 | fzf --height 20 --no-preview'
 alias ff='fzf'
 
+
+# pomodoro!
+# thanks bashbunni
+alias work="timer 10s && terminal-notifier -message 'Pomodoro'\
+        -title 'Work Timer is up! Take a Break. '\
+        -sound Crystal"
+        
+alias rest="timer 10m && terminal-notifier -message 'Pomodoro'\
+        -title 'Break is over! Get back to work ☕'\
+        -sound Crystal"
+
 # vi-mode
 bindkey -v '^?' backward-delete-char
-#-------------------#
 
 # env vars, maybe move these to .zshenv eventually
 export PATH="$HOME/.cargo/bin:$PATH"

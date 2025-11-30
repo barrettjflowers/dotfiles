@@ -1,6 +1,6 @@
 #!/bin/bash
 
-	sketchybar --animate sin 10 --set spotify drawing=off
+	sketchybar --animate sin 10 --set notch_left drawing=off
 	wait 0.2
 
 sketchybar --add slider spotify_vol_slider q 100 \
@@ -16,5 +16,5 @@ sketchybar --subscribe spotify_vol_slider mouse.clicked
 
 sleep 4
 sketchybar --animate sin 10 --set spotify_vol_slider drawing=off
-sketchybar --animate sin 10 --set spotify drawing=on
+sketchybar --animate sin 10 --set notch_left drawing=on
 

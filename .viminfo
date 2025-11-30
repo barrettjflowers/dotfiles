@@ -17,16 +17,16 @@
 $
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1763129447,,"w"
+:q
+|2,0,1761179392,,"q"
 :wq
 |2,0,1755013561,,"wq"
 :q!
 |2,0,1750945810,,"q!"
 :Q!
 |2,0,1747702173,,"Q!"
-:q
-|2,0,1739754459,,"q"
-:w
-|2,0,1739737653,,"w"
 :set paste
 |2,0,1736125117,,"set paste"
 :help 'statuscolumn'
@@ -177,32 +177,32 @@ $
 	
 |3,0,0,1,7,0,1735530346,"#Homelab","Host wildflower","    Hostname 192.168.149.165","    User Server","    Port 22","    IdentityFile none",""
 ""1	LINE	0
-	l
-|3,1,1,1,1,0,1747702172,"l"
+	monitor.indygateway.net 216.106.178.198
+|3,1,1,1,1,0,1763129068,"monitor.indygateway.net 216.106.178.198"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1747702172,""
+	# IndyGateway
+|3,0,2,1,1,0,1763128954,"# IndyGateway"
 "3	LINE	0
-	asd
-|3,0,3,1,1,0,1747702172,"asd"
+	#38.114.121.76 rabers.indygateway.net
+|3,0,3,1,1,0,1763128954,"#38.114.121.76 rabers.indygateway.net"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1747702172,""
+	#38.114.121.76 indygateway.net
+|3,0,4,1,1,0,1763128953,"#38.114.121.76 indygateway.net"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1747702172,""
+	#138.197.1.21 poolesmeatmarket.com
+|3,0,5,1,1,0,1763128941,"#138.197.1.21 poolesmeatmarket.com"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1747702172,""
+	#138.197.1.21 indyhost.net
+|3,0,6,1,1,0,1763128941,"#138.197.1.21 indyhost.net"
 "7	LINE	0
-	sd
-|3,0,7,1,1,0,1747702172,"sd"
+	192.168.149.165 wildflower
+|3,0,7,1,1,0,1763128940,"192.168.149.165 wildflower"
 "8	LINE	0
-	a
-|3,0,8,1,1,0,1747702171,"a"
+	l
+|3,0,8,1,1,0,1747702172,"l"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1747702171,""
+|3,0,9,1,1,0,1747702172,""
 "d	CHAR	0
 	d
 |3,0,13,0,1,0,1715279102,"d"
@@ -226,36 +226,86 @@ $
 |3,0,36,0,1,0,1744490976,"7"
 
 # File marks:
-'0  15  12  /private/etc/hosts
-|4,48,15,12,1755013561,"/private/etc/hosts"
-'1  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,49,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
-'2  12  14  /private/etc/hosts
-|4,50,12,14,1744491010,"/private/etc/hosts"
-'3  12  14  /private/etc/hosts
-|4,51,12,14,1744491010,"/private/etc/hosts"
-'4  12  14  /private/etc/hosts
-|4,52,12,14,1744490978,"/private/etc/hosts"
-'5  12  14  /private/etc/hosts
-|4,53,12,14,1744490978,"/private/etc/hosts"
-'6  12  14  /private/etc/hosts
-|4,54,12,14,1744490959,"/private/etc/hosts"
+'0  15  0  /private/etc/hosts
+|4,48,15,0,1763129452,"/private/etc/hosts"
+'1  49  0  /private/etc/sudoers
+|4,49,49,0,1761179392,"/private/etc/sudoers"
+'2  16  12  /private/etc/hosts
+|4,50,16,12,1755013561,"/private/etc/hosts"
+'3  15  12  /private/etc/hosts
+|4,51,15,12,1755013561,"/private/etc/hosts"
+'4  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,52,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+'5  11  14  /private/etc/hosts
+|4,53,11,14,1744491010,"/private/etc/hosts"
+'6  11  14  /private/etc/hosts
+|4,54,11,14,1744491010,"/private/etc/hosts"
 '7  12  14  /private/etc/hosts
-|4,55,12,14,1744490959,"/private/etc/hosts"
+|4,55,12,14,1744491010,"/private/etc/hosts"
 '8  12  14  /private/etc/hosts
-|4,56,12,14,1744490959,"/private/etc/hosts"
-'9  12  14  /private/etc/hosts
-|4,57,12,14,1744490959,"/private/etc/hosts"
+|4,56,12,14,1744491010,"/private/etc/hosts"
+'9  11  14  /private/etc/hosts
+|4,57,11,14,1744490978,"/private/etc/hosts"
 
 # Jumplist (newest first):
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
 -'  15  12  /private/etc/hosts
 |4,39,15,12,1755013561,"/private/etc/hosts"
+-'  15  12  /private/etc/hosts
+|4,39,15,12,1755013561,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1755013548,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1755013548,"/private/etc/hosts"
 -'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
 |4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
 -'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
 |4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744491010,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
 |4,39,12,14,1744491010,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
@@ -274,6 +324,22 @@ $
 |4,39,1,0,1744491005,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1744491005,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744491005,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744491005,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744491005,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744491005,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490978,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490978,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490978,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490978,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
 |4,39,12,14,1744490978,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
@@ -290,6 +356,22 @@ $
 |4,39,1,0,1744490971,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1744490971,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490971,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490971,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490971,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490971,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490959,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490959,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490959,"/private/etc/hosts"
+-'  12  14  /private/etc/hosts
+|4,39,12,14,1744490959,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
 |4,39,12,14,1744490959,"/private/etc/hosts"
 -'  12  14  /private/etc/hosts
@@ -324,6 +406,32 @@ $
 |4,39,13,0,1744490949,"/private/etc/hosts"
 -'  13  0  /private/etc/hosts
 |4,39,13,0,1744490949,"/private/etc/hosts"
+-'  14  0  /private/etc/hosts
+|4,39,14,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1744490949,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1744490935,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
@@ -332,141 +440,33 @@ $
 |4,39,1,0,1744490935,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1744490935,"/private/etc/hosts"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
--'  13  52  ~/Dev/v3/crates/app-secure/run.sh
-|4,39,13,52,1743084356,"~/Dev/v3/crates/app-secure/run.sh"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490935,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490935,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490935,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1744490935,"/private/etc/hosts"
 
 # History of marks within files (newest to oldest):
 
 > /private/etc/hosts
-	*	1755013560	0
-	"	15	12
-	^	13	25
-	.	13	24
-	+	21	0
-	+	21	14
+	*	1763129447	0
+	"	15	0
+	^	15	1
+	.	15	0
+	+	22	0
+	+	22	14
 	+	10	23
-	+	21	0
+	+	22	0
 	+	6	2
 	+	9	0
 	+	10	0
 	+	6	2
 	+	9	0
 	+	10	0
-	+	21	0
+	+	22	0
 	+	6	1
 	+	8	0
 	+	6	2
@@ -477,21 +477,31 @@ $
 	+	9	0
 	+	7	0
 	+	9	0
-	+	21	0
-	+	14	26
-	+	14	24
-	+	20	28
-	+	15	13
+	+	22	0
+	+	16	26
+	+	16	24
+	+	21	28
+	+	16	13
+	+	20	0
+	+	16	25
+	+	20	29
+	+	20	20
+	+	20	0
 	+	16	0
-	+	14	25
-	+	16	29
-	+	17	20
-	+	16	0
-	+	17	0
-	+	14	0
 	+	11	0
-	+	12	26
-	+	13	24
+	+	11	26
+	+	16	24
+	+	11	0
+	+	16	0
+	+	20	0
+	+	12	0
+	+	15	38
+	+	16	0
+	+	15	0
+
+> /private/etc/sudoers
+	*	1761179392	0
+	"	49	0
 
 > ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
 	*	1750945810	0
@@ -1551,10 +1561,3 @@ $
 > ~/.wol,sh
 	*	1715011857	0
 	"	1	0
-
-> ~/Scripts/indygateway/aws-backups.sh
-	*	1714701806	0
-	"	3	236
-	^	3	237
-	.	3	160
-	+	3	160

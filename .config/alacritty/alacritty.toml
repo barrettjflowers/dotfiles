@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/autumn.toml"
+"~/.config/alacritty/themes/autumn.toml"
 ]
 
 [env]
@@ -12,8 +12,8 @@ padding.y = 8
 
 decorations = "Buttonless"
 
-opacity = 0.85
-blur = true
+opacity = 0.92
+blur = false
 
 option_as_alt = "Both"
 

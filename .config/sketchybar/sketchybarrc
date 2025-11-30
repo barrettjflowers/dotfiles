@@ -1,4 +1,5 @@
 PLUGIN_DIR="$CONFIG_DIR/plugins"
+source "$HOME/.config/colors/colors.sh"
 
 ##### Bar Appearance #####
 sketchybar --bar \
@@ -11,22 +12,23 @@ sketchybar --bar \
   background=off \
   shadow=on \
   color=0x00222726 \
+  sticky=on \
   display=1
 
 # default styles
 default=(
-  padding_left=4
-  padding_right=4
+  padding_left=6
+  padding_right=6
   label.padding_left=6
-  label.padding_right=6
+  label.padding_right=8
   icon.padding_left=0
   icon.padding_right=6
-  icon.color=0xFFFFFFFF
-  label.color=0xFFFFFFFF
-  background.color=0x15ffffff
-  background.corner_radius=10
+  background.color="${BACKGROUND}"
+  background.corner_radius=12
   background.height=28
   background.width=20
+  label.color="${TEXT}"
+  icon.color="${TEXT}"
   icon.font="Menlo:Bold:13.5"
   label.font="Menlo:Bold:13.5"
 )
@@ -38,10 +40,21 @@ sketchybar --add item focus left\
              update_freq=5 \
              label.drawing=on \
              label.padding_left=0 \
-			 padding.left=0 \
+						 padding.left=0 \
              label.padding_right=6
 
-SPACE_ICONS=("1" "2" "3" "4" "5" "6" "F")
+# this is so dumb... but it looks nice. drawing the background first
+# then hacking the padding of the spaces to overlap it
+# if you do a negative left padding and a positive right padding
+# you can change the absolute position of the item since there is no
+# x_offset proprty.
+
+sketchybar --add item space-background left \
+					 --set space-background background.color="${BACKGROUND}" \
+					 background.drawing=on \
+					 width=170
+
+SPACE_ICONS=("1" "2" "3" "4" "5" "6")
 KEYCODES=(18 19 20 21 23 22 26 28 25)
 
 for i in "${!SPACE_ICONS[@]}"; do
@@ -52,9 +65,9 @@ for i in "${!SPACE_ICONS[@]}"; do
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=8
     icon.padding_right=8
-	background.drawing=off
-    padding_left=4
-    padding_right=0
+		background.drawing=off
+		padding_left=-150
+    padding_right=150
     label.drawing=off
     script="$PLUGIN_DIR/space.sh"
     click_script="osascript -e 'tell application \"System Events\" \
@@ -66,25 +79,20 @@ for i in "${!SPACE_ICONS[@]}"; do
     associated_item=spaces.container
 done
 
-sketchybar --add item spaces.container left \
-  --set spaces.container \
-  background.x_offset=-175 \
-	width=180
-
 sketchybar --add item front_app left \
 		   --animate sin 10 \
-           --set front_app icon.drawing=off padding_left=-162 script="$PLUGIN_DIR/front_app.sh" \
+           --set front_app icon.drawing=off padding_left=-125 script="$PLUGIN_DIR/front_app.sh" \
 		   click_script="$PLUGIN_DIR/front_app.sh" \
            --subscribe front_app front_app_switched
 
-sketchybar --add item spotify q \
+sketchybar --add item notch_left q \
  --animate sin 10 \
-  --set spotify \
+  --set notch_left \
     label.drawing=on \
-	label.padding_left=0 \
-	padding_right=14 \
+	  label.padding_left=0 \
+		padding_right=14 \
     script="$PLUGIN_DIR/spotify.sh" \
-	update_freq=15 \
+		update_freq=15 \
     click_script="$PLUGIN_DIR/spotify_vol_slider.sh"
 
 # Right Items
@@ -106,11 +114,11 @@ sketchybar --add item battery right \
 			 padding_right=0 \
 			 click_script="open -a 'AlDente'"
 
-sketchybar --add item weather right \
-           --set weather script="$PLUGIN_DIR/weather.sh" \
-             update_freq=1200 \
-             label.padding_left=0 \
-             label.padding_right=7 \
+#sketchybar --add item weather right \
+#           --set weather script="$PLUGIN_DIR/weather.sh" \
+#             update_freq=1200 \
+#             label.padding_left=0 \
+#             label.padding_right=7 \
 
 #sketchybar --add item appearance right \
 #           --set appearance \
@@ -124,19 +132,17 @@ sketchybar --add item weather right \
 #		   --set control_center \
 #			 label="􀜊" \
 #			 click_script="$PLUGIN_DIR/control_center.sh" \
-#			 background.height=22 \
-#			 label.padding_left=0 \
-#			 label.padding_right=7
+#			 label.padding_left=0 
 
 # Notch Items
-sketchybar --add item cpu e \
-           --set cpu \
+sketchybar --add item notch_right e \
+           --set notch_right \
              script="$PLUGIN_DIR/cpu.sh" \
-			 click_script="alacritty -e btop" \
+						 click_script="alacritty -e btop" \
              icon.drawing=off \
              label.padding_right=6 \
              padding_left=14 \
-			 padding_right=4 \
+						 padding_right=4 \
              update_freq=30 
 
 ##### Force Initial Update #####
