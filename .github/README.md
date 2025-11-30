@@ -1,7 +1,6 @@
 ## The Config
-This repo is for all things related to barrettjflowers's
-MacOS config. Useful when migrating to a new mac, finding where config files are,
-or just recalling what programs and scripts I commonly use.
+Unix config. Useful when migrating to a new mac, locating config files,
+or recalling programs and scripts.
 
 See `.gitignore` to add files. This repo is initialized in my home directory.
 
@@ -10,12 +9,7 @@ I use Hammerspoon with a program called vimspoon to give vim-like operations to 
 Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
 See `.hammerspoon` file for special configurations.
 
-### Utilties
-**Homebrew** \
-Ofcourse! Would this be a dotfiles repo without it? \
-A package manager for MacOS. \
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
+### Casks
 **Amythest** \
 A window manager.
 `brew install --cask amethyst`
@@ -43,7 +37,7 @@ A lightweight key remapping program, uses lua! \
 `brew install --cask hammerspoon`
 
 ### CLI
-See 'ALIASES' section in the `.zshrc` file for terminal configuration and aliases.
+See `.zshrc`and `alacritty.toml`.
 
 **mcli** \
 A general purposed cli for controlling MacOS functions. \
@@ -52,10 +46,6 @@ A general purposed cli for controlling MacOS functions. \
 **fzf** \
 Fuzzy finder! \
 `brew install fzf`
-
-**sherlock** \
-Hunt down social media accounts by username across social networks. \
-`brew install sherlock`
 
 **tmux** \
 Terminal multiplexer. \
@@ -69,16 +59,8 @@ CLI file browser equiped with vim motions. \
 ### System Preferences
 Appearance > Sidebar icon size: `Medium`
 
-Desktop & Dock > Magnification: `Off` \
-Position on screen: `Left` \
-Minimize windows into application icon: `On` \
-Automatically hide and show the Dock: `On` \
-Show suggested and recent apps in Dock: `Off` \
-Click wallpaper to reveal desktop: `Only in Stage Manager`
-
-Keyboard > Launchpad & Dock > Turn Dock hiding on/off: `Command + Esc` \
 Keyboard > Misson Control > Misson Control: `Control + K` \
-Application Windows: `Control + J`
+Show Desktop: `Control + J`
 
 Keyboard > Screenshots > Save picture: `Shift + Command + S` \
 Screenshot recording options: `Option + Command + S`
@@ -89,3 +71,6 @@ Hiding apps shows greyed out in dock. \
 
 Small space separator between open apps and pinned apps. \
 `''defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock''`
+
+Slow down the dock animation to prevent accidental triggers. \
+`defaults write com.apple.dock autohide-time-modifier -float 1.12; killall Dock`
