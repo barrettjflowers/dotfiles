@@ -1,5 +1,7 @@
 ## The Config
 ![Screenshot 2025-11-30 at 9 52 31 AM](https://github.com/user-attachments/assets/f817897f-2873-42f2-a3bb-a881461ee222)
+![Screenshot 2025-12-08 at 4 29 05 PM](https://github.com/user-attachments/assets/aab2fe42-50ab-412d-8b42-2a7b9a43325a)
+
 Unix config. Useful when migrating to a new mac, locating config files,
 or recalling programs and scripts.
 
