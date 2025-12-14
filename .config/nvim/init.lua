@@ -43,9 +43,9 @@ vim.cmd("set completeopt+=noselect")
 require "mini.pick".setup()
 require "mason".setup()
 require "oil".setup()
-require("codeium").setup({
+require "codeium".setup({
   virtual_text = {
-    enabled = true,   -- THIS is what shows inline suggestions
+    enabled = true,
   }
 })
 
@@ -61,7 +61,7 @@ vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
 vim.keymap.set('n', '<leader>g', ":Pick grep_live<CR>")
 vim.keymap.set('n', '<leader>e', ":Oil<CR>")
 vim.keymap.set("v", "<leader>y", '"+y')
-vim.keymap.set("n", "<leader>l", ':set nonumber<CR> :set norelativenumber<CR> :lua vim.diagnostic.config({ signs = false })<CR>')
+vim.keymap.set("n", "<leader>0", ':set nonumber<CR> :set norelativenumber<CR> :lua vim.diagnostic.config({ signs = false })<CR>')
 
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 vim.keymap.set('i', '<C-Space>', vim.lsp.buf.completion, { noremap = true, silent = true })
@@ -77,6 +77,8 @@ lspconfig.lua_ls.setup({})
 lspconfig.rust_analyzer.setup({})
 lspconfig.eslint.setup({})
 lspconfig.ts_ls.setup({})
+lspconfig.html.setup({})
+lspconfig.svelte.setup({})
 
 -- styling
 require "vague".setup({ transparent = true })

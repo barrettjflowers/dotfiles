@@ -12,6 +12,12 @@ function git_branch_name()
   fi
 }
 
+function git_remote_url() {
+git remote get-url origin \
+  | sed -E 's#(git@|https://)#https://#; s#github.com:#github.com/#; s#\.git$##' \
+  | xargs open
+}
+
 # history
 HISTSIZE=10000
 SAVEHIST=10000
@@ -41,6 +47,7 @@ alias vim='nvim'
 alias finder='open -a Finder ""'
 alias win='~/.scripts/.windows.sh'
 alias gl='git log --all --oneline --graph'
+alias gurl=git_remote_url
 alias vimconf='nvim $NVIM_CONFIG'
 
 # dotfile scripts
