@@ -5,7 +5,7 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
@@ -226,32 +226,80 @@ $
 |3,0,36,0,1,0,1744490976,"7"
 
 # File marks:
-'0  15  0  /private/etc/hosts
-|4,48,15,0,1763129452,"/private/etc/hosts"
-'1  49  0  /private/etc/sudoers
-|4,49,49,0,1761179392,"/private/etc/sudoers"
-'2  16  12  /private/etc/hosts
-|4,50,16,12,1755013561,"/private/etc/hosts"
-'3  15  12  /private/etc/hosts
-|4,51,15,12,1755013561,"/private/etc/hosts"
-'4  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,52,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
-'5  11  14  /private/etc/hosts
-|4,53,11,14,1744491010,"/private/etc/hosts"
-'6  11  14  /private/etc/hosts
-|4,54,11,14,1744491010,"/private/etc/hosts"
-'7  12  14  /private/etc/hosts
-|4,55,12,14,1744491010,"/private/etc/hosts"
-'8  12  14  /private/etc/hosts
-|4,56,12,14,1744491010,"/private/etc/hosts"
+'0  1  0  ~/.config/colors/colors.sh
+|4,48,1,0,1765374710,"~/.config/colors/colors.sh"
+'1  1  0  ~/.config/colors/colors.sh
+|4,49,1,0,1765144892,"~/.config/colors/colors.sh"
+'2  1  0  ~/.config/colors/colors.sh
+|4,50,1,0,1765079393,"~/.config/colors/colors.sh"
+'3  1  0  ~/.config/colors/colors.sh
+|4,51,1,0,1765079393,"~/.config/colors/colors.sh"
+'4  15  0  /private/etc/hosts
+|4,52,15,0,1763129452,"/private/etc/hosts"
+'5  49  0  /private/etc/sudoers
+|4,53,49,0,1761179392,"/private/etc/sudoers"
+'6  16  12  /private/etc/hosts
+|4,54,16,12,1755013561,"/private/etc/hosts"
+'7  15  12  /private/etc/hosts
+|4,55,15,12,1755013561,"/private/etc/hosts"
+'8  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
+|4,56,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
 '9  11  14  /private/etc/hosts
-|4,57,11,14,1744490978,"/private/etc/hosts"
+|4,57,11,14,1744491010,"/private/etc/hosts"
 
 # Jumplist (newest first):
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
 -'  15  0  /private/etc/hosts
 |4,39,15,0,1763129452,"/private/etc/hosts"
 -'  16  0  /private/etc/hosts
 |4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
 -'  13  0  /private/etc/hosts
 |4,39,13,0,1763128968,"/private/etc/hosts"
 -'  18  0  /private/etc/hosts
@@ -260,196 +308,152 @@ $
 |4,39,19,0,1763128967,"/private/etc/hosts"
 -'  17  0  /private/etc/hosts
 |4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
+-'  18  0  /private/etc/hosts
+|4,39,18,0,1763128967,"/private/etc/hosts"
+-'  19  0  /private/etc/hosts
+|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  17  0  /private/etc/hosts
+|4,39,17,0,1763128967,"/private/etc/hosts"
 -'  11  25  /private/etc/hosts
 |4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  11  25  /private/etc/hosts
+|4,39,11,25,1763128966,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1763128926,"/private/etc/hosts"
 -'  1  0  /private/etc/hosts
 |4,39,1,0,1763128926,"/private/etc/hosts"
 -'  49  0  /private/etc/sudoers
 |4,39,49,0,1761179392,"/private/etc/sudoers"
 -'  49  0  /private/etc/sudoers
 |4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  49  0  /private/etc/sudoers
+|4,39,49,0,1761179392,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
+-'  1  0  /private/etc/sudoers
+|4,39,1,0,1761179261,"/private/etc/sudoers"
 -'  1  0  /private/etc/sudoers
 |4,39,1,0,1761179261,"/private/etc/sudoers"
 -'  1  0  /private/etc/sudoers
 |4,39,1,0,1761179261,"/private/etc/sudoers"
 -'  15  12  /private/etc/hosts
 |4,39,15,12,1755013561,"/private/etc/hosts"
--'  15  12  /private/etc/hosts
-|4,39,15,12,1755013561,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1755013548,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1755013548,"/private/etc/hosts"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,39,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744491010,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744491005,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490978,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490971,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  12  14  /private/etc/hosts
-|4,39,12,14,1744490959,"/private/etc/hosts"
--'  14  0  /private/etc/hosts
-|4,39,14,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  14  0  /private/etc/hosts
-|4,39,14,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1744490949,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1744490935,"/private/etc/hosts"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/colors/colors.sh
+	*	1765211657	0
+	"	1	0
 
 > /private/etc/hosts
 	*	1763129447	0
@@ -1557,7 +1561,3 @@ $
 	^	7	6
 	.	7	5
 	+	7	5
-
-> ~/.wol,sh
-	*	1715011857	0
-	"	1	0

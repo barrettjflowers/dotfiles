@@ -1,0 +1,36 @@
+source "$HOME/.config/colors/colors.sh"
+
+floatingbar --bar \
+  position=top \
+  height=100 \
+  y_offset=600 \
+  margin=300 \
+  color=0x00343430 \
+  blur_radius=40 \
+  corner_radius=12 \
+  shadow=on
+
+default=(
+  padding_left=6
+  padding_right=6
+  label.padding_left=6
+  label.padding_right=8
+  icon.padding_left=0
+  icon.padding_right=6
+  background.color="${BACKGROUND}"
+  background.corner_radius=12
+  background.height=28
+  background.width=20
+  label.color="${TEXT}"
+  icon.color="${TEXT}"
+  icon.font="Menlo:Bold:13.5"
+  label.font="Menlo:Bold:13.5"
+)
+floatingbar --default "${default[@]}"
+
+floatingbar --add item search q \
+ --set search \
+  label="Search" \
+
+floatingbar --update
+

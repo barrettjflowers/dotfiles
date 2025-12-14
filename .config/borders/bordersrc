@@ -3,7 +3,7 @@ source "$HOME/.config/colors/colors.sh"
 
 options=(
 	style=uniform
-	width=7.00
+	width=8.5
 	hidpi=on
 	#inactive_color=0x90222726
 	active_color="${ACCENT_SECONDARY}"

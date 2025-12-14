@@ -8,10 +8,12 @@ sketchybar --bar \
   y_offset=12 \
   margin=12 \
   corner_radius=10 \
-  blur_radius=80 \
+  blur_radius=40 \
+  border_width=0 \
+  border_color="$ACCENT_SECONDARY" \
   background=off \
   shadow=on \
-  color=0x00222726 \
+  color=0x80343430\
   sticky=on \
   display=1
 
@@ -106,13 +108,20 @@ sketchybar --add item clock right \
 
 sketchybar --add item battery right \
            --set battery \
-             update_freq=120 \
+             update_freq=60 \
              script="$PLUGIN_DIR/battery.sh" \
 			 icon.padding_right=0 \
 			 padding_left=4 \
 			 icon.padding_left=4 \
 			 padding_right=0 \
 			 click_script="open -a 'AlDente'"
+
+sketchybar --add alias wifi AlDente right \
+             update_freq=5 \
+             label.drawing=on \
+             label.padding_left=0 \
+             label.padding_right=6 \
+			 padding.left=0 
 
 #sketchybar --add item weather right \
 #           --set weather script="$PLUGIN_DIR/weather.sh" \

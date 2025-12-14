@@ -17,12 +17,16 @@ vim.opt.mouse = ""
 vim.pack.add({
 	{ src = "https://github.com/vague2k/vague.nvim" },
 	{ src = "https://github.com/echasnovski/mini.pick" },
+	{ src = "https://github.com/stevearc/oil.nvim" },
+
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
-	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
-	{ src = "https://github.com/github/copilot.vim" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
-	{ src = "https://github.com/stevearc/oil.nvim" },
+
+	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+	{ src = "https://github.com/Exafunction/windsurf.nvim"},
+	{ src = "https://github.com/nvim-lua/plenary.nvim"},
+	{ src = "https://github.com/hrsh7th/nvim-cmp"},
 })
 
 vim.api.nvim_create_autocmd('LspAttach', {
@@ -37,8 +41,14 @@ vim.cmd("set completeopt+=noselect")
 
 -- init plugins
 require "mini.pick".setup()
-require"mason".setup()
+require "mason".setup()
 require "oil".setup()
+require("codeium").setup({
+  virtual_text = {
+    enabled = true,   -- THIS is what shows inline suggestions
+  }
+})
+
 require "nvim-treesitter.configs".setup({
 	ensure_installed = { "svelte", "typescript", "javascript" },
 	highlight = { enable = true }
@@ -59,6 +69,7 @@ vim.keymap.set('i', '<C-Space>', vim.lsp.buf.completion, { noremap = true, silen
 -- tab sizes
 vim.keymap.set("n", "<leader>2", ":set tabstop=2 shiftwidth=2 softtabstop=2<CR>")
 vim.keymap.set("n", "<leader>4", ":set tabstop=4 shiftwidth=4 softtabstop=4<CR>")
+vim.keymap.set("n", "<leader>8", ":set tabstop=8 shiftwidth=8 softtabstop=8<CR>")
 
 -- LSP configuration
 local lspconfig = require "lspconfig"
