@@ -13,7 +13,7 @@ sketchybar --bar \
   border_color="$ACCENT_SECONDARY" \
   background=off \
   shadow=on \
-  color=0x80343430\
+  color=0x50343430\
   sticky=on \
   display=1
 
@@ -31,7 +31,7 @@ default=(
   background.width=20
   label.color="${TEXT}"
   icon.color="${TEXT}"
-  icon.font="Menlo:Bold:13.5"
+  icon.font="Menlo:Bold:14.5"
   label.font="Menlo:Bold:13.5"
 )
 sketchybar --default "${default[@]}"

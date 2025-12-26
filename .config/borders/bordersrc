@@ -3,10 +3,11 @@ source "$HOME/.config/colors/colors.sh"
 
 options=(
 	style=uniform
-	width=8.5
+	width=7.5
 	hidpi=on
 	#inactive_color=0x90222726
 	active_color="${ACCENT_SECONDARY}"
+	blacklist="kitty"
 )
 
 borders "${options[@]}"
