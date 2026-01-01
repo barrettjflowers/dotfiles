@@ -11,9 +11,9 @@ sketchybar --bar \
   blur_radius=40 \
   border_width=0 \
   border_color="$ACCENT_SECONDARY" \
-  background=off \
+  background=on \
   shadow=on \
-  color=0x50343430\
+  color=0x00343430\
   sticky=on \
   display=1
 
@@ -26,7 +26,7 @@ default=(
   icon.padding_left=0
   icon.padding_right=6
   background.color="${BACKGROUND}"
-  background.corner_radius=12
+  background.corner_radius=11
   background.height=28
   background.width=20
   label.color="${TEXT}"
