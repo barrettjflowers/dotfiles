@@ -30,6 +30,10 @@ function cq() {
   && nvim +"/$(printf '%s' "$sel" | sed 's/[\/&]/\\&/g')" ~/.clipboard_history
 }
 
+function dic() {
+	fzf --preview 'dict {}' --color=bw --no-border --reverse < /usr/share/dict/words | while read word; do dict "$word" | less; done
+}
+
 # history
 HISTSIZE=10000
 SAVEHIST=10000
