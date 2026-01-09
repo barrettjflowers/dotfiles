@@ -24,12 +24,6 @@ git remote get-url origin \
 }
 
 #clipboard
-function cq() {
-	sel=$(cat ~/.clipboard_history | fzf --no-border --reverse --prompt="clipboard > " --color=bw --no-preview) \
-  && printf "%s" "$sel" | pbcopy \
-  && nvim +"/$(printf '%s' "$sel" | sed 's/[\/&]/\\&/g')" ~/.clipboard_history
-}
-
 function dic() {
 	fzf --preview 'dict {}' --color=bw --no-border --reverse < /usr/share/dict/words | while read word; do dict "$word" | less; done
 }
@@ -65,6 +59,7 @@ alias vimconf='nvim $NVIM_CONFIG'
 # dotfile scripts
 alias dewm='~/.scripts/desktop-environment.sh'
 alias ntfy="~/.scripts/ntfy.sh"
+alias cq='~/.scripts/clipboard.sh'
 
 # tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
@@ -77,7 +72,7 @@ alias falias='alias | awk -F= '\''{print $1}'\'' | fzf --height 20 --no-preview 
 alias fh='history 100 | fzf --height 20 --no-preview'
 
 # custom kitty launcher
-alias launcher='/Applications/launcher.app/Contents/MacOS/launcher &'
+alias launcher='~/.scripts/launcher.sh'
 
 # pomodoro! thanks bashbunni
 alias work="timer 10s && terminal-notifier -message 'Pomodoro'\

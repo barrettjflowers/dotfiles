@@ -1,7 +1,7 @@
 # ~/.config/colors/colors.sh
 # color scheme for unix dotfiles
 
-export TEXT="0xefffffff" #white
+export TEXT="0xffC7CEDB" #white
 export FOREGROUND="0x95ffffff" #active
 export BACKGROUND="0xff323232" #inactive
 

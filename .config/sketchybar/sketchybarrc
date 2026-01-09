@@ -7,13 +7,13 @@ sketchybar --bar \
   height=32 \
   y_offset=12 \
   margin=12 \
-  corner_radius=10 \
+  corner_radius=11 \
   blur_radius=40 \
   border_width=0 \
-  border_color="$ACCENT_SECONDARY" \
+  border_color="$BACKGROUND" \
   background=on \
   shadow=on \
-  color=0x00343430\
+  color=0x60333333\
   sticky=on \
   display=1
 
@@ -21,11 +21,11 @@ sketchybar --bar \
 default=(
   padding_left=6
   padding_right=6
-  label.padding_left=6
+  label.padding_left=4
   label.padding_right=8
   icon.padding_left=0
-  icon.padding_right=6
-  background.color="${BACKGROUND}"
+  icon.padding_right=4
+  background.color=
   background.corner_radius=11
   background.height=28
   background.width=20
@@ -52,7 +52,7 @@ sketchybar --add item focus left\
 # x_offset proprty.
 
 sketchybar --add item space-background left \
-					 --set space-background background.color="${BACKGROUND}" \
+					 --set space-background \
 					 background.drawing=on \
 					 width=170
 
@@ -106,14 +106,10 @@ sketchybar --add item clock right \
 		   update_freq=1 \
 		   click_script="osascript -e 'tell application \"System Events\" to keystroke \"\\\\\" using {command down, shift down}'"
 
-sketchybar --add item battery right \
+sketchybar --add item battery e \
            --set battery \
              update_freq=60 \
              script="$PLUGIN_DIR/battery.sh" \
-			 icon.padding_right=0 \
-			 padding_left=4 \
-			 icon.padding_left=4 \
-			 padding_right=0 \
 			 click_script="open -a 'AlDente'"
 
 sketchybar --add alias wifi AlDente right \
@@ -156,3 +152,7 @@ sketchybar --add item notch_right e \
 
 ##### Force Initial Update #####
 sketchybar --update
+
+## Bootstraps
+~/.scripts/clipboard-history_daemon.sh
+
