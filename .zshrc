@@ -23,11 +23,6 @@ git remote get-url origin \
   | xargs open
 }
 
-#clipboard
-function dic() {
-	fzf --preview 'dict {}' --color=bw --no-border --reverse < /usr/share/dict/words | while read word; do dict "$word" | less; done
-}
-
 # history
 HISTSIZE=10000
 SAVEHIST=10000
@@ -57,9 +52,9 @@ alias gurl=git_remote_url
 alias vimconf='nvim $NVIM_CONFIG'
 
 # dotfile scripts
-alias dewm='~/.scripts/desktop-environment.sh'
 alias ntfy="~/.scripts/ntfy.sh"
 alias cq='~/.scripts/clipboard.sh'
+alias dict='~/.scripts/dict.sh'
 
 # tokens
 alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'

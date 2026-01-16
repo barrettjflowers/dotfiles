@@ -4,13 +4,13 @@ source "$HOME/.config/colors/colors.sh"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=32 \
+  height=31 \
   y_offset=12 \
   margin=12 \
   corner_radius=11 \
   blur_radius=40 \
   border_width=0 \
-  border_color="$BACKGROUND" \
+  border_color="$ACCENT_SECONDARY" \
   background=on \
   shadow=on \
   color=0x60333333\
@@ -20,14 +20,14 @@ sketchybar --bar \
 # default styles
 default=(
   padding_left=6
-  padding_right=6
+  padding_right=2
   label.padding_left=4
-  label.padding_right=8
+  label.padding_right=1
   icon.padding_left=0
   icon.padding_right=4
   background.color=
-  background.corner_radius=11
-  background.height=28
+  background.corner_radius=10
+  background.height=25
   background.width=20
   label.color="${TEXT}"
   icon.color="${TEXT}"
@@ -83,7 +83,7 @@ done
 
 sketchybar --add item front_app left \
 		   --animate sin 10 \
-           --set front_app icon.drawing=off padding_left=-125 script="$PLUGIN_DIR/front_app.sh" \
+           --set front_app icon.drawing=off padding_left=-145 script="$PLUGIN_DIR/front_app.sh" \
 		   click_script="$PLUGIN_DIR/front_app.sh" \
            --subscribe front_app front_app_switched
 
@@ -91,8 +91,7 @@ sketchybar --add item notch_left q \
  --animate sin 10 \
   --set notch_left \
     label.drawing=on \
-	  label.padding_left=0 \
-		padding_right=14 \
+		padding_right=12 \
     script="$PLUGIN_DIR/spotify.sh" \
 		update_freq=15 \
     click_script="$PLUGIN_DIR/spotify_vol_slider.sh"
@@ -103,35 +102,26 @@ sketchybar --add item clock right \
 		   padding_left=8 \
 		   padding_right=4 \
 		   label.padding_left=0 \
-		   update_freq=1 \
-		   click_script="osascript -e 'tell application \"System Events\" to keystroke \"\\\\\" using {command down, shift down}'"
+		   update_freq=1
+
+sketchybar --add item notifications right \
+           --animate sin 10 \
+           --set notifications \
+		   label.color="$ACCENT_SECONDARY" \
+		   click_script="sketchybar --set notifications label=""" \
+           script="$PLUGIN_DIR/notifications.sh" \
+           update_freq=1
 
 sketchybar --add item battery e \
            --set battery \
              update_freq=60 \
+			 padding_right=0 \
              script="$PLUGIN_DIR/battery.sh" \
 			 click_script="open -a 'AlDente'"
 
-sketchybar --add alias wifi AlDente right \
-             update_freq=5 \
-             label.drawing=on \
-             label.padding_left=0 \
-             label.padding_right=6 \
-			 padding.left=0 
-
-#sketchybar --add item weather right \
-#           --set weather script="$PLUGIN_DIR/weather.sh" \
-#             update_freq=1200 \
-#             label.padding_left=0 \
-#             label.padding_right=7 \
-
-#sketchybar --add item appearance right \
-#           --set appearance \
-#             label="􀡎" \
-#             click_script="$PLUGIN_DIR/appearance.sh" \
-#             background.height=22 \
-#             label.padding_left=0 \
-#             label.padding_right=7
+sketchybar --add item weather e \
+           --set weather script="$PLUGIN_DIR/weather.sh" \
+             update_freq=1200
 
 #sketchybar --add item control_center right \
 #		   --set control_center \
@@ -143,11 +133,7 @@ sketchybar --add alias wifi AlDente right \
 sketchybar --add item notch_right e \
            --set notch_right \
              script="$PLUGIN_DIR/cpu.sh" \
-						 click_script="alacritty -e btop" \
              icon.drawing=off \
-             label.padding_right=6 \
-             padding_left=14 \
-						 padding_right=4 \
              update_freq=30 
 
 ##### Force Initial Update #####
@@ -155,4 +141,3 @@ sketchybar --update
 
 ## Bootstraps
 ~/.scripts/clipboard-history_daemon.sh
-

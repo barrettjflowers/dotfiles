@@ -13,7 +13,7 @@ EOF
 )
 
 selection=$(printf '%s\n' "$items" \
-  | fzf --prompt="System > " --with-nth=1 --delimiter=$'\t') || exit 0
+  | fzf --reverse --no-border --no-preview --color=bw --prompt="system > " --with-nth=1 --delimiter=$'\t') || exit 0
 
 open "${selection#*$'\t'}"
 
