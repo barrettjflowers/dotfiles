@@ -3,7 +3,7 @@ Unix config. Useful when migrating to a new system, locating config files,
 or recalling programs and scripts.
 See `.gitignore` to add files. This repo is initialized in my home directory.
 
-![Screenshot 2025-12-08 at 4 29 05 PM](https://github.com/user-attachments/assets/aab2fe42-50ab-412d-8b42-2a7b9a43325a)
+![Screenshot 2026-01-16 at 3 42 36 PM](https://github.com/user-attachments/assets/4df1f96f-fc92-4afc-8668-ef614ab0537e)
 
 ### Keyboard
 I use Hammerspoon with a program called vimspoon to give vim-like operations to my whole unix desktop.
