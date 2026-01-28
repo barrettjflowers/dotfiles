@@ -4,13 +4,13 @@ source "$HOME/.config/colors/colors.sh"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=31 \
+  height=30 \
   y_offset=12 \
   margin=12 \
-  corner_radius=11 \
-  blur_radius=40 \
-  border_width=0 \
-  border_color="$ACCENT_SECONDARY" \
+  corner_radius=0 \
+  blur_radius=30 \
+  border_width=1 \
+  border_color="$BACKGROUND" \
   background=on \
   shadow=on \
   color=0x60333333\
@@ -27,8 +27,8 @@ default=(
   icon.padding_right=4
   background.color=
   background.corner_radius=10
-  background.height=25
-  background.width=20
+  background.height=23
+  background.width=18
   label.color="${TEXT}"
   icon.color="${TEXT}"
   icon.font="Menlo:Bold:14.5"
@@ -83,7 +83,7 @@ done
 
 sketchybar --add item front_app left \
 		   --animate sin 10 \
-           --set front_app icon.drawing=off padding_left=-145 script="$PLUGIN_DIR/front_app.sh" \
+           --set front_app icon.drawing=off padding_left=-140 script="$PLUGIN_DIR/front_app.sh" \
 		   click_script="$PLUGIN_DIR/front_app.sh" \
            --subscribe front_app front_app_switched
 
@@ -110,7 +110,7 @@ sketchybar --add item notifications right \
 		   label.color="$ACCENT_SECONDARY" \
 		   click_script="sketchybar --set notifications label=""" \
            script="$PLUGIN_DIR/notifications.sh" \
-           update_freq=1
+           update_freq=3
 
 sketchybar --add item battery e \
            --set battery \
@@ -134,7 +134,7 @@ sketchybar --add item notch_right e \
            --set notch_right \
              script="$PLUGIN_DIR/cpu.sh" \
              icon.drawing=off \
-             update_freq=30 
+             update_freq=5 
 
 ##### Force Initial Update #####
 sketchybar --update

@@ -2,10 +2,12 @@
 source "$HOME/.config/colors/colors.sh"
 
 options=(
-	style=uniform
+	#style=uniform
+	style=square
 	width=5
 	hidpi=on
 	#inactive_color="${BACKGROUND}"
+	inactive_color="${BACKGROUND}"
 	active_color="${ACCENT_SECONDARY}"
 	blacklist=""
 )

@@ -1,30 +1,12 @@
 #!/bin/bash
 
-count=$(osascript -e '
-tell application "System Events"
-  tell process "NotificationCenter"
-    if (count of windows) is 0 then return -1
-    set total to 0
-    repeat with g in UI elements of window 1
-      try
-        set total to total + (count of UI elements of g)
-      end try
-    end repeat
-    return total
-  end tell
-end tell
-')
+count=$(osascript -e 'tell application "System Events" to tell process "Dock" to value of attribute "AXStatusLabel" of UI element "Microsoft Teams" of list 1'
+)
 
 echo "$count"
-if [ "$count" = "-1" ]; then
+if [ "$count" -ge 1 ] 2>/dev/null; then
+    sketchybar --set notifications label="􀝗 $count" 
 	exit 0
 fi
-
-if [ "$count" = "1" ] || [ -z "$count" ]; then
-    sketchybar --set notifications label="􀝗" 
-    exit 0
-fi
-
+sketchybar --set notifications label="" 
 echo "$count"
-sketchybar --set notifications label="􀝗"
-

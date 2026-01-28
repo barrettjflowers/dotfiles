@@ -11,7 +11,8 @@
 !.bashrc
 !.codeium
 !.fzf
-!.hammerspoon
+!/.hammerspoon/
+!/.hammerspoon/*
 !.parsec
 !.putty
 !/Markdown/

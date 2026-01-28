@@ -3,7 +3,7 @@
 
 export TEXT="0xffC7CEDB" #white
 export FOREGROUND="0x95ffffff" #active
-export BACKGROUND="0xff323232" #inactive
+export BACKGROUND="0xff626262" #inactive
 
 export ACCENT_SECONDARY="0xffA89CAA" #pastel purple
 #export ACCENT_SECONDARY="0xff7C857B" #pastel green
