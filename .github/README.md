@@ -6,11 +6,14 @@ See `.gitignore` to add files. This repo is initialized in my home directory.
 ![Screenshot 2026-01-16 at 3 42 36 PM](https://github.com/user-attachments/assets/4df1f96f-fc92-4afc-8668-ef614ab0537e)
 
 ### Keyboard
-I use Hammerspoon with a program called vimspoon to give vim-like operations to my whole unix desktop.
+Vimspoon gives vim operations to my whole unix desktop.
 Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
-See `.hammerspoon` file for special configurations.
+See `.hammerspoon` file for special configurations and sketchybar integration.
 
-### Casks
+![Screenshot 2026-02-02 at 4 29 40 PM](https://github.com/user-attachments/assets/0f6d94dc-e6c1-4c12-a5c9-ff686251f9d5)
+
+
+### Brew Casks
 **Amythest** \
 A window manager.
 `brew install --cask amethyst`
@@ -22,7 +25,6 @@ Useful for external displays, or audio interfaces. \
 
 **Raycast** \
 Supercharged spotlight search \
-Clipboard history bind: c-v \
 `brew install --cask raycast`
 
 **Scroll Reverser** \
@@ -36,9 +38,9 @@ A lightweight key remapping program, uses lua! See `.config/hammerspoon` \
 ### Formulae
 See `.zshrc`and `kittyrc`.
 
-**mcli** \
-A general purposed cli for controlling MacOS functions. \
-`brew install m-cli`
+**sketchybar** \
+Waybar clone for macos.
+`brew install sketchybar`
 
 **jankyborders** \
 Windows borders on MacOS. See `.config/borders` \
@@ -56,16 +58,20 @@ Show Desktop: `Control + J` \
 Keyboard > Screenshots > Save picture: `Shift + Command + S`  \
 Screenshot recording options: `Option + Command + S` 
 
+**Dock** \
 Hiding apps shows greyed out in dock. \
-`defaults write com.apple.Dock showhidden -boolean yes; killall Dock` \
+`defaults write com.apple.Dock showhidden -boolean yes; killall Dock`
+
 Small space separator between open apps and pinned apps. \
-`''defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock''`  \
+`''defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock''` 
+
 Slow down the dock animation to prevent accidental triggers. \
-`defaults write com.apple.dock autohide-time-modifier -float 1.12; killall Dock`   \
-Allow window dragging from anywhere with command + control.
+`defaults write com.apple.dock autohide-time-modifier -float 1.12; killall Dock`  
+
+Allow window dragging from anywhere with command + control. \
 `defaults write -g NSWindowShouldDragOnGesture -bool true`
 
 ### Todo
-- [ ] Move remaining trigger scripts from raycast to hammerspoon. (Goal is to completely get rid of raycast dependancy)
+- [x] Move remaining trigger scripts from raycast to hammerspoon. (Goal is to completely get rid of raycast dependancy)
 - [ ] Move amythest config to yabai.
-- [ ] Cleanup or remove hammerspoon UI.
+- [x] Cleanup or remove hammerspoon UI.
