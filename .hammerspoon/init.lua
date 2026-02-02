@@ -31,16 +31,16 @@ hs.hotkey.bind({'control'}, 'space', function()
   end
 end)
 
-hs.hotkey.bind({'control'}, 'f', function()
-    hs.execute('open ~/')
-end)
-
 hs.hotkey.bind({'control', 'shift'}, 'c', function()
     hs.execute('open "raycast://confetti"')
 end)
 
 hs.hotkey.bind({'control', 'shift'}, 'r', function()
     hs.execute('open "raycast://"')
+end)
+
+hs.hotkey.bind({'control'}, 's', function()
+    hs.execute('open "raycast://extensions/raycast/screenshots/paste-recent-screenshot"')
 end)
 
 hs.hotkey.bind({'control'}, 'm', function()

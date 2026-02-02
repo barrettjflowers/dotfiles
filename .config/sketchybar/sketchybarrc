@@ -4,10 +4,10 @@ source "$HOME/.config/colors/colors.sh"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=30 \
+  height=32 \
   y_offset=12 \
   margin=12 \
-  corner_radius=0 \
+  corner_radius=11 \
   blur_radius=30 \
   border_width=1 \
   border_color="$BACKGROUND" \

@@ -75,7 +75,6 @@ vim.keymap.set("n", "<leader>8", ":set tabstop=8 shiftwidth=8 softtabstop=8<CR>"
 local lspconfig = require "lspconfig"
 lspconfig.lua_ls.setup({})
 lspconfig.rust_analyzer.setup({})
-lspconfig.eslint.setup({})
 lspconfig.ts_ls.setup({})
 lspconfig.html.setup({})
 lspconfig.svelte.setup({})
