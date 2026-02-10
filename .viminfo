@@ -11,20 +11,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/index
+~MSle0~/crono
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1770343721,,"q!"
 :q
 |2,0,1770048799,,"q"
 :w
 |2,0,1763129447,,"w"
 :wq
 |2,0,1755013561,,"wq"
-:q!
-|2,0,1750945810,,"q!"
 :Q!
 |2,0,1747702173,,"Q!"
 :set paste
@@ -91,6 +91,8 @@ $
 |2,0,1701567819,,"help"
 
 # Search String History (newest to oldest):
+?/crono
+|2,1,1770343710,47,"crono"
 ?/index
 |2,1,1743084309,47,"index"
 ? \/
@@ -226,30 +228,38 @@ $
 |3,0,36,0,1,0,1744490976,"7"
 
 # File marks:
-'0  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,48,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
-'1  1  0  ~/.config/colors/colors.sh
-|4,49,1,0,1765374710,"~/.config/colors/colors.sh"
+'0  11525  217  ~/.zsh_history
+|4,48,11525,217,1770343721,"~/.zsh_history"
+'1  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
+|4,49,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
 '2  1  0  ~/.config/colors/colors.sh
-|4,50,1,0,1765144892,"~/.config/colors/colors.sh"
+|4,50,1,0,1765374710,"~/.config/colors/colors.sh"
 '3  1  0  ~/.config/colors/colors.sh
-|4,51,1,0,1765079393,"~/.config/colors/colors.sh"
+|4,51,1,0,1765144892,"~/.config/colors/colors.sh"
 '4  1  0  ~/.config/colors/colors.sh
 |4,52,1,0,1765079393,"~/.config/colors/colors.sh"
-'5  15  0  /private/etc/hosts
-|4,53,15,0,1763129452,"/private/etc/hosts"
-'6  49  0  /private/etc/sudoers
-|4,54,49,0,1761179392,"/private/etc/sudoers"
-'7  16  12  /private/etc/hosts
-|4,55,16,12,1755013561,"/private/etc/hosts"
-'8  15  12  /private/etc/hosts
-|4,56,15,12,1755013561,"/private/etc/hosts"
-'9  1  0  ~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf
-|4,57,1,0,1750945810,"~/Dev/v3/terraform/m./apps/indygateway/module_s3_exchange.tf"
+'5  1  0  ~/.config/colors/colors.sh
+|4,53,1,0,1765079393,"~/.config/colors/colors.sh"
+'6  15  0  /private/etc/hosts
+|4,54,15,0,1763129452,"/private/etc/hosts"
+'7  49  0  /private/etc/sudoers
+|4,55,49,0,1761179392,"/private/etc/sudoers"
+'8  16  12  /private/etc/hosts
+|4,56,16,12,1755013561,"/private/etc/hosts"
+'9  15  12  /private/etc/hosts
+|4,57,15,12,1755013561,"/private/etc/hosts"
 
 # Jumplist (newest first):
+-'  11525  217  ~/.zsh_history
+|4,39,11525,217,1770343721,"~/.zsh_history"
+-'  1  0  ~/.zsh_history
+|4,39,1,0,1770343710,"~/.zsh_history"
 -'  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
 |4,39,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
+-'  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
+|4,39,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
+-'  1  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
+|4,39,1,0,1770048788,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
 -'  1  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
 |4,39,1,0,1770048788,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
 -'  1  0  ~/.config/colors/colors.sh
@@ -257,9 +267,21 @@ $
 -'  1  0  ~/.config/colors/colors.sh
 |4,39,1,0,1765374710,"~/.config/colors/colors.sh"
 -'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
 |4,39,1,0,1765144892,"~/.config/colors/colors.sh"
 -'  1  0  ~/.config/colors/colors.sh
 |4,39,1,0,1765144892,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
+-'  1  0  ~/.config/colors/colors.sh
+|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
 -'  1  0  ~/.config/colors/colors.sh
 |4,39,1,0,1765079393,"~/.config/colors/colors.sh"
 -'  1  0  ~/.config/colors/colors.sh
@@ -296,6 +318,70 @@ $
 |4,39,15,0,1763129452,"/private/etc/hosts"
 -'  15  0  /private/etc/hosts
 |4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1763129452,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
+-'  16  0  /private/etc/hosts
+|4,39,16,0,1763129059,"/private/etc/hosts"
 -'  16  0  /private/etc/hosts
 |4,39,16,0,1763129059,"/private/etc/hosts"
 -'  16  0  /private/etc/hosts
@@ -360,96 +446,17 @@ $
 |4,39,13,0,1763128968,"/private/etc/hosts"
 -'  13  0  /private/etc/hosts
 |4,39,13,0,1763128968,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
--'  17  0  /private/etc/hosts
-|4,39,17,0,1763128967,"/private/etc/hosts"
--'  18  0  /private/etc/hosts
-|4,39,18,0,1763128967,"/private/etc/hosts"
--'  19  0  /private/etc/hosts
-|4,39,19,0,1763128967,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  13  0  /private/etc/hosts
+|4,39,13,0,1763128968,"/private/etc/hosts"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zsh_history
+	*	1770343720	0
+	"	11525	217
+	^	11525	218
 
 > ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
 	*	1770048798	0
@@ -1553,10 +1560,3 @@ $
 	^	17	26
 	.	17	0
 	+	17	0
-
-> /Volumes/IndyHost HD/Projects/rust/todo/README.md
-	*	1717009683	0
-	"	5	17
-	^	15	22
-	.	15	21
-	+	15	21

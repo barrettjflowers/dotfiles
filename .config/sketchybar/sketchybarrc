@@ -119,9 +119,9 @@ sketchybar --add item battery e \
              script="$PLUGIN_DIR/battery.sh" \
 			 click_script="open -a 'AlDente'"
 
-sketchybar --add item weather e \
-           --set weather script="$PLUGIN_DIR/weather.sh" \
-             update_freq=1200
+#sketchybar --add item weather e \
+#           --set weather script="$PLUGIN_DIR/weather.sh" \
+#             update_freq=1200
 
 #sketchybar --add item control_center right \
 #		   --set control_center \

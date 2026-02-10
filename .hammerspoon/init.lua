@@ -39,10 +39,6 @@ hs.hotkey.bind({'control', 'shift'}, 'r', function()
     hs.execute('open "raycast://"')
 end)
 
-hs.hotkey.bind({'control'}, 's', function()
-    hs.execute('open "raycast://extensions/raycast/screenshots/paste-recent-screenshot"')
-end)
-
 hs.hotkey.bind({'control'}, 'm', function()
     hs.execute('open "raycast://extensions/raycast/navigation/search-menu-items"')
 end)
