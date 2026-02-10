@@ -12,6 +12,11 @@ See `.hammerspoon` file for special configurations and sketchybar integration.
 
 ![Screenshot 2026-02-02 at 4 29 40 PM](https://github.com/user-attachments/assets/0f6d94dc-e6c1-4c12-a5c9-ff686251f9d5)
 
+### Launcher
+Second instance of kitty entitled `launcher`. \
+<Ctrl> + <Space> to open launcher. \
+See `.config/kitty` for additional key bindings. \
+See `/.scripts` for launcher trigger scripts.
 
 ### Brew Casks
 **Amythest** \
