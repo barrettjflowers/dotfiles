@@ -14,9 +14,11 @@ See `.hammerspoon` file for special configurations and sketchybar integration.
 
 ### Launcher
 Second instance of kitty entitled `launcher`. \
-<Ctrl> + <Space> to open launcher. \
+`Control + Space` to open launcher. \
 See `.config/kitty` for additional key bindings. \
-See `/.scripts` for launcher trigger scripts.
+See [.scripts](https://github.com/barrettjflowers/dotfiles/tree/main/.scripts) for launcher trigger scripts.
+![Screenshot 2026-02-10 at 3 56 32 PM](https://github.com/user-attachments/assets/87e16e4c-6df8-442d-b734-9f116f4480b4)
+
 
 ### Brew Casks
 **Amythest** \
