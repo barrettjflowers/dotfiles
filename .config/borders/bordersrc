@@ -2,8 +2,8 @@
 source "$HOME/.config/colors/colors.sh"
 
 options=(
-	style=uniform
-	#style=square
+#	style=uniform
+	style=square
 	width=5
 	hidpi=on
 	#inactive_color="${BACKGROUND}"
