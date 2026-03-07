@@ -4,10 +4,10 @@ source "$HOME/.config/colors/colors.sh"
 ##### Bar Appearance #####
 sketchybar --bar \
   position=top \
-  height=32 \
+  height=34 \
   y_offset=12 \
   margin=12 \
-  corner_radius=0 \
+  corner_radius=11 \
   blur_radius=30 \
   border_width=1 \
   border_color="$BACKGROUND" \
@@ -15,12 +15,12 @@ sketchybar --bar \
   shadow=on \
   color=0x60333333\
   sticky=on \
-  display=1
+  display=all
 
 # default styles
 default=(
   padding_left=6
-  padding_right=2
+  padding_right=4
   label.padding_left=4
   label.padding_right=1
   icon.padding_left=0
@@ -31,8 +31,8 @@ default=(
   background.width=18
   label.color="${TEXT}"
   icon.color="${TEXT}"
-  icon.font="Menlo:Bold:14.5"
-  label.font="Menlo:Bold:13.5"
+  icon.font="Menlo:Bold:16.5"
+  label.font="Menlo:Bold:15.5"
 )
 sketchybar --default "${default[@]}"
 

@@ -1,15 +1,83 @@
 hs.loadSpoon("SpoonInstall")
-hs.application.enableSpotlightForNameSearches(true)
 
--- keybinds
-hs.hotkey.bind({'control', 'shift'}, 'c', function()
-    hs.execute('open "raycast://confetti"')
+-- macos kb backlight toggle
+local backlight = false
+hs.hotkey.bind({'control', 'shift'}, 'b', function()
+    if backlight then
+        hs.execute('mac-brightnessctl 00.0')
+        backlight = false
+    else
+        hs.execute('mac-brightnessctl 0.10')
+        backlight = true
+    end
 end)
 
+-- native macos menubar toggle
+local menubar = false
 hs.hotkey.bind({'control'}, 'm', function()
-    hs.execute('open "raycast://extensions/raycast/navigation/search-menu-items"')
+    if menubar then
+        hs.execute('yabai -m config menubar_opacity 1.0')
+        menubar = false
+    else
+        hs.execute('yabai -m config menubar_opacity 0.0')
+        menubar = true
+    end
 end)
 
+-- ==============================
+--  Yabai
+-- ==============================
+
+local alt = { "alt" }
+local yabai = "/opt/homebrew/bin/yabai"
+
+local function y(args)
+    hs.task.new(yabai, nil, args):start()
+end
+
+-- --------------------------------
+-- ⌥ + H → focus previous window
+-- ⌥ + L → focus next window
+-- --------------------------------
+hs.hotkey.bind(alt, "H", function()
+    y({ "-m", "window", "--focus", "prev" })
+end)
+
+hs.hotkey.bind(alt, "L", function()
+    y({ "-m", "window", "--focus", "next" })
+end)
+
+-- --------------------------------
+-- ⌥ + K → cycle layout forward
+-- ⌥ + J → cycle layout backward
+-- --------------------------------
+hs.hotkey.bind(alt, "K", function()
+    y({ "-m", "space", "--layout", "bsp" })
+end)
+
+hs.hotkey.bind(alt, "K", function()
+    y({ "-m", "window", "--toggle", "zoom-fullscreen" })
+end)
+
+-- --------------------------------
+-- ⌥ + [ → resize left
+-- ⌥ + ] → resize right
+-- --------------------------------
+hs.hotkey.bind(alt, "]", function()
+    y({ "-m", "window", "--resize", "right:40:0" })
+end)
+
+hs.hotkey.bind(alt, "[", function()
+    y({ "-m", "window", "--resize", "right:-40:0" })
+end)
+
+hs.hotkey.bind(alt, "p", function()
+    y({ "-m", "window", "--resize", "left:40:0" })
+end)
+
+hs.hotkey.bind(alt, "o", function()
+    y({ "-m", "window", "--resize", "left:-40:0" })
+end)
 --------------------------------
 -- START VIM CONFIG
 --------------------------------

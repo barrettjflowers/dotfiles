@@ -2,14 +2,13 @@
 source "$HOME/.config/colors/colors.sh"
 
 options=(
-#	style=uniform
-	style=square
-	width=5
+	style=round
+	width=2.5
 	hidpi=on
-	#inactive_color="${BACKGROUND}"
 	inactive_color="${BACKGROUND}"
 	active_color="${ACCENT_SECONDARY}"
-	blacklist=""
+	blacklist="Arc,Windows App"
+	order=above
 )
 
 borders "${options[@]}"

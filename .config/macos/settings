@@ -1,0 +1,132 @@
+{
+    AKLastIDMSEnvironment = 0;
+    AKLastLocale = "en_US";
+    AppleAccentColor = "-1";
+    AppleActionOnDoubleClick = None;
+    AppleAntiAliasingThreshold = 4;
+    AppleAquaColorVariant = 6;
+    AppleEnableMouseSwipeNavigateWithScrolls = 1;
+    AppleEnableSwipeNavigateWithScrolls = 1;
+    AppleHighlightColor = "0.847059 0.847059 0.862745 Graphite";
+    AppleInterfaceStyle = Dark;
+    AppleKeyboardUIMode = 3;
+    AppleLanguages =     (
+        "en-US"
+    );
+    AppleLanguagesDidMigrate = "13.5.1";
+    AppleLanguagesSchemaVersion = 5400;
+    AppleLocale = "en_US";
+    AppleMenuBarVisibleInFullscreen = 0;
+    AppleMiniaturizeOnDoubleClick = 0;
+    ApplePressAndHoldEnabled = 0;
+    AppleReduceDesktopTinting = 0;
+    AppleShowAllExtensions = 1;
+    AppleShowScrollBars = WhenScrolling;
+    AppleWindowTabbingMode = manual;
+    InitialKeyRepeat = 15;
+    "KB_DoubleQuoteOption" = "\\U201cabc\\U201d";
+    "KB_SingleQuoteOption" = "\\U2018abc\\U2019";
+    "KB_SpellingLanguage" =     {
+        "KB_SpellingLanguageIsAutomatic" = 1;
+    };
+    KeyRepeat = 2;
+    NSAutomaticCapitalizationEnabled = 0;
+    NSAutomaticDashSubstitutionEnabled = 1;
+    NSAutomaticPeriodSubstitutionEnabled = 0;
+    NSAutomaticQuoteSubstitutionEnabled = 1;
+    NSAutomaticSpellingCorrectionEnabled = 0;
+    NSAutomaticTextCompletionEnabled = 1;
+    NSFontPanelSizeSliderParams = "2 0 100";
+    NSLinguisticDataAssetsRequestLastInterval = 86400;
+    NSLinguisticDataAssetsRequestTime = "2026-03-06 19:14:24 +0000";
+    NSLinguisticDataAssetsRequested =     (
+        en,
+        pt,
+        nb,
+        nn,
+        fr,
+        nl,
+        "en_US",
+        it
+    );
+    NSLinguisticDataAssetsRequestedByChecker =     (
+        en,
+        pt,
+        nb,
+        nn,
+        fr,
+        nl,
+        it
+    );
+    NSNavPanelFileLastListModeForOpenModeKey = 3;
+    NSNavPanelFileListModeForOpenMode2 = 3;
+    NSPreferredWebServices =     {
+        NSWebServicesProviderWebSearch =         {
+            NSDefaultDisplayName = Google;
+            NSProviderIdentifier = "com.google.www";
+        };
+    };
+    NSSpellCheckerContainerTransitionComplete = 1;
+    NSSpellCheckerDictionaryContainerTransitionComplete = 1;
+    NSSpellCheckerInputAnalyticsTime = "2025-01-24 16:46:01 +0000";
+    NSTableViewDefaultSizeMode = 3;
+    NSUserDictionaryReplacementItems =     (
+                {
+            on = 1;
+            replace = omw;
+            with = "On my way!";
+        },
+                {
+            on = 1;
+            replace = yhbmbasailililyinwtbpfyftdo;
+            with = ily;
+        },
+                {
+            on = 1;
+            replace = ily;
+            with = yhbmbasailililyinwtbpfyftdo;
+        }
+    );
+    NSUserKeyEquivalents =     {
+        "Enter Full Screen" = "^f";
+        "Exit Full Screen" = "^f";
+        Minimize = "@~^m";
+    };
+    NSUserQuotesArray =     (
+        "\\U201c",
+        "\\U201d",
+        "\\U2018",
+        "\\U2019"
+    );
+    NSWindowShouldDragOnGesture = 1;
+    UIPreferredContentSizeCategoryName = UICTContentSizeCategoryL;
+    WebAutomaticSpellingCorrectionEnabled = 0;
+    "_AKBAACertMarkerKey" = {length = 32, bytes = 0xe9d36758 73015c23 c5a2363b d2f34033 ... c5eae18f c900e124 };
+    "_HIHideMenuBar" = 1;
+    "com.apple.finder.SyncExtensions" =     {
+        collaborationMap =         {
+        };
+        dirMap =         {
+        };
+    };
+    "com.apple.gms.availability.accessNotGrantedUseCases" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
+    "com.apple.gms.availability.disabledUseCases" = {length = 82, bytes = 0x62706c69 73743030 a1015f10 23636f64 ... 00000000 00000030 };
+    "com.apple.gms.availability.disallowedUseCases" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
+    "com.apple.gms.availability.essentialAssetReadiness" = {length = 5, bytes = 0x66616c7365};
+    "com.apple.gms.availability.key" = {length = 46, bytes = 0x62706c69 73743030 a1011002 080a0000 ... 00000000 0000000c };
+    "com.apple.gms.availability.useCasesWhoseAssetsAreOutOfStorage" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
+    "com.apple.gms.availability.useCasesWhoseAssetsNotReady" = {length = 1571, bytes = 0x62706c69 73743030 af102701 02030405 ... 00000000 000005b3 };
+    "com.apple.keyboard.fnState" = 0;
+    "com.apple.mouse.scaling" = "0.6875";
+    "com.apple.scrollwheel.scaling" = "0.3125";
+    "com.apple.sound.beep.feedback" = 0;
+    "com.apple.sound.beep.flash" = 0;
+    "com.apple.sound.beep.sound" = "/System/Library/Sounds/Bottle.aiff";
+    "com.apple.sound.beep.volume" = 1;
+    "com.apple.sound.uiaudio.enabled" = 1;
+    "com.apple.springing.delay" = "0.5";
+    "com.apple.springing.enabled" = 1;
+    "com.apple.swipescrolldirection" = 1;
+    "com.apple.trackpad.forceClick" = 0;
+    "com.apple.trackpad.scaling" = "0.875";
+}
