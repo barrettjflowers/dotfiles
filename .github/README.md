@@ -66,3 +66,5 @@ Allow window dragging from anywhere with command + control. \
 
 ### Todo
 - [x] Cleanup or remove hammerspoon UI.
+- [ ] Update readme documentation
+- [ ] Script a solution for sketchybar audio indicator
