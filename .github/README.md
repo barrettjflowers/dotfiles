@@ -13,26 +13,17 @@ See `.hammerspoon` file for special configurations and sketchybar integration.
 ![Screenshot 2026-02-02 at 4 29 40 PM](https://github.com/user-attachments/assets/0f6d94dc-e6c1-4c12-a5c9-ff686251f9d5)
 
 ### Launcher
-Second instance of kitty entitled `launcher`. \
-`Control + Space` to open launcher. \
-See `.config/kitty` for additional key bindings. \
-See [.scripts](https://github.com/barrettjflowers/dotfiles/tree/main/.scripts) for launcher trigger scripts.
-![Screenshot 2026-02-10 at 3 56 32 PM](https://github.com/user-attachments/assets/87e16e4c-6df8-442d-b734-9f116f4480b4)
+Alfred.
+`Command + Space` to open. \
+See `.config/alfred` for additional preferences. \
 
-
-### Brew Casks
-**Amythest** \
-A window manager.
-`brew install --cask amethyst`
+### Notable Homebrew 
+[https://docs.brew.sh/](https://docs.brew.sh/)
 
 **Proxy Audio Device** \
 Routes all audio through a virtual audio device. \
 Useful for external displays, or audio interfaces. \
 `brew install --cask proxy-audio-device`
-
-**Raycast** \
-Supercharged spotlight search \
-`brew install --cask raycast`
 
 **Scroll Reverser** \
 Maintains natural scrolling on trackpad without affecting mouse. \
@@ -41,9 +32,6 @@ Maintains natural scrolling on trackpad without affecting mouse. \
 **Hammerspoon** \
 A lightweight key remapping program, uses lua! See `.config/hammerspoon` \
 `brew install --cask hammerspoon`
-
-### Formulae
-See `.zshrc`and `kittyrc`.
 
 **sketchybar** \
 Waybar clone for macos.
@@ -58,28 +46,23 @@ Tiling window manager. \
 `brew install yabai`
 
 ### MacOS Specific
+See `.config/macos`.
+
 **System Preferences** \
-Appearance > Sidebar icon size: `Small` \
 Keyboard > Misson Control > Misson Control: `Control + K` \
 Show Desktop: `Control + J` \
 Keyboard > Screenshots > Save picture: `Shift + Command + S`  \
 Screenshot recording options: `Option + Command + S` 
 
 **Dock** \
-Hiding apps shows greyed out in dock. \
+Hiding apps show greyed out in dock. \
 `defaults write com.apple.Dock showhidden -boolean yes; killall Dock`
 
 Small space separator between open apps and pinned apps. \
 `defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock` 
 
-Slow down the dock animation to prevent accidental triggers. \
-`defaults write com.apple.dock autohide-time-modifier -float 1.12; killall Dock`  
-
 Allow window dragging from anywhere with command + control. \
 `defaults write -g NSWindowShouldDragOnGesture -bool true`
 
 ### Todo
-- [x] Move remaining trigger scripts from raycast to hammerspoon. (Goal is to completely get rid of raycast dependancy)
-- [ ] Move amythest config to yabai.
-- [ ] Fix launcher autohide on unfocus.
 - [x] Cleanup or remove hammerspoon UI.

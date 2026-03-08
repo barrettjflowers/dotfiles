@@ -6,5 +6,5 @@
 # https://felixkratz.github.io/SketchyBar/config/events#events-and-scripting
 
 if [ "$SENDER" = "front_app_switched" ]; then
-  sketchybar --set $NAME label="› $INFO ›" label.padding_left=0 label.padding_right=2 padding_right=0
+  sketchybar --set $NAME label="› $INFO" label.padding_left=0 label.padding_right=4 padding_right=0
 fi

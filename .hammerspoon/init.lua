@@ -24,6 +24,18 @@ hs.hotkey.bind({'control'}, 'm', function()
     end
 end)
 
+-- window border toggle
+local janky = false
+hs.hotkey.bind({'control'}, 'b', function()
+    if janky then
+        hs.execute('brew services stop borders')
+        janky = false
+    else
+        hs.execute('brew services start borders')
+        janky = true
+    end
+end)
+
 -- ==============================
 --  Yabai
 -- ==============================

@@ -12,11 +12,11 @@ else
 /Pages occupied by compressor/ {comp=$6}
 END {printf "%.1f", (wired+active+spec+comp)*ps/1024/1024/1024}')
 echo "Used RAM: ${MEM_USAGE} GB"
-  SONG="􀫦 ${MEM_USAGE} GB"
+  SONG="􀫦 ${MEM_USAGE}"
 fi
 
 echo "$SONG"
-sketchybar --animate sin 20 --set notch_left label="$SONG" \
+sketchybar --set mem label="$SONG" \
 	scroll_texts=on \
   label.max_chars=20 \
   icon.color=$TEXT \
