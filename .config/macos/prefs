@@ -1,0 +1,31 @@
+#!/bin/bash
+#mac os system preferences
+
+defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write -g AppleAccentColor -int -1
+defaults write -g AppleInterfaceStyle -string "Dark"
+
+#hide menubar in fullscreen
+defaults write -g AppleMenuBarVisibleInFullscreen -int 0
+defaults write -g _HIHideMenuBar -int 1
+
+defaults write -g AppleShowScrollBars -string "WhenScrolling"
+
+#use media keys
+defaults write -g com.apple.keyboard.fnState -int 0
+
+#disable volume feedback
+defaults write -g com.apple.sound.beep.feedback -int 0
+
+#dock
+defaults write com.apple.dock orientation -string right
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.Dock showhidden -boolean yes; killall Dock
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock
+
+#allow dragging from anywhere
+defaults write -g NSWindowShouldDragOnGesture -bool true
+
+
+
+
