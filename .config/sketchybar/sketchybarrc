@@ -59,7 +59,7 @@ sketchybar --add item focus left\
 sketchybar --add item space-background left \
 					 --set space-background \
 					 background.drawing=on \
-					 width=170
+					 width=160
 
 SPACE_ICONS=("1" "2" "3" "4" "5" "6")
 KEYCODES=(18 19 20 21 23 22 26 28 25)
@@ -72,8 +72,7 @@ for i in "${!SPACE_ICONS[@]}"; do
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=8
     icon.padding_right=8
-		background.drawing=off
-		padding_left=-160
+  	padding_left=-160
     padding_right=157
     label.drawing=off
     script="$PLUGIN_DIR/space.sh"
@@ -134,3 +133,4 @@ sketchybar --update
 # bootstraps
 brew services restart borders
 killall Hammerspoon; open -a Hammerspoon # vimspoon integration
+yabai --start-service

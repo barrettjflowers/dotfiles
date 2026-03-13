@@ -14,5 +14,7 @@
 #       23 0-23/2 * * * echo "run 23 minutes after midn, 2am, 4am ..., everyday"
 #       5 4 * * sun     echo "run at 5 after 4 every sunday"
 
-* * * * * crontab -l > ~/.config/macos/crontab
-* * * * * defaults read -g > ~/.config/macos/settings
+# backup to dotfiles
+*/5 * * * * crontab -l > ~/.config/macos/crontab
+*/5 * * * * defaults read -g > ~/.config/macos/settings
+*/5 * * * * PATH=/opt/homebrew/bin:/usr/bin:/bin HOME=$HOME /opt/homebrew/bin/brew list > "$HOME/.config/macos/brew"

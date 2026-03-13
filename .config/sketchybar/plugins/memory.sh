@@ -1,23 +1,17 @@
 #!/bin/bash
 source "$HOME/.config/colors/colors.sh"
 
-SONG_TEXT=$(osascript -e 'tell application "Spotify" to if it is running and player state is playing then name of current track & " — " & artist of current track')
-if [ -n "$SONG_TEXT" ]; then
-  SONG="􂙩 $SONG_TEXT"
-else
-  MEM_USAGE=$(vm_stat | awk -v ps=$(vm_stat | grep "page size" | awk '{print $8}' | tr -d '.') '
+MEM_USAGE=$(vm_stat | awk -v ps=$(vm_stat | grep "page size" | awk '{print $8}' | tr -d '.') '
 /Pages wired down/ {wired=$4}
 /Pages active/ {active=$3}
 /Pages speculative/ {spec=$3}
 /Pages occupied by compressor/ {comp=$6}
 END {printf "%.1f", (wired+active+spec+comp)*ps/1024/1024/1024}')
 echo "Used RAM: ${MEM_USAGE} GB"
-  SONG="􀫦 ${MEM_USAGE}"
-fi
 
 echo "$SONG"
-sketchybar --set mem label="$SONG" \
-	scroll_texts=on \
+sketchybar --set mem label="􀫦 $MEM_USAGE" \
+  scroll_texts=on \
   label.max_chars=20 \
   icon.color=$TEXT \
   label.color=$TEXT 

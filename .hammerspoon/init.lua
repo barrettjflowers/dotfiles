@@ -24,18 +24,6 @@ hs.hotkey.bind({'control'}, 'm', function()
     end
 end)
 
--- window border toggle
-local janky = false
-hs.hotkey.bind({'control'}, 'b', function()
-    if janky then
-        hs.execute('brew services stop borders')
-        janky = false
-    else
-        hs.execute('brew services start borders')
-        janky = true
-    end
-end)
-
 -- ==============================
 --  Yabai
 -- ==============================
@@ -76,20 +64,13 @@ end)
 -- ⌥ + ] → resize right
 -- --------------------------------
 hs.hotkey.bind(alt, "]", function()
-    y({ "-m", "window", "--resize", "right:40:0" })
+    y({ "-m", "window", "--resize", "right:80:0" })
 end)
 
 hs.hotkey.bind(alt, "[", function()
-    y({ "-m", "window", "--resize", "right:-40:0" })
+    y({ "-m", "window", "--resize", "right:-80:0" })
 end)
 
-hs.hotkey.bind(alt, "p", function()
-    y({ "-m", "window", "--resize", "left:40:0" })
-end)
-
-hs.hotkey.bind(alt, "o", function()
-    y({ "-m", "window", "--resize", "left:-40:0" })
-end)
 --------------------------------
 -- START VIM CONFIG
 --------------------------------
