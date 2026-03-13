@@ -5,19 +5,23 @@ See `.gitignore` to add files. This repo is initialized in my home directory.
 
 ![Screenshot 2026-02-03 at 9 56 43 AM](https://github.com/user-attachments/assets/8229ab4e-01d0-4cd7-9d4e-3277ebf82acb)
 
-### Keyboard
+Keyboard
+---
 Vimspoon gives vim operations to my whole unix desktop.
 Visit [https://github.com/dbalatero/VimMode.spoon](https://github.com/dbalatero/VimMode.spoon) for installation instructions. \
-See `.hammerspoon` file for special configurations and sketchybar integration.
+See `.hammerspoon` for special configurations and sketchybar integration.
 
 ![Screenshot 2026-02-02 at 4 29 40 PM](https://github.com/user-attachments/assets/0f6d94dc-e6c1-4c12-a5c9-ff686251f9d5)
 
-### Launcher
+Launcher
+---
 Alfred.
 `Command + Space` to open. \
-See `.config/alfred` for additional preferences. \
+See `.config/alfred` for additional preferences.
 
-### Notable Homebrew 
+Brew
+---
+For a full list currently installed see `.config/macos/brew` \
 [https://docs.brew.sh/](https://docs.brew.sh/)
 
 **Proxy Audio Device** \
@@ -45,14 +49,13 @@ Windows borders on MacOS. See `.config/borders` \
 Tiling window manager. \
 `brew install yabai`
 
-### MacOS Specific
+MacOS Specific
+---
 See `.config/macos`.
 
 **System Preferences** \
-Keyboard > Misson Control > Misson Control: `Control + K` \
-Show Desktop: `Control + J` \
-Keyboard > Screenshots > Save picture: `Shift + Command + S`  \
-Screenshot recording options: `Option + Command + S` 
+See preferences script `.config/pref` \
+All preferences are dumped to `.config/settings`
 
 **Dock** \
 Hiding apps show greyed out in dock. \
@@ -64,7 +67,6 @@ Small space separator between open apps and pinned apps. \
 Allow window dragging from anywhere with command + control. \
 `defaults write -g NSWindowShouldDragOnGesture -bool true`
 
+---
 ### Todo
-- [x] Cleanup or remove hammerspoon UI.
-- [ ] Update readme documentation
-- [ ] Script a solution for sketchybar audio indicator
+- [ ] fix yabai window resizing
