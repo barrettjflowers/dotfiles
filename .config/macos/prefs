@@ -26,6 +26,3 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-sp
 #allow dragging from anywhere
 defaults write -g NSWindowShouldDragOnGesture -bool true
 
-
-
-

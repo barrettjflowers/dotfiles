@@ -126,6 +126,7 @@ netcat
 nettle
 nmap
 node
+nowplaying-cli
 numpy
 nvm
 oniguruma
@@ -223,7 +224,6 @@ yazi
 z3
 zsh-syntax-highlighting
 zstd
-8x8-work
 adobe-creative-cloud
 aldente
 alfred
@@ -247,6 +247,7 @@ obsidian
 openmtp
 parsec
 proxy-audio-device
+qutebrowser
 scroll-reverser
 sf-symbols
 teamviewer

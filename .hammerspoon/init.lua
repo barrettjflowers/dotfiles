@@ -27,7 +27,6 @@ end)
 -- ==============================
 --  Yabai
 -- ==============================
-
 local alt = { "alt" }
 local yabai = "/opt/homebrew/bin/yabai"
 
@@ -48,13 +47,8 @@ hs.hotkey.bind(alt, "L", function()
 end)
 
 -- --------------------------------
--- ⌥ + K → cycle layout forward
--- ⌥ + J → cycle layout backward
+-- ⌥ + K → fullscreen
 -- --------------------------------
-hs.hotkey.bind(alt, "K", function()
-    y({ "-m", "space", "--layout", "bsp" })
-end)
-
 hs.hotkey.bind(alt, "K", function()
     y({ "-m", "window", "--toggle", "zoom-fullscreen" })
 end)
@@ -63,12 +57,20 @@ end)
 -- ⌥ + [ → resize left
 -- ⌥ + ] → resize right
 -- --------------------------------
-hs.hotkey.bind(alt, "]", function()
+hs.hotkey.bind({ "alt", "shift" }, "h", function()
+    y({ "-m", "window", "--resize", "left:-80:0" })
+end)
+
+hs.hotkey.bind({ "alt", "shift" }, "l", function()
     y({ "-m", "window", "--resize", "right:80:0" })
 end)
 
-hs.hotkey.bind(alt, "[", function()
-    y({ "-m", "window", "--resize", "right:-80:0" })
+hs.hotkey.bind({ "alt", "shift" }, "k", function()
+    y({ "-m", "window", "--resize", "top:0:-80" })
+end)
+
+hs.hotkey.bind({ "alt", "shift" }, "j", function()
+    y({ "-m", "window", "--resize", "bottom:0:80" })
 end)
 
 --------------------------------
@@ -85,10 +87,9 @@ vim
   :disableForApp('Windows App')
   :disableForApp('Obsidian')
   :disableForApp('kitty')
-  :disableForApp('launcher')
 
 --fallback mode
-vim:useFallbackMode('Safari')
+vim:useFallbackMode('Brave Browser')
 
 -- If you want the screen to dim (a la Flux) when you enter normal mode
 -- set this to true.

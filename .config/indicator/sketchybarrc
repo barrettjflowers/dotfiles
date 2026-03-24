@@ -1,0 +1,78 @@
+PLUGIN_DIR="$CONFIG_DIR/plugins"
+source "$HOME/.config/colors/colors.sh"
+
+# main bar
+indicator --bar \
+  position=top \
+  height=740 \
+  margin=400 \
+  y_offset=400 \
+  corner_radius=11 \
+  blur_radius=30 \
+  border_width=1 \
+  border_color="$BACKGROUND" \
+  background=on \
+  shadow=on \
+  color=0x60333333\
+  sticky=on \
+  display=all
+
+# default styles
+default=(
+  padding_left=6
+  padding_right=4
+  label.padding_left=4
+  label.padding_right=1
+  icon.padding_left=0
+  icon.padding_right=4
+  background.color=
+  background.corner_radius=10
+  background.height=23
+  background.width=18
+  label.color="${TEXT}"
+  icon.color="${TEXT}"
+  icon.font="Menlo:Bold:14.5"
+  label.font="Menlo:Bold:14.5"
+)
+
+indicator --default "${default[@]}"
+
+# notch items
+indicator --add item battery e \
+           --set battery \
+           update_freq=60 \
+			     padding_right=8 \
+			     padding_left=16 \
+				 icon.padding_right=6 \
+           script="$PLUGIN_DIR/battery.sh"
+
+indicator --add item cpu e \
+           --set cpu \
+           script="$PLUGIN_DIR/cpu.sh" \
+           icon.drawing=off \
+           update_freq=5 
+
+indicator --add item mem e \
+           --set mem \
+           label.drawing=on \
+		   label.padding_right=4 \
+           script="$PLUGIN_DIR/memory.sh" \
+		       update_freq=15
+
+# right items
+indicator --add item clock right \
+           --set clock update_freq=15 script="$PLUGIN_DIR/clock.sh" \
+		       padding_left=8 \
+		       padding_right=4 \
+		       label.padding_left=0 \
+		       update_freq=1
+
+indicator --add item notifications right \
+           --animate sin 10 \
+           --set notifications \
+		       label.color="$ACCENT_SECONDARY" \
+           script="$PLUGIN_DIR/notifications.sh" \
+           update_freq=3
+
+# force init
+indicator --update

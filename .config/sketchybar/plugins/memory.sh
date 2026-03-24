@@ -10,7 +10,7 @@ END {printf "%.1f", (wired+active+spec+comp)*ps/1024/1024/1024}')
 echo "Used RAM: ${MEM_USAGE} GB"
 
 echo "$SONG"
-sketchybar --set mem label="􀫦 $MEM_USAGE" \
+sketchybar --set mem label="􀫦 $MEM_USAGE " \
   scroll_texts=on \
   label.max_chars=20 \
   icon.color=$TEXT \

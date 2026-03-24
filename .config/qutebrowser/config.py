@@ -3,8 +3,8 @@ config.load_autoconfig(False)
 # ---- Minimal UI ----
 c.tabs.show = "never"
 c.statusbar.show = "never"
-c.window.title_format = ""
-c.window.hide_decoration = False
+c.window.title_format = "{percent} - {current_title}"
+c.window.hide_decoration = True
 
 # ---- Start page ----
 c.url.start_pages = ["https://duckduckgo.com"]
