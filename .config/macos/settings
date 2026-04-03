@@ -38,7 +38,7 @@
     NSAutomaticTextCompletionEnabled = 1;
     NSFontPanelSizeSliderParams = "2 0 100";
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-03-24 13:28:42 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-04-03 18:07:27 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         pt,

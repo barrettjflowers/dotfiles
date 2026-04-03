@@ -1,19 +1,19 @@
- -- ~/.config/nvim/init.lua
+-- ~/.config/nvim/init.lua
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.signcolumn = "yes"
 vim.o.termguicolors = true
 vim.o.wrap = false
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
 vim.o.swapfile = false
 vim.g.mapleader = " "
 vim.o.winborder = "rounded"
 vim.o.clipboard = ""
 vim.opt.mouse = ""
 
--- plugins
+-- plugin management
 vim.pack.add({
 	{ src = "https://github.com/vague2k/vague.nvim" },
 	{ src = "https://github.com/echasnovski/mini.pick" },
@@ -27,18 +27,17 @@ vim.pack.add({
 	{ src = "https://github.com/Exafunction/windsurf.nvim"},
 	{ src = "https://github.com/nvim-lua/plenary.nvim"},
 	{ src = "https://github.com/hrsh7th/nvim-cmp"},
-	{ src = "https://github.com/hrsh7th/cmp-nvim-lsp"},
 })
 
--- LSP init
-local lspconfig = require "lspconfig"
-local cmp_capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-lspconfig.lua_ls.setup({ capabilities = cmp_capabilities })
-lspconfig.rust_analyzer.setup({ capabilities = cmp_capabilities })
-lspconfig.ts_ls.setup({ capabilities = cmp_capabilities })
-lspconfig.html.setup({ capabilities = cmp_capabilities })
-lspconfig.svelte.setup({ capabilities = cmp_capabilities })
+vim.api.nvim_create_autocmd('LspAttach', {
+	callback = function(ev)
+		local client = vim.lsp.get_client_by_id(ev.data.client_id)
+		if client:supports_method('textDocument/completion') then
+			vim.lsp.completion.enable(true, client.id, ev.buf, { autotrigger = true })
+		end
+	end,
+})
+vim.cmd("set completeopt+=noselect")
 
 -- init plugins
 require "mini.pick".setup()
@@ -55,7 +54,7 @@ require "nvim-treesitter.configs".setup({
 	highlight = { enable = true }
 })
 
--- maps
+-- key maps
 vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>')
 vim.keymap.set('n', '<leader>f', ":Pick files<CR>")
 vim.keymap.set('n', '<leader>h', ":Pick help<CR>")
@@ -65,7 +64,20 @@ vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("n", "<leader>0", ':set nonumber<CR> :set norelativenumber<CR> :lua vim.diagnostic.config({ signs = false })<CR>')
 
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
-local cmp = require("cmp")
+vim.keymap.set('i', '<C-Space>', vim.lsp.buf.completion, { noremap = true, silent = true })
+
+-- tab sizes
+vim.keymap.set("n", "<leader>2", ":set tabstop=2 shiftwidth=2 softtabstop=2<CR>")
+vim.keymap.set("n", "<leader>4", ":set tabstop=4 shiftwidth=4 softtabstop=4<CR>")
+vim.keymap.set("n", "<leader>8", ":set tabstop=8 shiftwidth=8 softtabstop=8<CR>")
+
+-- LSP configuration
+local lspconfig = require "lspconfig"
+lspconfig.lua_ls.setup({})
+lspconfig.rust_analyzer.setup({})
+lspconfig.ts_ls.setup({})
+lspconfig.html.setup({})
+lspconfig.svelte.setup({})
 
 -- styling
 require "vague".setup({ transparent = true })

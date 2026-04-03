@@ -12,5 +12,6 @@ else
   sketchybar --set "$NAME" \
   label.color=$TEXT \
   icon.color=$TEXT \
+  background.color=$BACKGROUND \
   background.drawing=off
 fi

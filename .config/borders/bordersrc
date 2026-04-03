@@ -2,7 +2,7 @@
 source "$HOME/.config/colors/colors.sh"
 
 options=(
-	style=round
+	style=rounded
 	width=2.5
 	hidpi=on
 	inactive_color="${BACKGROUND}"

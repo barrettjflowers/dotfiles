@@ -54,8 +54,8 @@ hs.hotkey.bind(alt, "K", function()
 end)
 
 -- --------------------------------
--- ⌥ + [ → resize left
--- ⌥ + ] → resize right
+-- ⌥ + H → resize left
+-- ⌥ + L → resize right
 -- --------------------------------
 hs.hotkey.bind({ "alt", "shift" }, "h", function()
     y({ "-m", "window", "--resize", "left:-80:0" })
@@ -71,6 +71,13 @@ end)
 
 hs.hotkey.bind({ "alt", "shift" }, "j", function()
     y({ "-m", "window", "--resize", "bottom:0:80" })
+end)
+
+-- --------------------------------
+-- ⌥ + O → float
+-- --------------------------------
+hs.hotkey.bind(alt, "O", function()
+    y({ "-m", "window", "--toggle", "float" })
 end)
 
 --------------------------------

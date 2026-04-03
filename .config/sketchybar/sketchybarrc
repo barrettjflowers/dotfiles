@@ -4,11 +4,11 @@ source "$HOME/.config/colors/colors.sh"
 # main bar
 sketchybar --bar \
   position=top \
-  height=33 \
+  height=32 \
   y_offset=12 \
   margin=12 \
-  corner_radius=11 \
-  blur_radius=30 \
+  corner_radius=10 \
+  blur_radius=20 \
   border_width=1 \
   border_color="$BACKGROUND" \
   background=on \
@@ -27,12 +27,12 @@ default=(
   icon.padding_right=4
   background.color=
   background.corner_radius=6
-  background.height=23
+  background.height=20
   background.width=18
   label.color="${TEXT}"
   icon.color="${TEXT}"
-  icon.font="Menlo:Bold:14.5"
-  label.font="Menlo:Bold:14.5"
+  icon.font="Menlo:Bold:15.0"
+  label.font="Menlo:Bold:15.0"
 )
 
 sketchybar --default "${default[@]}"
@@ -99,7 +99,7 @@ sketchybar --add item battery e \
            --set battery \
            update_freq=60 \
 			     padding_right=8 \
-			     padding_left=16 \
+			     padding_left=24 \
 				 icon.padding_right=6 \
            script="$PLUGIN_DIR/battery.sh"
 
@@ -112,7 +112,6 @@ sketchybar --add item cpu e \
 sketchybar --add item mem e \
            --set mem \
            label.drawing=on \
-		   label.padding_right=4 \
            script="$PLUGIN_DIR/memory.sh" \
 		       update_freq=15
 
@@ -120,7 +119,7 @@ sketchybar --add item mem e \
 sketchybar --add item clock right \
            --set clock update_freq=15 script="$PLUGIN_DIR/clock.sh" \
 		       padding_left=8 \
-		       padding_right=4 \
+		       padding_right=10 \
 		       label.padding_left=0 \
 		       update_freq=1
 
