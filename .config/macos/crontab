@@ -18,3 +18,6 @@
 */10 * * * * crontab -l > ~/.config/macos/crontab
 */10 * * * * defaults read -g > ~/.config/macos/settings
 */10 * * * * PATH=/opt/homebrew/bin:/usr/bin:/bin HOME=$HOME /opt/homebrew/bin/brew list > "$HOME/.config/macos/brew"
+
+# copy blog to vault
+*/10 * * * * cp -rf /Users/barrettjflowers/Dev/site/docs/blog /Users/barrettjflowers/Vault/barrettjflowers

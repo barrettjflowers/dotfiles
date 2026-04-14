@@ -7,7 +7,7 @@ options=(
 	hidpi=on
 	inactive_color="${BACKGROUND}"
 	active_color="${ACCENT_SECONDARY}"
-	blacklist="Arc,Windows App"
+	blacklist=""
 	order=above
 )
 
