@@ -21,6 +21,7 @@ See `.config/alfred` for additional preferences.
 
 Brew
 ---
+A collection of crucial packages. \
 For a full list currently installed see `.config/macos/brew` \
 [https://docs.brew.sh/](https://docs.brew.sh/)
 
@@ -67,9 +68,9 @@ All preferences are dumped to `.config/settings`
 
 **Dock** \
 Disabled the dock entirely \
-`defaults write com.apple.dock autohide -bool true && killall Dock`
-`defaults write com.apple.dock autohide-delay -float 1000 && killall Dock`
-`defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock`
+`defaults write com.apple.dock autohide -bool true && killall Dock` \
+`defaults write com.apple.dock autohide-delay -float 1000 && killall Dock` \
+`defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock` 
 
 **Menubar** \
 Disabled the native menubar entirely in lieu of sketchybar \
