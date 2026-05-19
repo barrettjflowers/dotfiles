@@ -4,7 +4,7 @@ source "$HOME/.config/colors/colors.sh"
 # main bar
 sketchybar --bar \
   position=top \
-  height=32 \
+  height=33 \
   y_offset=12 \
   margin=12 \
   corner_radius=10 \
@@ -13,7 +13,7 @@ sketchybar --bar \
   border_color="$BACKGROUND" \
   background=on \
   shadow=on \
-  color=0x60333333\
+  color=0x30333333\
   sticky=on \
   display=all
 

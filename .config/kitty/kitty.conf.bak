@@ -5,12 +5,12 @@ macos_option_as_alt no
 #allow_remote_control yes
 
 font_family Menlo
-font_size 16
+font_size 17
 disable_ligatures never
 enable_audio_bell no
 
 # Layout
-window_padding_width 18
+window_padding_width 20
 #remember_window_position no
 #remember_window_size no
 #initial_window_width 500
@@ -33,3 +33,9 @@ cursor_trail 30
 #map ctrl+v launch --type=overlay zsh -c "~/.scripts/clipboard.sh; exec zsh"
 #map ctrl+d launch --type=overlay zsh -c "~/.scripts/dict.sh; exec zsh"
 #map ctrl+s launch --type=overlay zsh -c "~/.scripts/raycast.sh; exec zsh"
+
+
+# BEGIN_KITTY_THEME
+# Afterglow
+include current-theme.conf
+# END_KITTY_THEME

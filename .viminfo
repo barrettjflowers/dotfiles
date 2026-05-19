@@ -11,18 +11,18 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/crono
+~MSle0~/Wolc
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1770343721,,"q!"
+|2,0,1778542048,,"q!"
 :q
-|2,0,1770048799,,"q"
+|2,0,1778542047,,"q"
 :w
-|2,0,1763129447,,"w"
+|2,0,1776200660,,"w"
 :wq
 |2,0,1755013561,,"wq"
 :Q!
@@ -91,6 +91,14 @@ $
 |2,0,1701567819,,"help"
 
 # Search String History (newest to oldest):
+?/Wolc
+|2,1,1778596073,47,"Wolc"
+?/Recent
+|2,1,1778541949,47,"Recent"
+?/Webpage
+|2,1,1778541946,47,"Webpage"
+?/webpage
+|2,1,1778541943,47,"webpage"
 ?/crono
 |2,1,1770343710,47,"crono"
 ?/index
@@ -228,230 +236,233 @@ $
 |3,0,36,0,1,0,1744490976,"7"
 
 # File marks:
-'0  11525  217  ~/.zsh_history
-|4,48,11525,217,1770343721,"~/.zsh_history"
-'1  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,49,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
-'2  1  0  ~/.config/colors/colors.sh
-|4,50,1,0,1765374710,"~/.config/colors/colors.sh"
+'0  1  0  ~/2026-04-14
+|4,48,1,0,1776200678,"~/2026-04-14"
+'1  11525  217  ~/.zsh_history
+|4,49,11525,217,1770343721,"~/.zsh_history"
+'2  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
+|4,50,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
 '3  1  0  ~/.config/colors/colors.sh
-|4,51,1,0,1765144892,"~/.config/colors/colors.sh"
+|4,51,1,0,1765374710,"~/.config/colors/colors.sh"
 '4  1  0  ~/.config/colors/colors.sh
-|4,52,1,0,1765079393,"~/.config/colors/colors.sh"
+|4,52,1,0,1765144892,"~/.config/colors/colors.sh"
 '5  1  0  ~/.config/colors/colors.sh
 |4,53,1,0,1765079393,"~/.config/colors/colors.sh"
-'6  15  0  /private/etc/hosts
-|4,54,15,0,1763129452,"/private/etc/hosts"
-'7  49  0  /private/etc/sudoers
-|4,55,49,0,1761179392,"/private/etc/sudoers"
-'8  16  12  /private/etc/hosts
-|4,56,16,12,1755013561,"/private/etc/hosts"
-'9  15  12  /private/etc/hosts
-|4,57,15,12,1755013561,"/private/etc/hosts"
+'6  1  0  ~/.config/colors/colors.sh
+|4,54,1,0,1765079393,"~/.config/colors/colors.sh"
+'7  15  0  /private/etc/hosts
+|4,55,15,0,1763129452,"/private/etc/hosts"
+'8  49  0  /private/etc/sudoers
+|4,56,49,0,1761179392,"/private/etc/sudoers"
+'9  16  12  /private/etc/hosts
+|4,57,16,12,1755013561,"/private/etc/hosts"
 
 # Jumplist (newest first):
--'  11525  217  ~/.zsh_history
-|4,39,11525,217,1770343721,"~/.zsh_history"
--'  1  0  ~/.zsh_history
-|4,39,1,0,1770343710,"~/.zsh_history"
--'  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,39,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
--'  2  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,39,2,0,1770048799,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
--'  1  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,39,1,0,1770048788,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
--'  1  0  ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md
-|4,39,1,0,1770048788,"~/Library/Mobile Documents/iCloud~md~obsidian/Documents/barrettjflowers/README.md"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765374710,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765144892,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
--'  1  0  ~/.config/colors/colors.sh
-|4,39,1,0,1765079393,"~/.config/colors/colors.sh"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  15  0  /private/etc/hosts
-|4,39,15,0,1763129452,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  16  0  /private/etc/hosts
-|4,39,16,0,1763129059,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
--'  13  0  /private/etc/hosts
-|4,39,13,0,1763128968,"/private/etc/hosts"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
+-'  1  0  ~/2026-04-14
+|4,39,1,0,1776200678,"~/2026-04-14"
 
 # History of marks within files (newest to oldest):
+
+> ~/2026-04-14
+	*	1776200678	0
+	"	1	0
+	^	4	0
+	.	3	10
+	+	3	10
 
 > ~/.zsh_history
 	*	1770343720	0
@@ -1553,10 +1564,3 @@ $
 > ~/StardewValley
 	*	1717347445	0
 	"	1	0
-
-> ~/Temp/merchants.csv
-	*	1717022000	0
-	"	15	17
-	^	17	26
-	.	17	0
-	+	17	0

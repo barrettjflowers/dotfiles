@@ -1,6 +1,6 @@
 #!/bin/bash
 
-count=$(osascript -e 'tell application "System Events" to tell process "Dock" to value of attribute "AXStatusLabel" of UI element "Microsoft Teams" of list 1'
+count=$(osascript -e 'tell application "System Events" to tell process "Dock" to value of attribute "AXStatusLabel" of UI element "Microsoft Teams (PWA)" of list 1'
 )
 
 echo "$count"

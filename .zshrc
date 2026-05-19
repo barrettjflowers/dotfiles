@@ -50,15 +50,11 @@ alias win='~/.scripts/windows.sh'
 alias gl='git log --all --oneline --graph'
 alias gurl=git_remote_url
 alias vimconf='nvim $NVIM_CONFIG'
+alias pcp='pbcopy'
 
 # dotfile scripts
 alias ntfy="~/.scripts/ntfy.sh"
-alias cq='~/.scripts/clipboard.sh'
 alias dict='~/.scripts/dict.sh'
-
-# tokens
-alias gitlab-token='cat ~/.git-tokens/gitlab | pbcopy'
-alias github-token='cat ~/.git-tokens/github | pbcopy'
 
 # fzf
 alias fman='bash -c '\''compgen -c | fzf --height 20 --no-preview | xargs man'\'

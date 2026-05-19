@@ -10,6 +10,7 @@ bob
 borders
 brotli
 btop
+bun
 c-ares
 ca-certificates
 cairo
@@ -38,6 +39,7 @@ git
 glib
 gmp
 gnutls
+go
 gradle
 gradle-completion
 graphite2
@@ -118,10 +120,13 @@ mac-brightnessctl
 macmon
 md4c
 media-control
+merve
 mpdecimal
 mpfr
+nbytes
 ncurses
 neofetch
+neon
 netcat
 nettle
 nmap
@@ -143,6 +148,7 @@ opus
 p11-kit
 pango
 pcre2
+pi-coding-agent
 pixman
 protobuf
 putty
@@ -197,6 +203,7 @@ sdl2
 shared-mime-info
 sherlock
 simdjson
+simdutf
 sketchybar
 speedtest-cli
 sqlite
@@ -217,6 +224,7 @@ webp
 wget
 x264
 x265
+xcodegen
 xorgproto
 xz
 yabai
@@ -231,7 +239,6 @@ anki
 audacity
 balenaetcher
 betterdisplay
-brave-browser
 codex-app
 docker
 docker-desktop
@@ -240,6 +247,7 @@ font-sf-pro
 font-sketchybar-app-font
 gimp
 hammerspoon
+instant-space-switcher
 kitty
 legcord
 lunar-client
@@ -250,6 +258,7 @@ obsidian
 openmtp
 parsec
 proxy-audio-device
+quickrecorder
 qutebrowser
 scroll-reverser
 sf-symbols
@@ -258,4 +267,5 @@ teamviewer
 telegram
 tunnelblick
 vanilla
+vivaldi
 zoom

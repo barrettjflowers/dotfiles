@@ -1,0 +1,67 @@
+
+:root {
+  --font-primary: "Menlo";
+}
+
+[data-mana-component="modal"] {
+ opacity: .95 !important;
+ background-color: rgb(55, 55, 55) !important;
+}
+
+[data-mana-component="modal"] [aria-selected="true"] {
+    background-color:  rgb(45, 45, 45) !important;
+}
+
+/* hide traffic lights */
+#window-controls-container { display: none !important; }
+
+/* transparent background
+* {
+  background-color: transparent !important;
+  opacity: .99;
+}
+*/
+
+/* get rid of grdients */
+.chatGradient__36d07.chatGradientBase__36d07 {
+    display: none !important;
+}
+
+#app-mount > div.appAsidePanelWrapper_a3002d > div > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content__5e434 > div.sidebar__5e434.theme-dark.images-dark::after {
+    content: none !important;
+    display: none !important;
+}
+
+[aria-label="Last Meadow Online"] {
+  display: none !important;
+}
+
+/* Hide server list | ⌘ + k is your friend*/
+nav[class*="guilds"] {
+  display: none !important;
+}
+
+/* Hide help button */
+[class*="toolbar"] button[aria-label="Help"] {
+  display: none !important;
+}
+
+/* Hide the help button that links to support.discord.com */
+a[href="https://support.discord.com"] {
+  display: none !important;
+}
+
+/* Hide invite button in server header */
+header span:nth-child(2) > div {
+  display: none !important;
+}
+
+/* Hide only the boost badge container */
+[class*="guildBadgeAndName"] > div {
+  display: none !important;
+}
+
+/* Hide any button inside the gift form buttons container */
+.scrollableContainer__74017 .buttons__74017 > div.button__74017 {
+  display: none !important;
+}

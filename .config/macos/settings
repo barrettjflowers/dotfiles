@@ -32,13 +32,15 @@
     KeyRepeat = 2;
     NSAutomaticCapitalizationEnabled = 0;
     NSAutomaticDashSubstitutionEnabled = 1;
+    NSAutomaticInlinePredictionEnabled = 0;
     NSAutomaticPeriodSubstitutionEnabled = 0;
     NSAutomaticQuoteSubstitutionEnabled = 1;
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSAutomaticTextCompletionEnabled = 1;
+    NSAutomaticWindowAnimationsEnabled = 0;
     NSFontPanelSizeSliderParams = "2 0 100";
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-04-13 22:21:18 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-05-18 12:19:27 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         pt,
@@ -47,7 +49,8 @@
         fr,
         nl,
         "en_US",
-        it
+        it,
+        es
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
         en,
@@ -56,7 +59,8 @@
         nn,
         fr,
         nl,
-        it
+        it,
+        es
     );
     NSNavPanelFileLastListModeForOpenModeKey = 3;
     NSNavPanelFileListModeForOpenMode2 = 3;
@@ -73,13 +77,18 @@
     NSUserDictionaryReplacementItems =     (
                 {
             on = 1;
-            replace = omw;
-            with = "On my way!";
+            replace = ":arrowleft:";
+            with = "<-";
         },
                 {
             on = 1;
-            replace = yhbmbasailililyinwtbpfyftdo;
-            with = ily;
+            replace = ":arrowright:";
+            with = "\\U2192";
+        },
+                {
+            on = 1;
+            replace = omw;
+            with = "On my way!";
         },
                 {
             on = 1;
@@ -101,7 +110,7 @@
     NSWindowShouldDragOnGesture = 1;
     UIPreferredContentSizeCategoryName = UICTContentSizeCategoryL;
     WebAutomaticSpellingCorrectionEnabled = 0;
-    "_AKBAACertMarkerKey" = {length = 32, bytes = 0xe9d36758 73015c23 c5a2363b d2f34033 ... c5eae18f c900e124 };
+    "_AKBAACertMarkerKey" = {length = 32, bytes = 0xa38879f2 cc913090 717b5256 d50d308d ... 79777540 634b44ad };
     "_HIHideMenuBar" = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {

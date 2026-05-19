@@ -1,0 +1,40 @@
+#tabs-tabbar-container,
+#header {
+display: none !important;
+}
+
+#urlFieldInput {
+    font-family: Menlo, monospace !important;
+    font-size: 15px !important;
+}
+
+#addressfield {
+    box-shadow: none !important;
+}
+
+/* Remove 6px gap around window when auto-hide is active */
+.auto-hide {
+  grid-template-columns: 0 [content] 1fr 0 !important;
+  grid-template-rows: 0 [content] 1fr 0 !important;
+}
+.auto-hide #browser {
+  border-radius: 0 !important;
+}
+
+/* remove bookmark, rss, reader view buttons */
+.toolbar.toolbar-small.toolbar-insideinput button[title*="Bookmark"],
+.toolbar.toolbar-small.toolbar-insideinput button[aria-label*="Bookmark"],
+.toolbar.toolbar-small.toolbar-insideinput .bookmark,
+.toolbar.toolbar-small.toolbar-insideinput .bookmark-button {
+    display: none !important;
+}
+
+button[title="Page offers feeds"] {
+  display: none !important;
+}
+
+button[title="Reader View"] {
+  display: none !important;
+}
+
+

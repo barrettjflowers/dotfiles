@@ -1,13 +1,17 @@
 hs.loadSpoon("SpoonInstall")
+hs.ipc.cliInstall()
+
+local brightnessctl = "/opt/homebrew/bin/mac-brightnessctl"
+local yabai = "/opt/homebrew/bin/yabai"
 
 -- macos kb backlight toggle
 local backlight = false
 hs.hotkey.bind({'control', 'shift'}, 'b', function()
     if backlight then
-        hs.execute('mac-brightnessctl 00.0')
+        hs.task.new(brightnessctl, nil, {"0.0"}):start()
         backlight = false
     else
-        hs.execute('mac-brightnessctl 0.10')
+        hs.task.new(brightnessctl, nil, {"0.10"}):start()
         backlight = true
     end
 end)
@@ -16,27 +20,31 @@ end)
 local menubar = false
 hs.hotkey.bind({'control'}, 'm', function()
     if menubar then
-        hs.execute('yabai -m config menubar_opacity 1.0')
+        hs.task.new(yabai, nil, {"-m", "config", "menubar_opacity", "1.0"}):start()
         menubar = false
     else
-        hs.execute('yabai -m config menubar_opacity 0.0')
+        hs.task.new(yabai, nil, {"-m", "config", "menubar_opacity", "0.0"}):start()
         menubar = true
     end
 end)
 
+-- distractions (Cmd+Opt+F5 = Do Not Disturb)
+--hs.hotkey.bind({"ctrl", "shift"}, "d", function()
+--    hs.execute("/Users/barrettjflowers/.scripts/distractions.sh")
+--end)
+
 -- ==============================
---  Yabai
+--  yabai
 -- ==============================
 local alt = { "alt" }
-local yabai = "/opt/homebrew/bin/yabai"
 
 local function y(args)
     hs.task.new(yabai, nil, args):start()
 end
 
 -- --------------------------------
--- ⌥ + H → focus previous window
--- ⌥ + L → focus next window
+-- ⌥ + h → focus previous window
+-- ⌥ + l → focus next window
 -- --------------------------------
 hs.hotkey.bind(alt, "H", function()
     y({ "-m", "window", "--focus", "prev" })
@@ -47,15 +55,15 @@ hs.hotkey.bind(alt, "L", function()
 end)
 
 -- --------------------------------
--- ⌥ + K → fullscreen
+-- ⌥ + k → fullscreen
 -- --------------------------------
 hs.hotkey.bind(alt, "K", function()
     y({ "-m", "window", "--toggle", "zoom-fullscreen" })
 end)
 
 -- --------------------------------
--- ⌥ + H → resize left
--- ⌥ + L → resize right
+-- ⌥ + shift + h → resize left
+-- ⌥ + shift + l → resize right
 -- --------------------------------
 hs.hotkey.bind({ "alt", "shift" }, "h", function()
     y({ "-m", "window", "--resize", "left:-80:0" })
@@ -74,7 +82,7 @@ hs.hotkey.bind({ "alt", "shift" }, "j", function()
 end)
 
 -- --------------------------------
--- ⌥ + O → float
+-- ⌥ + o → float
 -- --------------------------------
 hs.hotkey.bind(alt, "O", function()
     y({ "-m", "window", "--toggle", "float" })
@@ -94,9 +102,10 @@ vim
   :disableForApp('Windows App')
   :disableForApp('Obsidian')
   :disableForApp('kitty')
+  :disableForApp('System Settings')
 
 --fallback mode
-vim:useFallbackMode('Brave Browser')
+vim:useFallbackMode('Vivaldi')
 
 -- If you want the screen to dim (a la Flux) when you enter normal mode
 -- set this to true.
@@ -118,4 +127,22 @@ vim:enterWithSequence('jk', 90)
 
 --------------------------------
 -- END VIM CONFIG
---------------------------------
+-------------------------------
+
+-- ==============================
+--  Spaces (InstantSpaceSwitcher)
+-- ==============================
+local issc = "/Applications/InstantSpaceSwitcher.app/Contents/MacOS/ISSCli"
+
+local ctrlKeys = {[18]=1, [19]=2, [20]=3, [21]=4, [23]=5, [22]=6}
+hs.eventtap.new({ hs.eventtap.event.types.keyDown }, function(e)
+    local mods = e:getFlags()
+    if mods.ctrl and not mods.alt and not mods.cmd and not mods.shift then
+        local idx = ctrlKeys[e:getKeyCode()]
+        if idx then
+            hs.execute(issc .. " index " .. idx)
+            return true
+        end
+    end
+    return false
+end):start()
