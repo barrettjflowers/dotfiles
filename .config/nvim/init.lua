@@ -13,6 +13,13 @@ vim.o.winborder = "rounded"
 vim.o.clipboard = ""
 vim.opt.mouse = ""
 
+-- blinking cursor
+vim.opt.guicursor =
+  "n-v-c:block," ..
+  "i-ci-ve:ver25-blinkwait175-blinkoff150-blinkon175," ..
+  "r-cr:hor20," ..
+  "o:hor50"
+
 -- plugins
 vim.pack.add({
 	{ src = "https://github.com/vague2k/vague.nvim" },

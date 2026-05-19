@@ -41,6 +41,14 @@ local alt = { "alt" }
 local function y(args)
     hs.task.new(yabai, nil, args):start()
 end
+-- --------------------------------
+-- ⌥ + 1-6 send window to space
+-- --------------------------------
+for i = 1, 6 do
+    hs.hotkey.bind(alt, tostring(i), function()
+        y({ "-m", "window", "--space", tostring(i) })
+    end)
+end
 
 -- --------------------------------
 -- ⌥ + h → focus previous window
@@ -129,20 +137,3 @@ vim:enterWithSequence('jk', 90)
 -- END VIM CONFIG
 -------------------------------
 
--- ==============================
---  Spaces (InstantSpaceSwitcher)
--- ==============================
-local issc = "/Applications/InstantSpaceSwitcher.app/Contents/MacOS/ISSCli"
-
-local ctrlKeys = {[18]=1, [19]=2, [20]=3, [21]=4, [23]=5, [22]=6}
-hs.eventtap.new({ hs.eventtap.event.types.keyDown }, function(e)
-    local mods = e:getFlags()
-    if mods.ctrl and not mods.alt and not mods.cmd and not mods.shift then
-        local idx = ctrlKeys[e:getKeyCode()]
-        if idx then
-            hs.execute(issc .. " index " .. idx)
-            return true
-        end
-    end
-    return false
-end):start()

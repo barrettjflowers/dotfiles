@@ -93,6 +93,17 @@ sketchybar --add item front_app left \
 					 padding_left=-155 \
 					 script="$PLUGIN_DIR/front_app.sh" \
            --subscribe front_app front_app_switched
+# media
+sketchybar --add item media q \
+           --set media \
+           script="$PLUGIN_DIR/media-control.sh" \
+           icon.drawing=off \
+           label.drawing=on \
+           padding_right=22 \
+           label.padding_left=0 \
+					 scroll_texts=on \
+           label.max_chars=28 \
+           update_freq=5
 
 # notch items
 sketchybar --add item battery e \
