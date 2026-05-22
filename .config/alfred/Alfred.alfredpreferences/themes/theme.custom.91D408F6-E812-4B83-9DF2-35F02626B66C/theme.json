@@ -46,8 +46,8 @@
       "width" : 602,
       "borderPadding" : 0,
       "borderColor" : "#0000007F",
-      "blur" : 33,
-      "roundness" : 11,
+      "blur" : 34,
+      "roundness" : -64,
       "paddingVertical" : 6
     },
     "credit" : "Barrett Flowers",

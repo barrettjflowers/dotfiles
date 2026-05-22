@@ -2,9 +2,9 @@
 source "$HOME/.config/colors/colors.sh"
 
 options=(
-	style=round
-	width=2.5
-	#width=4.5
+	style=sqaure
+	#width=2.5
+	width=8.0
 	hidpi=on
 	inactive_color="${BACKGROUND}"
 	active_color="${ACCENT_SECONDARY}"

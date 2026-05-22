@@ -5,15 +5,15 @@ source "$HOME/.config/colors/colors.sh"
 sketchybar --bar \
   position=top \
   height=33 \
-  y_offset=12 \
-  margin=12 \
-  corner_radius=10 \
+  y_offset=10 \
+  margin=10 \
+  corner_radius=0 \
   blur_radius=20 \
-  border_width=1 \
+  border_width=0 \
   border_color="$BACKGROUND" \
   background=on \
   shadow=on \
-  color=0x30333333\
+  color=0x50333333\
   sticky=on \
   display=all
 
@@ -145,5 +145,5 @@ sketchybar --add item notifications right \
 sketchybar --update
 
 # bootstraps
-brew services restart borders
+#/Users/barrettjflowers/dev/sqborders/JankyBorders/bin/borders & #patched square borders
 killall Hammerspoon; open -a Hammerspoon # vimspoon integration

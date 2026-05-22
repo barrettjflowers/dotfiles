@@ -6,7 +6,7 @@
 export TEXT="0xff66707D" #dark blue 0xff6b788a
 
 export FOREGROUND="0x95ffffff" #active
-export BACKGROUND="0xff626262" #inactive
+export BACKGROUND="0xff5e5e5e" #inactive
 
 export ACCENT_SECONDARY="0xff66707D" #pastel blue
 
