@@ -51,6 +51,7 @@ alias gl='git log --all --oneline --graph'
 alias gurl=git_remote_url
 alias vimconf='nvim $NVIM_CONFIG'
 alias pcp='pbcopy'
+alias ascii='/opt/homebrew/bin/ascii-view'
 
 # dotfile scripts
 alias ntfy="~/.scripts/ntfy.sh"

@@ -63,10 +63,78 @@ hs.hotkey.bind(alt, "L", function()
 end)
 
 -- --------------------------------
--- ⌥ + k → fullscreen
+-- ⌥ + k → yabai zoom-fullscreen
 -- --------------------------------
 hs.hotkey.bind(alt, "K", function()
     y({ "-m", "window", "--toggle", "zoom-fullscreen" })
+end)
+
+-- --------------------------------
+-- ⌥ + j → toggle move all windows off-screen (show desktop) via yabai
+-- --------------------------------
+local show_desktop = false
+local saved_frames = {}
+local function y_sync(args)
+    local cmd = yabai
+    for _, v in ipairs(args) do
+        cmd = cmd .. " " .. tostring(v)
+    end
+    os.execute(cmd)
+end
+hs.hotkey.bind(alt, "j", function()
+    if show_desktop then
+        for id, pos in pairs(saved_frames) do
+            y_sync({ "-m", "window", tostring(id), "--move", "abs:" .. pos.x .. ":" .. pos.y })
+            if not pos.floating then
+                y_sync({ "-m", "window", tostring(id), "--toggle", "float" })
+            end
+        end
+        saved_frames = {}
+        show_desktop = false
+    else
+        local handle = io.popen(yabai .. " -m query --windows --space")
+        local output = handle:read("*a")
+        handle:close()
+        if output then
+            local ok, windows = pcall(hs.json.decode, output)
+            if ok then
+                for _, w in ipairs(windows) do
+                    if not w["is-minimized"] and w["is-visible"] then
+                        if w["is-floating"] then
+                            saved_frames[w.id] = { x = w.frame.x, y = w.frame.y, floating = true }
+                            y_sync({ "-m", "window", tostring(w.id), "--move", "abs:20000:0" })
+                        else
+                            saved_frames[w.id] = { x = w.frame.x, y = w.frame.y, floating = false }
+                            y_sync({ "-m", "window", tostring(w.id), "--toggle", "float" })
+                            y_sync({ "-m", "window", tostring(w.id), "--move", "abs:20000:0" })
+                        end
+                    end
+                end
+                show_desktop = next(saved_frames) ~= nil
+            end
+        end
+    end
+end)
+
+-- --------------------------------
+-- ⌥ + f → toggle padding/gaps + sketchybar
+-- --------------------------------
+local sketchybar = "/opt/homebrew/bin/sketchybar"
+local no_padding = false
+local pad_defaults = { top = 28, bottom = 16, left = 16, right = 16, gap = 6 }
+
+hs.hotkey.bind(alt, "F", function()
+    if no_padding then
+        y({ "-m", "space", "--padding", "abs:" .. pad_defaults.top .. ":" .. pad_defaults.bottom .. ":" .. pad_defaults.left .. ":" .. pad_defaults.right })
+        y({ "-m", "space", "--gap", "abs:" .. pad_defaults.gap })
+        hs.task.new(sketchybar, nil, {"--reload"}):start()
+        no_padding = false
+    else
+        y({ "-m", "space", "--padding", "abs:0:0:0:0" })
+        y({ "-m", "space", "--gap", "abs:0" })
+        hs.task.new(sketchybar, nil, {"--bar", "y_offset=-100"}):start()
+        no_padding = true
+    end
 end)
 
 -- --------------------------------

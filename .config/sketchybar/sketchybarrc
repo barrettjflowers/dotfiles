@@ -5,8 +5,8 @@ source "$HOME/.config/colors/colors.sh"
 sketchybar --bar \
   position=top \
   height=33 \
-  y_offset=10 \
-  margin=10 \
+  y_offset=12 \
+  margin=12 \
   corner_radius=0 \
   blur_radius=20 \
   border_width=0 \

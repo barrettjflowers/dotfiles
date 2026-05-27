@@ -40,7 +40,7 @@
     NSAutomaticWindowAnimationsEnabled = 0;
     NSFontPanelSizeSliderParams = "2 0 100";
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-05-22 15:00:30 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-05-27 22:24:22 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         pt,
