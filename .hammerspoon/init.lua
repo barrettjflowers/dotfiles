@@ -28,10 +28,17 @@ hs.hotkey.bind({'control'}, 'm', function()
     end
 end)
 
--- distractions (Cmd+Opt+F5 = Do Not Disturb)
---hs.hotkey.bind({"ctrl", "shift"}, "d", function()
---    hs.execute("/Users/barrettjflowers/.scripts/distractions.sh")
---end)
+-- dock toggle (ctrl+d)
+local dock_hidden = false
+hs.hotkey.bind({'control'}, 'd', function()
+    if dock_hidden then
+        hs.execute('defaults write com.apple.dock autohide -bool false && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock no-bouncing -bool FALSE && killall Dock')
+        dock_hidden = false
+    else
+        hs.execute('defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 1000 && defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock')
+        dock_hidden = true
+    end
+end)
 
 -- ==============================
 --  yabai

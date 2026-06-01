@@ -13,7 +13,7 @@ sketchybar --bar \
   border_color="$BACKGROUND" \
   background=on \
   shadow=on \
-  color=0x50333333\
+  color=0x40333333\
   sticky=on \
   display=all
 
@@ -37,9 +37,6 @@ default=(
 
 sketchybar --default "${default[@]}"
 
-# init vimspoon indicator
-sketchybar --add item vim left
-
 # do not disturb indicator
 sketchybar --add item focus left\
            --set focus script="$PLUGIN_DIR/focus_status.sh" \
@@ -48,6 +45,9 @@ sketchybar --add item focus left\
              label.padding_left=0 \
 						 padding.left=0 \
              label.padding_right=6
+
+# init vimspoon indicator
+sketchybar --add item vim left
 
 # this is so dumb... but it looks nice. drawing the background first
 # then hacking the padding of the spaces to overlap it
@@ -147,3 +147,4 @@ sketchybar --update
 # bootstraps
 #/Users/barrettjflowers/dev/sqborders/JankyBorders/bin/borders & #patched square borders
 killall Hammerspoon; open -a Hammerspoon # vimspoon integration
+/Users/barrettjflowers/Dev/sqborders/JankyBorders/bin/borders # custom patch jankyborders

@@ -23,6 +23,7 @@
     AppleShowAllExtensions = 1;
     AppleShowScrollBars = WhenScrolling;
     AppleWindowTabbingMode = manual;
+    ContextMenuGesture = 0;
     InitialKeyRepeat = 15;
     "KB_DoubleQuoteOption" = "\\U201cabc\\U201d";
     "KB_SingleQuoteOption" = "\\U2018abc\\U2019";
@@ -40,7 +41,7 @@
     NSAutomaticWindowAnimationsEnabled = 0;
     NSFontPanelSizeSliderParams = "2 0 100";
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-05-27 22:24:22 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-06-01 12:07:49 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         pt,
@@ -99,7 +100,8 @@
     NSUserKeyEquivalents =     {
         "Enter Full Screen" = "^f";
         "Exit Full Screen" = "^f";
-        Minimize = "@m";
+        Hide = "@~^h";
+        Minimize = "@~^m";
     };
     NSUserQuotesArray =     (
         "\\U201c",
@@ -130,9 +132,9 @@
     "com.apple.scrollwheel.scaling" = "0.3125";
     "com.apple.sound.beep.feedback" = 0;
     "com.apple.sound.beep.flash" = 0;
-    "com.apple.sound.beep.sound" = "/System/Library/Sounds/Bottle.aiff";
+    "com.apple.sound.beep.sound" = "/System/Library/Sounds/Tink.aiff";
     "com.apple.sound.beep.volume" = 1;
-    "com.apple.sound.uiaudio.enabled" = 1;
+    "com.apple.sound.uiaudio.enabled" = 0;
     "com.apple.springing.delay" = "0.5";
     "com.apple.springing.enabled" = 1;
     "com.apple.swipescrolldirection" = 1;

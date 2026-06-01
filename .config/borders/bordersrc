@@ -4,7 +4,7 @@ source "$HOME/.config/colors/colors.sh"
 options=(
 	style=sqaure
 	#width=2.5
-	width=8.0
+	width=7.0
 	hidpi=on
 	inactive_color="${BACKGROUND}"
 	active_color="${ACCENT_SECONDARY}"
